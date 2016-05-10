@@ -1,0 +1,2 @@
+2013-10-23 13:07:28存储用户点歌记录：{"song_id":0,"target_id":"1878","uid":"9888825","to_uid":"13079730","name":"dfasdf","singer":"sdfsda","pipiegg":1000,"charm":500,"charm_points":500,"dedication":1000,"egg_points":null,"is_handle":0}
+

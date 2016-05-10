@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+body{ height:auto;}
+.shop{ background:#fff; border:1px solid #dfdfdf;}
+.shop-top a, .shop-sidebar li, .shop-sidebar li.barhover, a.mygoods, span.soldpic{ background:url(../../fontimg/common/v5_icon.png) no-repeat;}
+em.prot{ display:inline-block; width:36px; height:14px; line-height:14px;}
+
+/* .shop-con */
+.shop-con{ width:970px; margin:0 auto;}
+
+/* ul.shop-sidebar */
+.shop-sidebar{ width:154px;}
+.shop-sidebar li{ width:154px; height:32px; line-height:32px; text-align:center; font-size:14px; color:#000; background-position:0 -327px; margin-bottom:10px; cursor:pointer;}
+.shop-sidebar li a{color:#000; display:block; width:154px; height:32px;}
+.shop-sidebar li.barhover, .shop-sidebar li.barvisited{ background-position:0 -369px; color:#fff; font-weight:bolder;}
+.shop-sidebar li.barhover a, .shop-sidebar li.barvisited a{color:#fff;}
+/* .shop-main */
+.shop-main{ width:800px; margin-bottom:30px;}
+.shop-ad{ height:210px;}
+.shop-ad img{ width:800px; height:210px;}
+.shop-main .open,.shop-main .open tr, .shop-main .open td, .shop-main .open th{ border:1px solid #d8d8d8; font-size:12px; color:#666;}
+.shop-main .open{width:800px;}
+.open tr td{ text-align:center;height:150px;}
+.open tr td p{ margin-bottom:10px;}
+.open tr td.term p{ margin-top:4px;}
+.open tr td.power p em{ color:#ff0099;}
+.open tr td.kind{ width:140px;}
+.open tr td.power{vertical-align:top; text-align:left; padding:18px 4px 10px 18px;}
+.open tr td.term{ width:140px;}
+.open tr td.price{ width:240px;}
+.open tr td.price p span{ display:inline-block; width:160px; text-align:left; margin-left:6px; overflow:hidden;}
+.open tr td.price p a{ display:inline-block;}
+.open tr td.price p span strong{ color:#ff0099;}
+.open tr th, .shop-main h1{ height:38px; line-height:38px; background:url(../../fontimg/common/open_th.jpg) repeat-x; text-align:left; padding-left:14px;}
+.open-header{ font-size:14px; float:left; font-family:"Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";}
+a.mygoods{ font-weight:normal; float:left; margin-top:6px; margin-left:10px; width:62px; height:25px; line-height:25px; color:#fff; text-align:center; background-position:0 -604px;}
+.open tr.colum{background:#f8f7f5;text-align:center;}
+.open tr.colum td{ height:28px;color:#333333; text-indent:0;}
+.buy-btn{ display:inline-block; width:62px; height:26px; text-align:center; line-height:26px; color:#fff; background:#ef3d81;}
+
+.shop-main h1{ border:1px solid #d8d8d8;}
+.shop-main h1 .mygoods{ font-size:12px;}
+
+/* .car-list */
+.car-list{ width:800px;}
+.car-list li{ width:256px; height:226px; float:left; margin-right:8px; margin-bottom:20px; _display:inline; border:1px solid #cccccc;}
+/* .car-list .carlt-mid */
+.carlt-mid{ width:210px; height:164px; border-bottom:1px dotted #dedede; text-align:center; margin:0 auto; margin-top:16px; position:relative;}
+.carlt-mid img{ width:210px; height:136px;}
+.carlt-mid p{ text-align:left; color:#666;}
+.carlt-mid span{ display:block; width:100px; height:24px; line-height:24px; overflow:hidden; text-align:right; color:#000000; position:absolute; top:4px; left:120px;}
+/* .car-list .carlt--foot */
+.carlt--foot{ width:210px; height:42px;margin:0 auto;}
+.carlt--foot select{ float:left; width:130px; height:20px; line-height:20px; margin-top:10px; _display:inline; background:none; border:none; outline:none; background:url(../../fontimg/common/v5_icon.png) no-repeat 0 -771px;}
+a.car-btn{ margin-top:6px; float:right; _display:inline;}
+span.soldout{ color:#cccccc;}
+span.soldpic{ width:44px; height:41px; background-position:0 -639px; color:#fff; text-align:center; line-height:34px; top:-6px; left:176px;}
+
+/* .cart-bottom */
+.car-bottom{ width:800px; border:1px solid #fddddd; background:#fff8f8; padding-bottom:20px; padding-top:10px; *margin-top:20px;}
+.car-bottom p{text-indent:16px; line-height:28px;}
+.car-bottom strong{ margin-left:10px; line-height:28px; font-size:14px; color:#444444; font-family:"Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";}
+
+/* .gif-list */
+.gif-list{ width:812px;}
+.gif-list li{ width:144px; height:210px; float:left; margin-right:16px; margin-bottom:20px; _display:inline; border:1px solid #cccccc;}
+.gif-list li.newpro{ position:relative;}
+.gif-list li.hotbuy{ position:relative;}
+.newpro-pic, .hotbuy-pic{ width:44px; height:50px; position:absolute; top:-1px; left:101px;}
+.newpro-pic img, .hotbuy-pic img{ width:44px; height:50px;}
+.giflt-top{ width:122px; height:140px; margin:0 auto; text-align:center; margin-top:4px; border-bottom:1px dotted #dbdbdb; line-height:20px;}
+.giflt-top p{color:#333333;}
+.giflt-top span{color:#999999;}
+.giflt-bottom{ width:122px; height:60px;margin:0 auto; text-align:center; line-height:30px;}
+
+/* .numb-main */
+.numb-main{ width:800px; margin-bottom:30px;}
+.numbtit{ width:770px; height:30px; padding:8px 15px 0 15px; background:url(../../fontimg/common/lh-tit-bj.jpg) repeat-x; border:1px solid #d8d8d8; font-size:14px; color:#333333;}
+.numbtit span{ display:block;}
+.numbtit input{ width:140px; height:22px;}
+.numbbox{ width:790px; border:1px solid #d8d8d8; border-top:none; padding:0 0 15px 10px; position:relative;}
+.numbbox ul{ display:block; overflow:hidden;}
+.numbbox li{ display:block; float:left; list-style-type:none; width:100px; height:70px; padding:10px 0 0 0; border:3px solid #cccccc; background:#f4f4f4; margin-right:6px; margin-top:15px; }
+.numbbox li p{ display:block; text-align:center;}
+.numbbox .faq-tit{ font-size:16px; color:#ff6699; font-weight:bold;}
+
+.wordbox{ position:absolute; left:200px; height:180px; width:220px; height:135px; padding:20px 0 0 30px; border:2px solid #ef3d81; background:#FFF; z-index:99;}
+.wordbox input{ width:170px; height:28px; margin-top:10px;}
+.blue{ color:#076fa2;}
+
+span.tipcon{position: absolute; display:none; top:20px; left:20px; background:url(../../fontimg/common/tip-bg.png) center top no-repeat; width:130px; padding:10px 2px 5px 8px; color: #fff; line-height: 22px; font-weight: normal; font-size: 12px; margin: 0; z-index:99;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

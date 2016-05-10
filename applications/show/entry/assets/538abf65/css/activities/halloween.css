@@ -1,0 +1,29 @@
+
+.kong{ background:url(../../fontimg/activities/halloween/top.jpg) no-repeat center top; height:509px;}
+
+.title{ background:url(../../fontimg/activities/halloween/tit_bj.jpg) repeat-x; height:40px; line-height:38px; text-indent:14px; font-family:'Î¢ÈíÑÅºÚ';}
+.title strong{ float:left; color:#c44019; font-size:16px;}
+.title span{ float:right; margin-right:10px;}
+.title span em{ color:#ff6700;}
+
+
+.package_box{ border:1px solid #e8e8e8; border-top:none; padding:25px; overflow:hidden; position:relative;}
+.package_con{ width:420px; height:115px; padding:35px 0 0 30px; border:1px solid #ffeec3;}
+
+.tc_box{ width:132px; height:90px; float:left;}
+.tc_box dt{ width:60px; text-align:center; line-height:22px; float:left;}
+.tc_box dd{ float:left; line-height:60px; font-weight:bold; text-align:right; margin-left:10px;}
+dd.blue{ color:#0066cc;}
+dd.orange{ color:#ff6700;}
+
+.dengyu{ width:10px; float:left; margin-left:5px;}
+.dh{ width:101px; height:31px; display:block; float:left;}
+.intro{ width:450px;}
+.intro strong{ color:#ff0000;}
+.intro p{ line-height:22px;}
+
+.tuijian_con{ width:925px;}
+.tuijian_con li{ height:120px; padding-left:40px; padding-top:20px; border-bottom:1px solid #ffeec3;}
+
+.tips{ position:absolute; top:150px; left:400px; width:230px; height:100px; border:1px solid #cecece; background:#FFF; text-align:center; padding-top:20px; font-size:14px;}
+.tips a{ display:block; margin-top:20px;}

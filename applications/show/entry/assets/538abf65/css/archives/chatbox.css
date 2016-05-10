@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+
+.chatbox{width:530px; height:512px;}
+/*.chat-l=*/
+.chat-l{width:380px; height:476px;}
+/*.chat-menu==*/
+.chat-menu{width:379px; border-bottom:1px solid #c9ccd0}
+.chat-menu li{background:url(../../fontimg/common/gifmenubg.png) repeat-x; float:left;height:25px; line-height:25px;_height:24px; _line-height:24px; cursor:pointer;}
+.chat-menu li.last{border-right:1px solid #c9ccd0;}
+.chat-menu li.first{border-left:1px solid #c9ccd0;}
+.chat-menu li a{ float:left; text-align:center; padding-left:12px; padding-right:12px; _height:25px;}
+.chat-menu li a.giftover{background:url(../../fontimg/common/gifmenuover.jpg) repeat-x; height:25px; _height:24px; border-left:1px solid #c9ccd0; border-right:1px solid #c9ccd0; border-bottom:1px solid #fff;}
+.chat-menu li.first a.giftover{border-left:none;}
+.chat-menu li.last a.giftover{border-right:none;}
+.chat-menu li span{float:left;}
+.chat-menu i{float:left;width:22px; height:15px; margin-top:5px;}
+.chat-menu i.chaticon{background-position:0 -1308px;}
+.chat-menu i.gifticon{background-position:-72px -1308px;}
+.chat-menu i.songicon{background-position:-143px -1308px;}
+.chat-menu i.vocieicon{background-position:-214px -1308px;}
+.chat-menu i.gameicon{background-position:-288px -1308px;}
+/*.chat-con===*/
+.chat-con{height:449px; _height:454px; border:1px solid #c9ccd0; border-top:none; position:relative; background:#fff;z-index:40;}
+/*.chat-box====*/
+.matecon{width:370px; height:48px; position:absolute; top:3px; left:2px;border:1px solid #dca323; background:#fefecf;}
+.matecon p{float:left;width:298px; height:40px; line-height:19px; margin-top:4px; padding-left:10px;}
+.fill-btn{float:left; width:56px; text-align:center; margin-top:23px; background:#f23792; color:#fff;}
+.luck-gift{width: 373px; height: 39px; position: absolute; top: 3px; left: 2px; border-top:7px solid #ffcc33; border-bottom:7px solid #ffcc33; border-left:1px solid #ffcc33; border-right:1px solid #ffcc33;background:#ffff99;display:none;}
+.luck-gift .bd{width:334px;}
+.luck-gift .bd li{line-height: 35px; padding-left: 4px; overflow: hidden;}
+.luck-gift .bd li img{float:left;vertical-align: middle;}
+.luck-gift .bd li span,.luck-gift .bd li em{float: left;}
+.luck-gift .bd em.pink{display: inline-block; width: 80px; text-align: center;}
+.luck-gift .hd{width:32px;height: 32px; background: url(../../fontimg/common/luckgift-btn-bg.png) no-repeat; margin:3px; _display:inline;}
+.luck-gift .hd a{float:left; width:20px; height: 10px; background: url(../../fontimg/common/luckgif-btn.png) no-repeat; margin-left:6px;}
+.luck-gift .hd a.upBtn{margin-top:4px; background-position:4px 0;}
+.luck-gift .hd a.upBtn:hover{background-position:4px -38px;}
+.luck-gift .hd a.downBtn{margin-top:3px; background-position:4px -20px;}
+.luck-gift .hd a.downBtn:hover{background-position:4px -57px;}
+.welcome{width:358px; height:44px; color:#999; margin:0 auto; overflow:hidden; padding-top:12px; border-bottom:1px dotted #999;}
+.welcome a{display:block; width:358px; height:38px; color:#999; overflow:hidden;}
+.chat-msg{width:358px; height:260px; margin:0 auto; overflow-y:auto; overflow-x:hidden;}
+.chat-msg p{color:#333333;line-height:20px;margin:5px 0;word-wrap:break-word;}
+.chat-msg p.luckGif-text{color:#cc0033;}
+.chat-msg p.luckGif-text img{width: 21px; height: 21px;}
+.chat-msg p img{ vertical-align:middle;}
+.chat-msg p a{color:#FF0099;}
+.chat-msg p span.pk-link{cursor:pointer;text-decoration: underline;}
+.chat-msg p .ver{margin-left:2px;}
+.setingbox{width:42px; height:70px; position:absolute; top:58px; right:30px; display:none;}
+.seting{display:block; width:22px; height:22px; border:1px solid #c9ccd0; background-position:1px -1333px; position:absolute; top:-5px; right:0; cursor:pointer; background-color:#fff; z-index:5;}
+.seting-con{width:56px; position:absolute; top:25px; left:-15px; background:#f9f9f9; border:1px solid #c9ccd0; padding-top:1px; padding-bottom:1px; margin-top:-3px; z-index:4; display:none;}
+.seting-con a{display:block; width:54px; height:20px; margin:0 auto; text-indent:5px; text-align:left;color:#999;}
+.clear{background:url(../../fontimg/common/cleartip.png) no-repeat 36px center;}
+.roll{background:url(../../fontimg/common/rolltip.png) no-repeat 36px center;}
+.onroll{background:url(../../fontimg/common/rolltiped.png) no-repeat 36px center;}
+.seting-con a:hover{background-color:#ccc; color:#fff;}
+.resize{width:377px; height:13px; background-position:0 -1363px; cursor:n-resize;}
+.chat-msgpre{width:377px; background:#fff; height:119px;overflow-y:auto; overflow-x:hidden;}
+.chat-msgpre .chatcon{ padding-left:6px; padding-right:4px;}
+.chat-msgpre p{color:#333333;line-height:20px;margin:5px 0;word-wrap: break-word;}
+.chat-msgpre p img{ vertical-align:middle;}
+.chat-msgpre p a{color:#FF0099;}
+.chat-msgpre p span.pk-link{cursor:pointer;text-decoration: underline;color:#333333;}
+.chat-msgpre p .ver{margin-left:2px;}
+a.plaselogin{display:block; position: absolute; bottom:78px; left:0; background:#FF0000; width:100%; height:27px; line-height:27px; text-align: center; color:#fff; font-size:14px;}
+a.plaselogin:hover{text-decoration: underline;}
+a.plaselogin em{text-decoration: underline;}
+.chat-msgpre .setingbox{top:335px; right:24px;}
+.chat-msgpre .seting-con{top:25px;}
+.sayto{border:1px solid #ccc; background:#fff; position:absolute; display:none;}
+.sayto p{width:90px; height:15px; line-height:15px;}
+.sayto a{display:block; color:#FF0099; padding-left:6px;}
+/*.gifts-box====*/
+.gifts-box{display:none;}
+.geili{height:46px; width:358px; border-bottom:1px dotted #999; margin:0 auto; position:relative;}
+.geili-icon{display:block; width:72px; height:27px; line-height:27px; padding-left:4px; background-position:0 -1593px; position:absolute; top:10px; left:-9px; color:#fff;}
+.geilitext em,.geilitext span,.geilitext img{float:left;}
+.geilitext{width:280px; height:27px; position:absolute; top:10px; left:74px; line-height:27px; color:#999797;}
+.geilitext img{width:26px; height:26px; vertical-align:middle;}
+.geilitext .black{width:64px; height:27px; text-align: center; margin-left:4px; margin-right:4px;}
+.gift-msg{width:366px; height:402px; margin:0 auto; padding-left:10px;overflow-x: hidden;overflow-y:auto;}
+.gift-msg li span{float:left; height:28px; line-height:28px;}
+.gift-msg li.first span{color:#999; height:30px; line-height:34px;}
+.gift-msg li span img{ vertical-align:middle; width:26px; height:26px;}
+span.fansname{width:198px;}
+span.giftname{width:110px; text-align:center;}
+span.giftnum{width:40px; text-align:center;}
+/*.song-box====*/
+.song-box{display:none;}
+.song-btn{width:350px; height:40px; line-height:40px; margin:0 auto;}
+.banbtn{float:left; width:89px; height:21px; background-position:-300px -1593px; margin-top:9px; margin-left:40px; _display:inline;}
+.nosong{background-position:-191px -1593px;}
+.chosebtn{float:right; width:75px; height:24px; text-align:center; line-height:24px; font-family:"Microsoft YaHei","\5FAE\8F6F\96C5\9ED1"; font-size:14px; color:#ff0099; background-position:-96px -1593px; margin-top:8px;}
+.song-list{width:370px; height:408px; overflow-y:auto; overflow-x:hidden; margin:0 auto;}
+.song-list dt{font-family:"Microsoft YaHei","\5FAE\8F6F\96C5\9ED1"; font-size:14px; color:#555;}
+.song-list span{float:left; text-align:center;height:28px; line-height:28px;}
+.song-list span.time{width:38px;}
+.song-list span.name{width:144px;}
+.song-list span.faner{width:100px;}
+.song-list span.control{width:70px;}
+span.control a{color:#ff0099; text-decoration:underline;}
+
+/*.voice-box====*/
+.voice-box{display:none;}
+/*.game-box====*/
+.game-box{height:429px; _height:431px; padding-top:20px;display:none;}
+.game-box .hd ul{overflow: hidden; width: 360px; margin:0 auto; border-bottom:1px solid #dddddd;}
+.game-box .hd li{float: left;width:66px; height:35px;margin-bottom: -1px; background:url(../../fontimg/common/saizihd.jpg) no-repeat; margin-left:10px; cursor: pointer; line-height: 26px; text-align: center;}
+.game-box .hd li.on{background:url(../../fontimg/common/saizihd-over.jpg) no-repeat;}
+.game-list{width:320px; height:100px; margin:0 auto;}
+.game-list li{display:block;float:left;height:42px;line-height:42px;margin-top:5px;width:160px}
+.game-list li a{float:left; margin-right: 4px;}
+.game-list li a:hover{color:#f1328f;}
+.game-list li a img{width:42px; height:42px;}
+.game-box .bd{width:360px; height: 380px; overflow-x:hidden; overflow-y:auto; margin:0 auto; border:1px solid #ddd; border-top: none;}
+.saizi-list{padding:10px;}
+.saizi-list li{height: 34px; line-height: 34px;}
+.saizi-list li.first{margin-bottom: 5px;}
+.saizi-list li.first a{width: auto;}
+.saizi-list li img{vertical-align: middle; margin-right: 6px;}
+.saizi-list li a{display:inline-block;width:80px; text-align:center;color: #FF0099; vertical-align: middle;}
+/*.chat-r=*/
+.chat-r{width:150px; height:476px;}
+.stick{position:relative; top:-370px; right:141px; display:none;}
+.check{height:25px; line-height:25px;}
+.check input{margin-top:8px; margin-left:4px; _margin-top:4px;}
+.custab{height:35px;}
+.custab li{float:left;width:74px; height:33px; padding-top:2px; _height:35px; _padding:0; cursor:pointer;}
+.custab li.custabmenu{background-position:-145px -1386px; border-right:1px solid #c9ccd0;}
+.custab li.custabover{background-position:0 -1386px;}
+.custab li span,.custab li em{display:block; height:16px; line-height:18px; text-align:center;}
+.custab li span{color:#666;}
+.custab li em{color:#999;}
+.cus-con{height:150px; _width:148px;height:405px; _height:409px; border-bottom:1px solid #c9ccd0; border-right:1px solid #c9ccd0; background:#ededed; padding-top:10px; overflow:auto; background:#fff; *position:relative;}
+.cus-con ul li{width:100%; padding-top:5px; padding-bottom:5px; border-bottom:1px dotted #cccccc; cursor:pointer; position:relative;}
+.cus-con ul li.end{border-bottom:none;}
+.cus-first{ width:130%;}
+.cus-first em.ver{margin:0; margin-right:2px; margin-top:2px;}
+img.snownum{margin:2px auto 0;}
+.cus-secd{width:200%; padding-left:3px;padding-top:5px;}
+.sticker{display:block; width:55px; height:37px; position:absolute; top:8px; right:2px; z-index:70;}
+.sticker img{width:55px; height:37px;}
+.cus-con ul li.cusover{background:#F0F1ED;}
+.cus-con ul li p{line-height:26px;}
+.cus-con ul li .jpnumb,.cus-con ul li .sixnumb{display: inline-block; z-index: 60; margin: 0;font-size:10px; width:42px; height:14px; line-height:14px; margin-top:2px;}
+.cus-con ul li .sixnumb{width:68px;}
+.cus-con ul li .jpnumb em,.cus-con ul li .sixnumb em{font-size:10px; width:13px; height:14px; line-height:14px;}
+a.lodemore{color: #666666;display: block;padding: 8px 0;text-align: center;}
+/*.cuspopmenu*/
+.cuspopmenu{background:#fff;border:4px solid #c7c7c7;position:absolute;width:180px; top:10px; left:10px; display:none; z-index:60;}
+.chat-msg p.cus-name{margin: 0; line-height: 30px;}
+.cus-name{height: 30px; line-height:30px; background: url(../../fontimg/common/cus-title-bg.jpg) repeat-x;}
+.cus-name em{float:left; width:130px; text-indent:10px;font-weight:bolder; color: #f23792;}
+.cus-name img{float:left; margin-top: 3px;}
+.cus-name a{float:right; width:9px; height:9px; overflow: hidden; margin: 10px 6px; text-indent: -9999px; background: url(../../fontimg/common/cus-xx.png) no-repeat; _display: inline;}
+.cus-id .jpnumb,.cus-id .sixnumb{float: left; height: 18px; line-height: 18px; margin:3px 5px 0 10px;}
+.cus-id{height:27px; line-height: 27px; background: url(../../fontimg/common/cus-id-bg.jpg) repeat-x;}
+.cus-id em{float:left; margin-left:10px; margin-right: 10px; _display: inline-block;}
+.cus-id .jpnumb em{margin:0;}
+.cus-id img{float:left; margin-top:5px;}
+.cus-honor{padding-left:6px;}
+.cus-honor img{display:inline-block;margin-top: 6px;}
+.cus-control{border-top: 1px solid #e0e0e0; margin-top: 2px; padding-top: 8px; *padding-bottom:8px;}
+.cus-control li{float: left;width:78px; height: 18px; line-height: 18px; margin-left: 10px; margin-bottom: 10px; _display: inline;}
+.cusion{background: url(../../fontimg/common/cusicon.png) no-repeat;}
+.give-gift{background-position: 0 0;}
+.pub-chat{background-position: 0 -25px;}
+.ban-speak{background-position: 0 -50px;}
+.shield-speak{background-position: 0 -75px;}
+.ip-speak{background-position: 0 -101px;}
+.t-room{background-position: 0 -123px;}
+.admin-room{background-position: 0 -149px;}
+dl.famhome{border-top:4px solid #c7c7c7; background:#fff;}
+dl.famhome dd{float:left; width:170px; height:28px; line-height:28px; border-bottom:1px solid #e4e6e4; padding-right:5px;padding-left:5px;}
+dl.famhome dd a{float: left; color:#f23792; font-weight: bolder; width:130px;}
+dl.famhome dd em{float: right; vertical-align: middle; margin-top:5px;}
+.cus-control li a{display: block; text-indent: 21px;}
+
+/*.chat-b=*/
+.chat-b{width:530px; height:36px; background:url(../../fontimg/common/pinkbg.jpg) repeat-x; position:relative;z-index:50;}
+.chat-b .text{margin-left:12px;}
+.chat-b label{margin-top:10px; _margin-top:6px; margin-right:16px; margin-left:5px; color:#fff;_display:inline;}
+.face{float:left;width:22px; height:22px; margin-top:8px; _margin-top:6px; position:relative;}
+a.submitbtn{ margin-left:20px; margin-right:20px; _display:inline;}
+em.face-good{float:left;width:22px; height:22px; background-position:0 -1431px; cursor:pointer;}
+em.faceicon{background:url(../../fontimg/common/airlook.jpg) no-repeat;}
+.faceBox-btn{padding-left:20px;}
+/*.face-box==*/
+.face-box{width:227px; height:168px; background:#fff; border:1px solid #CCC; border-top:none; position:absolute; top:-176px; left:-10px; display:none;z-index:40;}
+.face-hd li{float:left; border-right:1px solid #ccc; border-bottom:1px solid #ccc; width:75px; height:25px; text-align:center; line-height:25px; background:url(../../fontimg/common/navbg.jpg) repeat-x; cursor:pointer;}
+.face-hd li.end{border-right:none;}
+.face-hd li.on{ background:url(../../fontimg/common/navbgover.jpg) repeat-x;}
+.face-con img{cursor:pointer;}
+.plain img{float:left; width:28px; height:28px; margin-top:6px; margin-left:13px;}
+.face-hd{width:227px; height:25px;}
+.face-bd{width:227px; height:142px;overflow-y:auto;}
+.face-con p{padding-left:6px; padding-right:6px; text-align:center; padding-top:70px;}
+a.submitbtn{background-position:-106px -1240px;}
+a.count{background-position:0 -1712px; text-indent:inherit; text-align:center; color:#fff; margin-left:20px; margin-right:20px;}
+a.flybtn{background-position:-159px -1240px;}
+.chatname{width:110px;bottom:31px;right:413px; background:#fff; position:absolute;border:1px solid #ccc; display:none;z-index:40;}
+.chatname li{height:24px; line-height:24px;}
+.chatname li a{display:inline-block; width:104px; height:24px; padding-left:6px; color:#FF0099;}
+
+
+
+
+
+
+
+
+
+
+
+
+

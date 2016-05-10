@@ -1,0 +1,102 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"> 
+<head>
+<title></title>
+<meta name="google" value="notranslate" />         
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css" media="screen"> 
+    html, body  { height:100%; }
+    body { margin:0; padding:0; overflow:auto; text-align:center; 
+           background-color: #ffffff; }   
+    object:focus { outline:none; }
+    #flashContent { display:none; }
+</style>
+</head>
+<body>
+<script type="text/javascript" src="archives/swfobject.js"></script>
+<script type="text/javascript">	
+      var swfVersionStr = "10.2.0";
+      var xiSwfUrlStr = "archives/playerProductInstall.swf";
+      var flashvars = {};
+      flashvars.id="recordPlayer";
+      var params = {};
+      params.id="recordPlayer";
+      params.quality = "high";
+      params.bgcolor = "0";
+      params.allowscriptaccess = "sameDomain";
+      params.allowfullscreen = "true";
+	  params.wmode="opaque";
+      var attributes = {};
+      attributes.id = "recordPlayer";
+      attributes.name = "recordPlayer";
+      attributes.align = "middle";
+      swfobject.embedSWF(
+      "archives/CPlayer.swf?v="+Math.random(), "flashContent", 
+      "100%", "100%", 
+      swfVersionStr, xiSwfUrlStr, 
+      flashvars, params, attributes);
+      swfobject.createCSS("#flashContent", "display:block;text-align:left;");
+      function setupPlayer(id){
+    	  if(parent.archives.live_status==1){
+    		  player(id).setState(true);
+           }
+    	   var source = parent.source;
+           player(id).setVideoUrl('record',source);	
+       }
+       function player(id){
+           return swfobject.getObjectById(id);
+ 	   }
+       function flashState(){
+    	   if(parent.archives.live_status==1){
+    	   		window.parent.Show.stopLive();
+    		 }else{
+    			window.parent.Show.startLive();
+    		 }
+    	}
+       
+      function setModel(){
+    	  document.getElementById("recordPlayer").setModel();
+       }
+       
+      </script>
+   		<div id="flashContent" width="460px" height="345px">
+            <p>
+                To view this page ensure that Adobe Flash Player version 
+                10.2.0 or greater is installed. 
+            </p>
+		<script type="text/javascript"> 
+                var pageHost = ((document.location.protocol == "https:") ? "https://" : "http://"); 
+                document.write("<a href='http://www.adobe.com/go/getflashplayer'><img src='" 
+                                + pageHost + "www.adobe.com/images/shared/download_buttons/get_flash_player.gif' alt='Get Adobe Flash player' /></a>" ); 
+		</script> 
+        </div>
+        <noscript>
+            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="100%" height="100%" id="LivePlayer">
+                <param name="movie" value="LivePlayer.swf" />
+                <param name="quality" value="high" />
+                <param name="bgcolor" value="#ffffff" />
+                <param name="allowScriptAccess" value="sameDomain" />
+                <param name="allowFullScreen" value="true" />
+				<param name="wmode" value="transparent" />
+                <!--[if !IE]>-->
+                <object type="application/x-shockwave-flash" data="LivePlayer.swf" width="100%" height="100%">
+                    <param name="quality" value="high" />
+                    <param name="bgcolor" value="#ffffff" />
+                    <param name="allowScriptAccess" value="sameDomain" />
+                    <param name="allowFullScreen" value="true" />
+                <!--<![endif]-->
+                <!--[if gte IE 6]>-->
+                    <p> 
+                        Either scripts and active content are not permitted to run or Adobe Flash Player version
+                        10.2.0 or greater is not installed.
+                    </p>
+                <!--<![endif]-->
+                    <a href="http://www.adobe.com/go/getflashplayer">
+                        <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash Player" />
+                    </a>
+                <!--[if !IE]>-->
+                </object>
+                <!--<![endif]-->
+            </object>
+        </noscript>     
+   </body>
+</html>

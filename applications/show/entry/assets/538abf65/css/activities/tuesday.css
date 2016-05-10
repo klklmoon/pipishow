@@ -1,0 +1,13 @@
+body{ background:url(../../fontimg/activities/tuesday/bjrepeat.jpg) repeat;}
+.kong{ background:url(../../fontimg/activities/tuesday/bj.jpg) no-repeat center top; height:473px;}
+
+.main{ background:url(../../fontimg/activities/tuesday/mainbj.jpg) repeat; height:820px; padding-top:10px;}
+.main1{ background:url(../../fontimg/activities/tuesday/mainbj1.gif) no-repeat; width:800px; height:180px; margin:0 auto; padding:78px 20px 0 58px; font-size:14px; color:#000; line-height:30px;}
+
+.main2{ background:url(../../fontimg/activities/tuesday/mainbj2.jpg); width:1000px; height:552px; margin-top:10px; position:relative;}
+.main2 .lq{ display:block; position:absolute; left:500px; top:200px;}
+.main2 span{ position:absolute; left:99px; top:325px; line-height:19px;}
+
+.vote{ position:absolute; background:url(../../fontimg/activities/tuesday/vtbj.jpg) no-repeat; width:165px; height:131px; left:410px; top:0px;}
+.vote .cont{ width:120px; margin:20px 0 0 20px; line-height:30px; text-align:center; color:#ff0033;}
+.vote .cont strong{ font-size:14px;}

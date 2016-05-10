@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+.rmid-ad .hd{position: absolute; bottom: 5px; right: 5px; overflow: hidden; z-index: 10;}
+.rmid-ad .hd li{float:left;cursor: pointer;text-align: center; margin-right: 2px; width: 15px; height: 15px; line-height: 14px; background: #fff; border: 1px solid #ccc;}
+.rmid-ad .hd li.on{background:#F23792; color:#fff; border-color:#F23792; }
+.rmid-ad{position:relative;width: 530px; height: 65px;}
+.rmid-ad img{display:block;width:530px; height:65px;}
+
+.fanchart{width:530px;min-height:165px; max-height:606px; +height:630px; margin-top:12px; border:1px solid #e0d8da; background:#fff;}
+.fanchar-menu{height:39px; border-bottom:1px solid #e0d8da; background:#f3f3f3; position:relative;}
+.fanchar-menu ul{position:absolute; top:0; left:1px;}
+.fanchar-menu ul li{float:left; width:96px; height:40px; text-align:center; line-height:39px; border-right:1px solid #e0d8da; cursor:pointer;}
+.fanchar-menu ul li.fansover{background:#fff;}
+
+.fans-con .order{float:left; margin-top:10px; margin-left:12px; margin-right:19px; _margin-left:6px;}
+.fans-con ul{width:510px; margin:0 auto; margin-top:10px;}
+.fans-con li{width:510px; height:54px; border-bottom:1px solid #e6e6e6;}
+.fans-con .name{float:left; height:18px; line-height:18px; margin-left:12px; margin-top:20px; _display:inline;}
+.fans-con .name span{margin-left:4px;}
+.fans-con .convalue{float:right; margin-top:12px;}
+.convalue p{ text-align:right;}
+.fans-con em.top1{width:48px; height:42px; margin:0; background-position:0 -1464px;}
+.fans-con em.top2{background-position:-66px -755px; color:#fff;}
+
+
+
+

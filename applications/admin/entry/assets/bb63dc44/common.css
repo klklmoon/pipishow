@@ -1,0 +1,25 @@
+/**
+ * @author supeng
+ */
+
+
+.validationError {
+	width:200px;margin-top:5px;padding:2px;color:red;
+}
+
+.summaryError{
+	border:2px solid rgb(204, 0, 0);
+	padding:7px 7px 12px 7px;
+	margin:0 0 20px 0;
+	background:rgb(255, 238, 238);
+	font-size:0.9em;
+	color:red;
+}
+
+.filters input, .filters textarea{
+	width:70px;
+}
+
+.filters select {
+	width:80px;
+}

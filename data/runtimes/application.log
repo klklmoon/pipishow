@@ -1,0 +1,2033 @@
+2013/12/30 13:43:46 [error] [php] Undefined index: uid (E:\wwwroot\pipishow\bll\services\user\UserService.php:518)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(286): TestController->runAction()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(265): TestController->runActionWithFilters()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): TestController->run()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#7 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/?r=test/index
+2013/12/30 14:03:14 [error] [php] Undefined variable: flag (E:\wwwroot\pipishow\bll\services\weibo\WeiboService.php:34)
+Stack trace:
+#0 E:\wwwroot\pipishow\applications\show\controllers\ApiController.php(1890): ApiController->removeAttention()
+#1 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#4 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#6 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#9 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/uid/13079890/dotey_uid/13079891
+2013/12/30 14:03:37 [error] [php] Undefined variable: flag (E:\wwwroot\pipishow\bll\services\weibo\WeiboService.php:34)
+Stack trace:
+#0 E:\wwwroot\pipishow\applications\show\controllers\ApiController.php(1890): ApiController->removeAttention()
+#1 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#4 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#6 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#9 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/uid/13079890/dotey_uid/13079891
+2013/12/30 15:49:32 [error] [php] json_decode() expects parameter 1 to be string, array given (E:\wwwroot\pipishow\bll\rmodel\other\OtherRedisModel.php:337)
+Stack trace:
+#0 E:\wwwroot\pipishow\applications\show\controllers\TestController.php(46): UserListService->getArchivesOnlineNumByArchivesIds()
+#1 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): TestController->actionIndex()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(286): TestController->runAction()
+#4 E:\wwwroot\pipishow\framework\web\CController.php(265): TestController->runActionWithFilters()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): TestController->run()
+#6 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#9 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/?r=test/index
+2013/12/31 13:08:44 [error] [php] Undefined index: car_is_limit (E:\wwwroot\pipishow\applications\show\controllers\ShopController.php:165)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(286): ShopController->runAction()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(265): ShopController->runActionWithFilters()
+#2 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ShopController->run()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#6 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=shop/car
+2013/12/31 16:36:21 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "getUserIsAttentions".' in E:\wwwroot\pipishow\framework\base\CComponent.php:265
+Stack trace:
+#0 E:\wwwroot\pipishow\applications\show\controllers\ApiController.php(1894): CComponent->__call('getUserIsAttent...', Array)
+#1 E:\wwwroot\pipishow\applications\show\controllers\ApiController.php(1894): ApiController->getUserIsAttentions()
+#2 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\wwwroot\pipishow\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 E:\wwwroot\pipishow\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): CController->run('test')
+#7 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController('api/test/uid/13...')
+#8 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CApplication->run()
+#10 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once('E:\wwwroot\pipi...')
+#11 {main}
+REQUEST_URI=/?r=api/test/uid/13079890/dotey_uid/13079891
+---
+2013/12/31 16:58:38 [error] [php] Undefined index: 13079469 (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1462)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#7 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/?r=api/test/uid/10874265/dotey_uid/16616
+2014/01/02 13:24:59 [error] [php] Undefined variable: certPath (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1344)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#7 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/?r=api/test/order_id/236444/receipt/7b009227369676e617475726522203d202241684d74636642b6f65507350526d5845494144e59724c3945432f65466b367653584d7074447455869776742497059562f75552f486735586433725748307542496c62422f36692b6754656646e645434f623575516b6e41626c5144d764851662f716766505039354c544d46174353753644524f534693837765037464c4347364b41385356616e4d552707742345074972515737597363464269556d6c474f683964626d4d41414144567434341314d77676749376f414d4341514943434755556b55335574153314d413047435371475349623344514542425155414d48387843741442674e5642415954416c56544d524d77455159445651514b4441704263484273553424626d4d754d53597744159445651514c44423142634842735534244558430615757059324630615739754945463164476876636d6c3065544574d4445474131554541777771515842776247556761565231626d56749464e30623346c49454e6c636e527056d6c659585270623234675158563061473979615852354d423458445441354d4459784e5449794d4455314e6c6f58445445304d4459784e4449794d4455314e6c6f775444564d43454741315545417777615548567959326868633256535574e6c615842305132567964476c6d61574e686447557847741542674e564241734d456b46776347786c49476c556457356c637942546447397955445544d424547413155454367774b515842776247556753573564c6454c4d416b474131554542684d4356564d77675387744515944b6f5496876634e4151454242514144675930414d49474416f4742414d725264632637434497253646954436861493067387077762f636d487338702f5277562f72742f3931584b56684e6c34584942696d4b651514e66674873447336796752b2b44724b44537754b7370684d64644b596646453572475873416442456427752497865785465767833484c4546474174316d6f4b78353039646878746949644467476325961567334394230754764e647936534d714e4e4c4873444c74453396f54841674d42414147663642774d41774741315564457745422f7751434d41417748775944565230642426777466f41554e68336f3470324330674559745447244746444433546595176f7744675944565230504151482f42415144416765414d42304741315564446751574242537067345079475564650684584342544d7614e2b6d56386b3954415142676f71686b694739324e6b42675542424149464144414e42676b71686b6947397730424151554641414f434151454145615362506746d4e34432f4942335145704b333252786163434458645658416556526553354661578632b7438387051503933426941787664572f336554534d47593546626541594c336574715035676d387772466f65830696b7956525374512b2f4151304b45674714230376b4c7339515565386375238554766644d3145756d562f5567764464344e774e59784c514d673457545166676b5151567938475857756486762452f5543365937303533704758426b35314e504d33776f786864336753524c765862b6c6f48735374635445716539704244706d47352b736b3474772b474b33474d65454e352f2b65315154396e702f4b6c316e62b6142773743307873793062466e614164316353533678646f72792f4355764d3667744b736d6e4f4f6471546573627030627338736e36577173304339646763785248754f4d532746d386e704c556d376172674f537513d3d223b0092270757263686173652d696e666f22203d202265776f4496d397961576470626d46734c584231636d4e6f59584e6c4c5752686447557463484e3049694139494349794d4445304c5441784c544178494445354f645774f64130494546745584705932457654473975830467553256735584d694f776f4496e5675615846315533170547567564476c6d6157567949694139494346d4e6d5535595441304e444d324e5455794d5445354d4749324d741314d57526595441334e544d784e645304e44553259325269496734b4353476636d6c6e6157356862433130636d4675633246664476c76626931705434967505341694d5441774d4441774d4441354e759784e751354e53493743676b69596e57963794967505341694d533477496734b4353430636d4675633246664476c76626931705434967505341694d5441774d4441774d4441354e759784e751354e53493743676b6963585668626e527064486b694944306749645694f776f4496d397961576470626d46734c584231636d4e6f59584e6c4c5752686447557462584d69494430674964574f4467324d749794d4451324e4451694f776f4496e427962325231593351746157516949443067496d4e766253354d5585270595734756232356c4d53493743676b696158526c625331705434967505341694e66b774d767304e66331496734b43534696157516949443067496d4e7662533577615842704c6b786c64476c686269493743676b696348567959326868633255745474630553317463794967505341694d544d344f445974d649774e4459304e43493743676b6963485679593268686332557454746305534967505341694d641784e4330774d5330774d6941774d76f784d446f774e43424664474d7652303155496734b43534776458466147467553316b5958526c4c5842764434967505341694d641784e4330774d5330774d5341784f546f784d446f774e4342426257567961574e684c30787663313942626d646c6247567496734b4353476636d6c6e61573568624331776458466147467553316b5958526c49694139494349794d4445304c5441784c54417949444174f645774f641304945563059793948545651694f777039223b00922656e7669726f6e6d656e7422203d202253616e64626f78223b00922706f6422203d2022313030223b009227369676e696e672d73746174757322203d202230223b07d
+2014/01/02 13:25:07 [error] [php] Undefined variable: data (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1352)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#7 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/?r=api/test/order_id/236444/receipt/7b009227369676e617475726522203d202241684d74636642b6f65507350526d5845494144e59724c3945432f65466b367653584d7074447455869776742497059562f75552f486735586433725748307542496c62422f36692b6754656646e645434f623575516b6e41626c5144d764851662f716766505039354c544d46174353753644524f534693837765037464c4347364b41385356616e4d552707742345074972515737597363464269556d6c474f683964626d4d41414144567434341314d77676749376f414d4341514943434755556b55335574153314d413047435371475349623344514542425155414d48387843741442674e5642415954416c56544d524d77455159445651514b4441704263484273553424626d4d754d53597744159445651514c44423142634842735534244558430615757059324630615739754945463164476876636d6c3065544574d4445474131554541777771515842776247556761565231626d56749464e30623346c49454e6c636e527056d6c659585270623234675158563061473979615852354d423458445441354d4459784e5449794d4455314e6c6f58445445304d4459784e4449794d4455314e6c6f775444564d43454741315545417777615548567959326868633256535574e6c615842305132567964476c6d61574e686447557847741542674e564241734d456b46776347786c49476c556457356c637942546447397955445544d424547413155454367774b515842776247556753573564c6454c4d416b474131554542684d4356564d77675387744515944b6f5496876634e4151454242514144675930414d49474416f4742414d725264632637434497253646954436861493067387077762f636d487338702f5277562f72742f3931584b56684e6c34584942696d4b651514e66674873447336796752b2b44724b44537754b7370684d64644b596646453572475873416442456427752497865785465767833484c4546474174316d6f4b78353039646878746949644467476325961567334394230754764e647936534d714e4e4c4873444c74453396f54841674d42414147663642774d41774741315564457745422f7751434d41417748775944565230642426777466f41554e68336f3470324330674559745447244746444433546595176f7744675944565230504151482f42415144416765414d42304741315564446751574242537067345079475564650684584342544d7614e2b6d56386b3954415142676f71686b694739324e6b42675542424149464144414e42676b71686b6947397730424151554641414f434151454145615362506746d4e34432f4942335145704b333252786163434458645658416556526553354661578632b7438387051503933426941787664572f336554534d47593546626541594c336574715035676d387772466f65830696b7956525374512b2f4151304b45674714230376b4c7339515565386375238554766644d3145756d562f5567764464344e774e59784c514d673457545166676b5151567938475857756486762452f5543365937303533704758426b35314e504d33776f786864336753524c765862b6c6f48735374635445716539704244706d47352b736b3474772b474b33474d65454e352f2b65315154396e702f4b6c316e62b6142773743307873793062466e614164316353533678646f72792f4355764d3667744b736d6e4f4f6471546573627030627338736e36577173304339646763785248754f4d532746d386e704c556d376172674f537513d3d223b0092270757263686173652d696e666f22203d202265776f4496d397961576470626d46734c584231636d4e6f59584e6c4c5752686447557463484e3049694139494349794d4445304c5441784c544178494445354f645774f64130494546745584705932457654473975830467553256735584d694f776f4496e5675615846315533170547567564476c6d6157567949694139494346d4e6d5535595441304e444d324e5455794d5445354d4749324d741314d57526595441334e544d784e645304e44553259325269496734b4353476636d6c6e6157356862433130636d4675633246664476c76626931705434967505341694d5441774d4441774d4441354e759784e751354e53493743676b69596e57963794967505341694d533477496734b4353430636d4675633246664476c76626931705434967505341694d5441774d4441774d4441354e759784e751354e53493743676b6963585668626e527064486b694944306749645694f776f4496d397961576470626d46734c584231636d4e6f59584e6c4c5752686447557462584d69494430674964574f4467324d749794d4451324e4451694f776f4496e427962325231593351746157516949443067496d4e766253354d5585270595734756232356c4d53493743676b696158526c625331705434967505341694e66b774d767304e66331496734b43534696157516949443067496d4e7662533577615842704c6b786c64476c686269493743676b696348567959326868633255745474630553317463794967505341694d544d344f445974d649774e4459304e43493743676b6963485679593268686332557454746305534967505341694d641784e4330774d5330774d6941774d76f784d446f774e43424664474d7652303155496734b43534776458466147467553316b5958526c4c5842764434967505341694d641784e4330774d5330774d5341784f546f784d446f774e4342426257567961574e684c30787663313942626d646c6247567496734b4353476636d6c6e61573568624331776458466147467553316b5958526c49694139494349794d4445304c5441784c54417949444174f645774f641304945563059793948545651694f777039223b00922656e7669726f6e6d656e7422203d202253616e64626f78223b00922706f6422203d2022313030223b009227369676e696e672d73746174757322203d202230223b07d
+2014/01/02 17:31:32 [error] [php] Undefined offset: 28 (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1711)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#7 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/?r=api/test
+2014/01/02 17:33:03 [error] [php] Undefined offset: 0 (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1711)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#7 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/?r=api/test
+2014/01/03 09:42:32 [error] [exception.CDbException] exception 'CDbException' with message '查询数据表 "web_dotey_fans" 时，不会提供列 "fans_uid" 的值。' in E:\wwwroot\pipishow\framework\db\schema\CDbCommandBuilder.php:707
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\db\schema\CDbCommandBuilder.php(519): CDbCommandBuilder->createInCondition(Object(CMysqlTableSchema), Array, Array, '`t`.')
+#1 E:\wwwroot\pipishow\framework\db\ar\CActiveRecord.php(1431): CDbCommandBuilder->createPkCriteria(Object(CMysqlTableSchema), Array, '', Array, '`t`.')
+#2 E:\wwwroot\pipishow\bll\services\weibo\WeiboService.php(147): CActiveRecord->findByPk(Array)
+#3 E:\wwwroot\pipishow\applications\show\views\archives\index.php(509): WeiboService->isAttentionDotey(9888825, NULL)
+#4 E:\wwwroot\pipishow\framework\web\CBaseController.php(126): require('E:\wwwroot\pipi...')
+#5 E:\wwwroot\pipishow\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\pipi...', Array, true)
+#6 E:\wwwroot\pipishow\framework\web\CController.php(870): CBaseController->renderFile('E:\wwwroot\pipi...', Array, true)
+#7 E:\wwwroot\pipishow\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#8 E:\wwwroot\pipishow\applications\show\controllers\ArchivesController.php(230): CController->render('index', Array)
+#9 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ArchivesController->actionIndex()
+#10 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 E:\wwwroot\pipishow\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 E:\wwwroot\pipishow\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): CController->run('index')
+#14 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController('archives/index/...')
+#15 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CApplication->run()
+#17 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once('E:\wwwroot\pipi...')
+#18 {main}
+REQUEST_URI=/?r=archives/index/uid/9888825
+---
+2014/01/03 09:45:16 [error] [exception.CDbException] exception 'CDbException' with message '查询数据表 "web_dotey_fans" 时，不会提供列 "fans_uid" 的值。' in E:\wwwroot\pipishow\framework\db\schema\CDbCommandBuilder.php:707
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\db\schema\CDbCommandBuilder.php(519): CDbCommandBuilder->createInCondition(Object(CMysqlTableSchema), Array, Array, '`t`.')
+#1 E:\wwwroot\pipishow\framework\db\ar\CActiveRecord.php(1431): CDbCommandBuilder->createPkCriteria(Object(CMysqlTableSchema), Array, '', Array, '`t`.')
+#2 E:\wwwroot\pipishow\bll\services\weibo\WeiboService.php(147): CActiveRecord->findByPk(Array)
+#3 E:\wwwroot\pipishow\applications\show\views\archives\index.php(509): WeiboService->isAttentionDotey(9888825, NULL)
+#4 E:\wwwroot\pipishow\framework\web\CBaseController.php(126): require('E:\wwwroot\pipi...')
+#5 E:\wwwroot\pipishow\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\pipi...', Array, true)
+#6 E:\wwwroot\pipishow\framework\web\CController.php(870): CBaseController->renderFile('E:\wwwroot\pipi...', Array, true)
+#7 E:\wwwroot\pipishow\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#8 E:\wwwroot\pipishow\applications\show\controllers\ArchivesController.php(230): CController->render('index', Array)
+#9 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ArchivesController->actionIndex()
+#10 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 E:\wwwroot\pipishow\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 E:\wwwroot\pipishow\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): CController->run('index')
+#14 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController('archives/index/...')
+#15 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CApplication->run()
+#17 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once('E:\wwwroot\pipi...')
+#18 {main}
+REQUEST_URI=/?r=archives/index/uid/9888825
+---
+2014/01/03 18:04:02 [error] [exception.RedisException] exception 'RedisException' with message 'Can't connect to 202.91.246.80:36004' in E:\wwwroot\pipishow\lib\core\redis\PipiRedisConnection.php:59
+Stack trace:
+#0 E:\wwwroot\pipishow\lib\core\redis\PipiRedisConnection.php(59): Redis->connect('202.91.246.80', '36004')
+#1 E:\wwwroot\pipishow\lib\core\redis\PipiRedisSession.php(50): PipiRedisConnection->getClient()
+#2 [internal function]: PipiRedisSession->readSession('os66nq6m70rs5sc...')
+#3 E:\wwwroot\pipishow\framework\web\CHttpSession.php(118): session_start()
+#4 E:\wwwroot\pipishow\framework\web\CHttpSession.php(92): CHttpSession->open()
+#5 E:\wwwroot\pipishow\lib\core\redis\PipiRedisSession.php(30): CHttpSession->init()
+#6 E:\wwwroot\pipishow\framework\base\CModule.php(387): PipiRedisSession->init()
+#7 E:\wwwroot\pipishow\framework\web\CWebApplication.php(201): CModule->getComponent('session')
+#8 E:\wwwroot\pipishow\framework\web\auth\CWebUser.php(193): CWebApplication->getSession()
+#9 E:\wwwroot\pipishow\framework\base\CModule.php(387): CWebUser->init()
+#10 E:\wwwroot\pipishow\framework\base\CModule.php(103): CModule->getComponent('user')
+#11 E:\wwwroot\pipishow\lib\core\base\PipiController.php(107): CModule->__get('user')
+#12 E:\wwwroot\pipishow\framework\web\CWebApplication.php(281): PipiController->init()
+#13 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController('public/getUserM...')
+#14 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CApplication->run()
+#16 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once('E:\wwwroot\pipi...')
+#17 {main}
+REQUEST_URI=/index.php?r=public/getUserMessage
+---
+2014/01/03 18:05:14 [error] [exception.RedisException] exception 'RedisException' with message 'Can't connect to 202.91.246.80:36001' in E:\wwwroot\pipishow\lib\core\redis\PipiRedisConnection.php:59
+Stack trace:
+#0 E:\wwwroot\pipishow\lib\core\redis\PipiRedisConnection.php(59): Redis->connect('202.91.246.80', '36001')
+#1 E:\wwwroot\pipishow\lib\core\redis\PipiRedisConnection.php(167): PipiRedisConnection->getClient()
+#2 E:\wwwroot\pipishow\bll\rmodel\user\UserLoginRedisModel.php(73): PipiRedisConnection->__call('get', Array)
+#3 E:\wwwroot\pipishow\bll\rmodel\user\UserLoginRedisModel.php(73): PipiRedisConnection->get('uid_Guest')
+#4 E:\wwwroot\pipishow\bll\services\user\UserService.php(307): UserLoginRedisModel->getVadidatorUser('Guest', 'username')
+#5 E:\wwwroot\pipishow\lib\core\base\PipiController.php(190): UserService->getVadidatorUser('Guest', 'username')
+#6 E:\wwwroot\pipishow\lib\core\base\PipiController.php(113): PipiController->initHeader()
+#7 E:\wwwroot\pipishow\framework\web\CWebApplication.php(281): PipiController->init()
+#8 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController('public/getUserM...')
+#9 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CApplication->run()
+#11 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once('E:\wwwroot\pipi...')
+#12 {main}
+REQUEST_URI=/index.php?r=public/getUserMessage
+---
+2014/01/03 18:07:10 [error] [exception.RedisException] exception 'RedisException' with message 'Can't connect to 202.91.246.80:36004' in E:\wwwroot\pipishow\lib\core\redis\PipiRedisConnection.php:59
+Stack trace:
+#0 E:\wwwroot\pipishow\lib\core\redis\PipiRedisConnection.php(59): Redis->connect('202.91.246.80', '36004')
+#1 E:\wwwroot\pipishow\lib\core\redis\PipiRedisSession.php(50): PipiRedisConnection->getClient()
+#2 [internal function]: PipiRedisSession->readSession('os66nq6m70rs5sc...')
+#3 E:\wwwroot\pipishow\framework\web\CHttpSession.php(118): session_start()
+#4 E:\wwwroot\pipishow\framework\web\CHttpSession.php(92): CHttpSession->open()
+#5 E:\wwwroot\pipishow\lib\core\redis\PipiRedisSession.php(30): CHttpSession->init()
+#6 E:\wwwroot\pipishow\framework\base\CModule.php(387): PipiRedisSession->init()
+#7 E:\wwwroot\pipishow\framework\web\CWebApplication.php(201): CModule->getComponent('session')
+#8 E:\wwwroot\pipishow\framework\web\auth\CWebUser.php(193): CWebApplication->getSession()
+#9 E:\wwwroot\pipishow\framework\base\CModule.php(387): CWebUser->init()
+#10 E:\wwwroot\pipishow\framework\base\CModule.php(103): CModule->getComponent('user')
+#11 E:\wwwroot\pipishow\lib\core\base\PipiController.php(107): CModule->__get('user')
+#12 E:\wwwroot\pipishow\framework\web\CWebApplication.php(281): PipiController->init()
+#13 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController('public/getUserM...')
+#14 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CApplication->run()
+#16 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once('E:\wwwroot\pipi...')
+#17 {main}
+REQUEST_URI=/index.php?r=public/getUserMessage
+---
+2014/01/04 11:58:27 [error] [bll.service.UserService] 参数为空11
+2014/01/04 15:27:56 [error] [bll.service.UserService] 参数为空11
+2014/01/04 15:27:58 [error] [bll.service.UserService] 参数为空11
+2014/01/06 10:31:06 [error] [bll.service.UserListService] Parameter not empty
+2014/01/06 10:31:07 [error] [bll.service.UserListService] Parameter not empty
+2014/01/06 10:33:22 [error] [bll.service.UserListService] Parameter not empty
+2014/01/06 10:33:22 [error] [bll.service.UserListService] Parameter not empty
+2014/01/06 10:33:56 [error] [bll.service.UserListService] Parameter not empty
+2014/01/06 10:34:07 [error] [bll.service.UserListService] Parameter not empty
+2014/01/06 10:34:15 [error] [bll.service.UserListService] Parameter not empty
+2014/01/06 10:34:42 [error] [bll.service.UserListService] Parameter not empty
+2014/01/06 10:38:11 [error] [bll.service.UserListService] Parameter not empty
+2014/01/06 10:38:13 [error] [bll.service.UserListService] Parameter not empty
+2014/01/06 10:38:16 [error] [bll.service.UserListService] Parameter not empty
+2014/01/06 10:38:38 [error] [bll.service.UserListService] Parameter not empty
+2014/01/06 10:41:00 [error] [bll.service.UserListService] Parameter not empty
+2014/01/06 10:42:17 [error] [bll.service.UserListService] Parameter not empty
+2014/01/06 10:45:53 [error] [bll.service.UserListService] Parameter not empty
+2014/01/06 10:58:41 [error] [bll.service.UserListService] Parameter not empty
+2014/01/06 11:06:40 [error] [bll.service.UserListService] Parameter not empty
+2014/01/06 11:09:19 [error] [bll.service.UserListService] Parameter not empty
+2014/01/06 11:12:16 [error] [bll.service.UserListService] Parameter not empty
+2014/01/06 11:12:19 [error] [bll.service.UserListService] Parameter not empty
+2014/01/06 11:14:26 [error] [bll.service.UserListService] Parameter not empty
+2014/01/06 11:15:22 [error] [bll.service.UserListService] Parameter not empty
+2014/01/06 16:27:52 [error] [php] Undefined index: user_type (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:972)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#7 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/?r=api/test/uid/16616/dotey_uid/988825
+2014/01/06 16:39:53 [error] [php] Undefined variable: dotey_uid (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1222)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#7 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/?r=api/test/uid/16616/doteyId/10874265
+2014/01/06 16:40:13 [error] [php] Undefined variable: dotey_uid (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1226)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#7 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/?r=api/test/uid/16616/doteyId/10874265
+2014/01/07 09:48:53 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "getSessionID".' in E:\wwwroot\pipishow\framework\base\CComponent.php:265
+Stack trace:
+#0 E:\wwwroot\pipishow\applications\show\controllers\TestController.php(45): CComponent->__call('getSessionID', Array)
+#1 E:\wwwroot\pipishow\applications\show\controllers\TestController.php(45): CWebApplication->getSessionID()
+#2 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): TestController->actionIndex()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\wwwroot\pipishow\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 E:\wwwroot\pipishow\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): CController->run('index')
+#7 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController('test/index')
+#8 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CApplication->run()
+#10 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once('E:\wwwroot\pipi...')
+#11 {main}
+REQUEST_URI=/?r=test/index
+---
+2014/01/07 09:49:30 [error] [exception.CException] exception 'CException' with message 'PipiWebUser and its behaviors do not have a method or closure named "getSessionID".' in E:\wwwroot\pipishow\framework\base\CComponent.php:265
+Stack trace:
+#0 E:\wwwroot\pipishow\applications\show\controllers\TestController.php(45): CComponent->__call('getSessionID', Array)
+#1 E:\wwwroot\pipishow\applications\show\controllers\TestController.php(45): PipiWebUser->getSessionID()
+#2 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): TestController->actionIndex()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\wwwroot\pipishow\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 E:\wwwroot\pipishow\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): CController->run('index')
+#7 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController('test/index')
+#8 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CApplication->run()
+#10 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once('E:\wwwroot\pipi...')
+#11 {main}
+REQUEST_URI=/?r=test/index
+---
+2014/01/07 09:54:16 [error] [php] Object of class PipiRedisSession could not be converted to string (E:\wwwroot\pipishow\applications\show\controllers\TestController.php:45)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(286): TestController->runAction()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(265): TestController->runActionWithFilters()
+#2 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): TestController->run()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#6 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/?r=test/index
+2014/01/07 10:42:28 [error] [php] include(SessionRedisModel.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (E:\wwwroot\pipishow\framework\YiiBase.php:421)
+Stack trace:
+#0 E:\wwwroot\pipishow\applications\show\controllers\ApiController.php(295): spl_autoload_call()
+#1 E:\wwwroot\pipishow\applications\show\controllers\ApiController.php(2005): ApiController->login()
+#2 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#5 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#6 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#7 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#10 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/?r=api/test/username/kelvin1299/password/E10ADC3949BA59ABBE56E057F20F883E
+2014/01/07 14:14:38 [error] [php] Undefined variable: userBase (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:275)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#7 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/?r=api/test/username/kelvin1399/nickname/testdddabc123/password/E10ADC3949BA59ABBE56E057F20F883E/confirm_password/E10ADC3949BA59ABBE56E057F20F883E/device_id/56E057F20F883E/channel_id/56E057F20F883E
+2014/01/07 14:15:29 [error] [php] Argument 1 passed to PipiService::arToArray() must be an array, null given, called in E:\wwwroot\pipishow\bll\services\user\UserIosService.php on line 107 and defined (E:\wwwroot\pipishow\lib\core\base\PipiService.php:126)
+Stack trace:
+#0 E:\wwwroot\pipishow\applications\show\controllers\ApiController.php(2090): ApiController->register()
+#1 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#4 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#6 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#9 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/?r=api/test/username/kelvin1367/nickname/testdddabc16/password/E10ADC3949BA59ABBE56E057F20F883E/confirm_password/E10ADC3949BA59ABBE56E057F20F883E/device_id/56E057F20F883E/channel_id/56E057F20F883E
+2014/01/07 16:18:33 [error] [php] Undefined index: use_num (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:2041)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#7 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/?r=api/test
+2014/01/07 17:08:57 [error] [php] Undefined variable: ordertest (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:2120)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#7 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/?r=api/test/uid/16616/total_fee/0.01
+2014/01/08 10:28:32 [error] [bll.service.UserListService] Parameter not empty
+2014/01/08 10:30:13 [error] [bll.service.UserListService] Parameter not empty
+2014/01/08 15:37:21 [error] [php] Undefined index: archives_parking (E:\wwwroot\pipishow\bll\rmodel\other\OtherRedisModel.php:1224)
+Stack trace:
+#0 E:\wwwroot\pipishow\applications\show\controllers\ApiController.php(2188): ParkingService->getParkingListByArchives()
+#1 E:\wwwroot\pipishow\applications\show\controllers\ApiController.php(2199): ApiController->getArchivesParkingCar()
+#2 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#5 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#6 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#7 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#10 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/?r=api/test/archives_id/1002
+2014/01/08 16:15:44 [error] [php] Undefined index: fans_uid (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1585)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#7 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/uid/10874265
+2014/01/09 10:11:47 [error] [exception.CException] exception 'CException' with message 'DynamicService and its behaviors do not have a method or closure named "getForumSids".' in E:\wwwroot\pipishow\framework\base\CComponent.php:265
+Stack trace:
+#0 E:\wwwroot\pipishow\applications\show\controllers\TestController.php(71): CComponent->__call('getForumSids', Array)
+#1 E:\wwwroot\pipishow\applications\show\controllers\TestController.php(71): DynamicService->getForumSids(10874265)
+#2 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): TestController->actionTest1()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\wwwroot\pipishow\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 E:\wwwroot\pipishow\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): CController->run('test1')
+#7 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController('test/test1')
+#8 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CApplication->run()
+#10 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once('E:\wwwroot\pipi...')
+#11 {main}
+REQUEST_URI=/?r=test/test1
+---
+2014/01/09 10:11:59 [error] [exception.CException] exception 'CException' with message 'DynamicService and its behaviors do not have a method or closure named "getForumSids".' in E:\wwwroot\pipishow\framework\base\CComponent.php:265
+Stack trace:
+#0 E:\wwwroot\pipishow\applications\show\controllers\TestController.php(71): CComponent->__call('getForumSids', Array)
+#1 E:\wwwroot\pipishow\applications\show\controllers\TestController.php(71): DynamicService->getForumSids(10874265)
+#2 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): TestController->actionTest1()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\wwwroot\pipishow\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 E:\wwwroot\pipishow\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): CController->run('test1')
+#7 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController('test/test1')
+#8 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CApplication->run()
+#10 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once('E:\wwwroot\pipi...')
+#11 {main}
+REQUEST_URI=/?r=test/test1
+---
+2014/01/09 10:47:31 [error] [php] Undefined index: fans_uid (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1599)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#7 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/?r=api/test/uid/10874265
+2014/01/09 16:05:12 [error] [exception.CException] exception 'CException' with message 'DynamicService and its behaviors do not have a method or closure named "getForumSids".' in E:\wwwroot\pipishow\framework\base\CComponent.php:265
+Stack trace:
+#0 E:\wwwroot\pipishow\applications\show\controllers\TestController.php(71): CComponent->__call('getForumSids', Array)
+#1 E:\wwwroot\pipishow\applications\show\controllers\TestController.php(71): DynamicService->getForumSids(10874265)
+#2 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): TestController->actionTest1()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\wwwroot\pipishow\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 E:\wwwroot\pipishow\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): CController->run('test1')
+#7 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController('test/test1')
+#8 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CApplication->run()
+#10 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once('E:\wwwroot\pipi...')
+#11 {main}
+REQUEST_URI=/?r=test/test1
+---
+2014/01/11 10:08:45 [error] [php] copy(album/000/514/683/img_162008_normal.jpg) [<a href='function.copy'>function.copy</a>]: failed to open stream: No such file or directory (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:2576)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionIndex()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/index&action=uploadAlbum&uid=514683&title=%E6%88%91%E7%9A%84%E7%9B%B8%E5%86%8C&appkey=show_iphone&appsecret=c558f9d134b957107c0c61e9853e68d3&timestamp=1389406122&session_id=rv4a5j7aslkm04lk8963gtc5l3&sign=cc1de012b5a456f3030cd18f3a254103
+2014/01/11 10:10:55 [error] [php] copy(album/000/514/683/img_810084_normal.jpg) [<a href='function.copy'>function.copy</a>]: failed to open stream: No such file or directory (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:2576)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionIndex()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/index&action=uploadAlbum&uid=514683&title=%E6%88%91%E7%9A%84%E7%9B%B8%E5%86%8C&appkey=show_iphone&appsecret=c558f9d134b957107c0c61e9853e68d3&timestamp=1389406122&session_id=rv4a5j7aslkm04lk8963gtc5l3&sign=cc1de012b5a456f3030cd18f3a254103
+2014/01/11 10:13:17 [error] [php] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: Invalid argument (E:\wwwroot\pipishow\bll\services\weibo\AlbumService.php:36)
+Stack trace:
+#0 E:\wwwroot\pipishow\applications\show\controllers\ApiController.php(143): ApiController->uploadAlbum()
+#1 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionIndex()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#4 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#6 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#9 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/index&action=uploadAlbum&uid=514683&title=%E6%88%91%E7%9A%84%E7%9B%B8%E5%86%8C&appkey=show_iphone&appsecret=c558f9d134b957107c0c61e9853e68d3&timestamp=1389406396&session_id=rv4a5j7aslkm04lk8963gtc5l3&sign=44ec4364c4a4d5236bc15b75ef1f1fa3
+2014/01/11 10:13:43 [error] [php] mkdir() [<a href='function.mkdir'>function.mkdir</a>]: Invalid argument (E:\wwwroot\pipishow\bll\services\weibo\AlbumService.php:36)
+Stack trace:
+#0 E:\wwwroot\pipishow\applications\show\controllers\ApiController.php(143): ApiController->uploadAlbum()
+#1 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionIndex()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#4 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#6 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#9 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/index&action=uploadAlbum&uid=514683&title=%E6%88%91%E7%9A%84%E7%9B%B8%E5%86%8C&appkey=show_iphone&appsecret=c558f9d134b957107c0c61e9853e68d3&timestamp=1389406396&session_id=rv4a5j7aslkm04lk8963gtc5l3&sign=44ec4364c4a4d5236bc15b75ef1f1fa3
+2014/01/11 10:15:14 [error] [php] getimagesize(E:\wwwroot\pipishow/images/album/000/514/683/) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:2578)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionIndex()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/index&action=uploadAlbum&uid=514683&title=%E6%88%91%E7%9A%84%E7%9B%B8%E5%86%8C&appkey=show_iphone&appsecret=c558f9d134b957107c0c61e9853e68d3&timestamp=1389406396&session_id=rv4a5j7aslkm04lk8963gtc5l3&sign=44ec4364c4a4d5236bc15b75ef1f1fa3
+2014/01/11 10:26:32 [error] [php] Missing argument 1 for AlbumService::getBigPhotoByUser(), called in E:\wwwroot\pipishow\applications\show\controllers\ApiController.php on line 2542 and defined (E:\wwwroot\pipishow\bll\services\weibo\AlbumService.php:169)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/?r=api/test/pic_id/4
+2014/01/11 10:52:30 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 10:52:45 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 10:53:33 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 10:54:24 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 10:54:46 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 10:55:50 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:02:47 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:03:14 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:04:49 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:05:08 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:05:48 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:05:49 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:06:01 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:07:28 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:07:32 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:08:11 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:08:13 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:08:22 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:08:24 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:08:27 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:08:28 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:08:34 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:08:35 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:08:37 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:08:43 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:09:31 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:09:38 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:09:58 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:10:29 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:11:04 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:12:25 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:15:18 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:17:08 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:17:17 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:17:30 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:18:36 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:18:46 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:22:26 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:33:01 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:34:24 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 11:37:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "test1" 动作.' in E:\wwwroot\pipishow\framework\web\CController.php:483
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(270): CController->missingAction('test1')
+#1 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): CController->run('test1')
+#2 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController('api/test1')
+#3 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CApplication->run()
+#5 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once('E:\wwwroot\pipi...')
+#6 {main}
+REQUEST_URI=/?r=api/test1
+---
+2014/01/11 12:50:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "getUserCheckinInfo" 动作.' in E:\wwwroot\pipishow\framework\web\CController.php:483
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(270): CController->missingAction('getUserCheckinI...')
+#1 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): CController->run('getUserCheckinI...')
+#2 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController('account/getUser...')
+#3 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CApplication->run()
+#5 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once('E:\wwwroot\pipi...')
+#6 {main}
+REQUEST_URI=/index.php?r=account/getUserCheckinInfo
+HTTP_REFERER=http://show.test.cn/
+---
+2014/01/11 12:50:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "getUserCheckinInfo" 动作.' in E:\wwwroot\pipishow\framework\web\CController.php:483
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(270): CController->missingAction('getUserCheckinI...')
+#1 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): CController->run('getUserCheckinI...')
+#2 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController('account/getUser...')
+#3 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CApplication->run()
+#5 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once('E:\wwwroot\pipi...')
+#6 {main}
+REQUEST_URI=/index.php?r=account/getUserCheckinInfo
+HTTP_REFERER=http://show.test.cn/
+---
+2014/01/11 12:52:28 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 13:37:33 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 13:50:51 [error] [bll.service.UserListService] Parameter not empty
+2014/01/11 15:01:36 [error] [exception.CException] exception 'CException' with message 'IndexController 无法找到请求的视图 "application.views.public.login".' in E:\wwwroot\pipishow\framework\web\CController.php:879
+Stack trace:
+#0 E:\wwwroot\pipishow\applications\show\views\layouts\_main.php(142): CController->renderPartial('application.vie...')
+#1 E:\wwwroot\pipishow\framework\web\CBaseController.php(126): require('E:\wwwroot\pipi...')
+#2 E:\wwwroot\pipishow\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\pipi...', Array, true)
+#3 E:\wwwroot\pipishow\framework\web\CController.php(785): CBaseController->renderFile('E:\wwwroot\pipi...', Array, true)
+#4 E:\wwwroot\pipishow\applications\show\controllers\IndexController.php(347): CController->render('application.vie...')
+#5 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): IndexController->actionIndex()
+#6 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 E:\wwwroot\pipishow\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 E:\wwwroot\pipishow\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): CController->run('')
+#10 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CApplication->run()
+#13 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once('E:\wwwroot\pipi...')
+#14 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://show.test.cn/
+---
+2014/01/11 15:01:51 [error] [exception.CException] exception 'CException' with message 'IndexController 无法找到请求的视图 "application.views.public.login".' in E:\wwwroot\pipishow\framework\web\CController.php:879
+Stack trace:
+#0 E:\wwwroot\pipishow\applications\show\views\layouts\_main.php(142): CController->renderPartial('application.vie...')
+#1 E:\wwwroot\pipishow\framework\web\CBaseController.php(126): require('E:\wwwroot\pipi...')
+#2 E:\wwwroot\pipishow\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\wwwroot\pipi...', Array, true)
+#3 E:\wwwroot\pipishow\framework\web\CController.php(785): CBaseController->renderFile('E:\wwwroot\pipi...', Array, true)
+#4 E:\wwwroot\pipishow\applications\show\controllers\IndexController.php(347): CController->render('application.vie...')
+#5 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): IndexController->actionIndex()
+#6 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 E:\wwwroot\pipishow\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 E:\wwwroot\pipishow\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): CController->run('')
+#10 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CApplication->run()
+#13 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once('E:\wwwroot\pipi...')
+#14 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://show.test.cn/
+---
+2014/01/11 17:41:31 [error] [php] Undefined index: errorMessage (E:\wwwroot\pipishow\applications\show\controllers\UserController.php:49)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(286): UserController->runAction()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#6 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=user/login
+2014/01/11 17:48:12 [error] [php] Undefined index: errorMessage (E:\wwwroot\pipishow\applications\show\controllers\UserController.php:49)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(286): UserController->runAction()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#6 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=user/login
+2014/01/11 17:48:31 [error] [php] Undefined index: errorMessage (E:\wwwroot\pipishow\applications\show\controllers\UserController.php:49)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(286): UserController->runAction()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#6 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=user/login
+2014/01/13 09:22:13 [error] [php] file_get_contents(http://l.pipi.cn/index.php?r=api/index&amp;action=openLogin&amp;open_id=8BD1CBF12749DA5565065A704869D04C&amp;appkey=show_iphone&amp;appsecret=c558f9d134b957107c0c61e9853e68d3&amp;timestamp=1389576133&amp;session_id=&amp;sign=be03870beaa754f7ad7ec3d28e65ebce) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ (E:\wwwroot\pipishow\applications\show\controllers\TestController.php:60)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(286): TestController->runAction()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(265): TestController->runActionWithFilters()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): TestController->run()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#7 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/?r=test/index
+2014/01/13 09:22:54 [error] [php] file_get_contents(http://l.pipi.cn/index.php?r=api/index&amp;action=openLogin&amp;open_id=8BD1CBF12749DA5565065A704869D04C&amp;appkey=show_iphone&amp;appsecret=c558f9d134b957107c0c61e9853e68d3&amp;timestamp=1389576174&amp;session_id=&amp;sign=4c250750f47354043fb49a9ab4f25c43) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ (E:\wwwroot\pipishow\applications\show\controllers\TestController.php:60)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(286): TestController->runAction()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(265): TestController->runActionWithFilters()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): TestController->run()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#7 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/?r=test/index
+2014/01/13 10:21:58 [error] [php] Undefined index: errorCode (E:\wwwroot\pipishow\applications\show\controllers\UserController.php:58)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(286): UserController->runAction()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#6 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=user/login
+2014/01/13 10:25:26 [error] [php] Undefined index: errorCode (E:\wwwroot\pipishow\applications\show\controllers\UserController.php:58)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(286): UserController->runAction()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#6 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=user/login
+2014/01/13 14:09:33 [error] [php] Undefined variable: nickname (E:\wwwroot\pipishow\applications\show\controllers\UserController.php:253)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(286): UserController->runAction()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#6 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=user/register
+2014/01/13 14:19:35 [error] [bll.service.UserListService] Parameter not empty
+2014/01/13 14:20:16 [error] [bll.service.UserListService] Parameter not empty
+2014/01/13 14:20:31 [error] [bll.service.UserListService] Parameter not empty
+2014/01/13 14:21:49 [error] [bll.service.UserListService] Parameter not empty
+2014/01/13 14:23:03 [error] [bll.service.UserListService] Parameter not empty
+2014/01/13 14:24:47 [error] [bll.service.UserListService] Parameter not empty
+2014/01/13 14:35:44 [error] [bll.service.UserListService] Parameter not empty
+2014/01/13 14:35:45 [error] [bll.service.UserListService] Parameter not empty
+2014/01/13 14:35:51 [error] [bll.service.UserListService] Parameter not empty
+2014/01/13 14:37:56 [error] [bll.service.UserListService] Parameter not empty
+2014/01/13 14:59:41 [error] [bll.service.UserListService] Parameter not empty
+2014/01/13 14:59:45 [error] [bll.service.UserListService] Parameter not empty
+2014/01/13 15:05:26 [error] [bll.service.UserListService] Parameter not empty
+2014/01/13 15:17:22 [error] [bll.service.UserListService] Parameter not empty
+2014/01/13 15:35:29 [error] [bll.service.UserListService] Parameter not empty
+2014/01/13 16:01:01 [error] [bll.service.UserListService] Parameter not empty
+2014/01/13 16:01:02 [error] [bll.service.UserListService] Parameter not empty
+2014/01/13 16:44:28 [error] [bll.service.UserListService] Parameter not empty
+2014/01/13 16:46:37 [error] [bll.service.UserListService] Parameter not empty
+2014/01/13 16:50:59 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 09:09:42 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 09:09:50 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 09:09:56 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 09:13:49 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 09:13:54 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 09:16:53 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 09:20:20 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 09:36:11 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 09:55:54 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 10:09:28 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 10:12:48 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 10:18:27 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 10:26:56 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 10:26:58 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 10:27:23 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 10:30:19 [error] [php] Undefined index:  (E:\wwwroot\pipishow\applications\show\controllers\UserController.php:1032)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(286): UserController->runAction()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#6 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=user/getPhoneCode
+2014/01/14 10:30:33 [error] [php] Undefined index:  (E:\wwwroot\pipishow\applications\show\controllers\UserController.php:1032)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(286): UserController->runAction()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#6 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=user/getPhoneCode
+2014/01/14 10:39:47 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 10:39:49 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 10:39:52 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 10:39:57 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 10:40:20 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 10:40:30 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 10:40:35 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 10:40:40 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 10:40:47 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 11:16:25 [error] [bll.service.BbsbaseService] 参数为空
+2014/01/14 11:16:49 [error] [bll.service.BbsbaseService] 参数为空
+2014/01/14 14:06:11 [error] [exception.CException] exception 'CException' with message 'DynamicService and its behaviors do not have a method or closure named "getDynamicType".' in E:\wwwroot\pipishow\framework\base\CComponent.php:265
+Stack trace:
+#0 E:\wwwroot\pipishow\applications\show\controllers\ApiController.php(2361): CComponent->__call('getDynamicType', Array)
+#1 E:\wwwroot\pipishow\applications\show\controllers\ApiController.php(2361): DynamicService->getDynamicType()
+#2 E:\wwwroot\pipishow\applications\show\controllers\ApiController.php(2639): ApiController->getDynamicList()
+#3 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#4 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\wwwroot\pipishow\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\wwwroot\pipishow\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): CController->run('test')
+#8 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController('api/test/uid/16...')
+#9 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CApplication->run()
+#11 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once('E:\wwwroot\pipi...')
+#12 {main}
+REQUEST_URI=/?r=api/test/uid/16616
+---
+2014/01/14 14:16:49 [error] [exception.CException] exception 'CException' with message 'BbsbaseService and its behaviors do not have a method or closure named "getForumByIds".' in E:\wwwroot\pipishow\framework\base\CComponent.php:265
+Stack trace:
+#0 E:\wwwroot\pipishow\bll\services\weibo\DynamicService.php(189): CComponent->__call('getForumByIds', Array)
+#1 E:\wwwroot\pipishow\bll\services\weibo\DynamicService.php(189): BbsbaseService->getForumByIds(Array)
+#2 E:\wwwroot\pipishow\applications\show\controllers\ApiController.php(2635): DynamicService->getDynamic('119')
+#3 E:\wwwroot\pipishow\applications\show\controllers\ApiController.php(2645): ApiController->getDynamicInfo()
+#4 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#5 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 E:\wwwroot\pipishow\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 E:\wwwroot\pipishow\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): CController->run('test')
+#9 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController('api/test/tid/11...')
+#10 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CApplication->run()
+#12 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once('E:\wwwroot\pipi...')
+#13 {main}
+REQUEST_URI=/?r=api/test/tid/119
+---
+2014/01/14 14:17:03 [error] [exception.CException] exception 'CException' with message 'BbsbaseService and its behaviors do not have a method or closure named "getForumByIds".' in E:\wwwroot\pipishow\framework\base\CComponent.php:265
+Stack trace:
+#0 E:\wwwroot\pipishow\bll\services\weibo\DynamicService.php(189): CComponent->__call('getForumByIds', Array)
+#1 E:\wwwroot\pipishow\bll\services\weibo\DynamicService.php(189): BbsbaseService->getForumByIds(Array)
+#2 E:\wwwroot\pipishow\applications\show\controllers\ApiController.php(2635): DynamicService->getDynamic('119')
+#3 E:\wwwroot\pipishow\applications\show\controllers\ApiController.php(2645): ApiController->getDynamicInfo()
+#4 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#5 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 E:\wwwroot\pipishow\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 E:\wwwroot\pipishow\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): CController->run('test')
+#9 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController('api/test/tid/11...')
+#10 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CApplication->run()
+#12 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once('E:\wwwroot\pipi...')
+#13 {main}
+REQUEST_URI=/?r=api/test/tid/119
+---
+2014/01/14 15:05:53 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 15:06:25 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 15:07:19 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 15:07:20 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 15:18:05 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 15:18:05 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 15:31:01 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 15:31:01 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 15:31:41 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 15:31:41 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 15:31:45 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 15:31:45 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 15:31:50 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 15:31:50 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 15:53:41 [error] [exception.CException] exception 'CException' with message 'CommentService and its behaviors do not have a method or closure named "getCountByDynamic".' in E:\wwwroot\pipishow\framework\base\CComponent.php:265
+Stack trace:
+#0 E:\wwwroot\pipishow\bll\services\weibo\DynamicService.php(171): CComponent->__call('getCountByDynam...', Array)
+#1 E:\wwwroot\pipishow\bll\services\weibo\DynamicService.php(171): CommentService->getCountByDynamic(Array, '')
+#2 E:\wwwroot\pipishow\applications\show\controllers\ApiController.php(2354): DynamicService->getDynamicList('16616', '', 50, 1)
+#3 E:\wwwroot\pipishow\applications\show\controllers\ApiController.php(2646): ApiController->getDynamicList()
+#4 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#5 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 E:\wwwroot\pipishow\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 E:\wwwroot\pipishow\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): CController->run('test')
+#9 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController('api/test/uid/16...')
+#10 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CApplication->run()
+#12 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once('E:\wwwroot\pipi...')
+#13 {main}
+REQUEST_URI=/?r=api/test/uid/16616
+---
+2014/01/14 17:49:33 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 17:51:49 [error] [bll.service.UserListService] Parameter not empty
+2014/01/14 17:52:23 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 09:32:55 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 09:45:51 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 09:46:00 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 09:51:39 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 09:52:25 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 09:54:02 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 10:02:32 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 10:02:35 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 10:33:03 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 10:50:32 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 10:50:37 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 10:50:51 [error] [bll.service.PropsService] 参数为空
+2014/01/15 10:51:04 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 10:55:26 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 10:57:29 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 10:57:29 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 10:58:14 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 10:58:14 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 10:58:28 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 10:58:28 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 10:59:25 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 10:59:26 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 10:59:27 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 10:59:27 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 10:59:28 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 10:59:28 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 10:59:30 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 10:59:30 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 11:02:11 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 11:02:18 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 11:08:33 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 11:16:49 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 11:19:18 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 13:14:33 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 13:14:36 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 13:21:17 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 13:21:19 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 13:24:35 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 13:25:35 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 13:25:42 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 13:25:49 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 13:26:56 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 13:26:58 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 13:27:00 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 13:27:03 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 13:27:06 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 13:27:08 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 13:27:29 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 13:32:46 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 13:40:12 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 13:52:23 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 13:58:48 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 14:02:13 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 14:03:32 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 14:03:34 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 14:03:57 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 14:05:07 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 14:06:45 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 14:07:16 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 14:07:34 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 14:21:26 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 14:25:50 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 14:48:15 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 15:17:41 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 15:17:41 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 15:17:43 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 15:20:23 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 15:21:21 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 15:21:42 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 15:21:42 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 15:25:43 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 15:25:43 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 15:26:27 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 15:36:26 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 15:36:36 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 15:36:46 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 15:36:51 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 15:37:10 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 15:39:05 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 16:28:45 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 16:28:51 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 16:50:04 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 18:20:35 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 18:22:55 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 18:24:27 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 18:42:34 [error] [bll.service.UserListService] Parameter not empty
+2014/01/15 18:42:48 [error] [bll.service.UserListService] Parameter not empty
+2014/01/16 13:16:48 [error] [bll.service.UserListService] Parameter not empty
+2014/01/16 13:35:42 [error] [exception.CException] exception 'CException' with message 'IndexPageService and its behaviors do not have a method or closure named "getPurviewLiveByUids".' in E:\wwwroot\pipishow\framework\base\CComponent.php:265
+Stack trace:
+#0 E:\wwwroot\pipishow\bll\services\common\IndexPageService.php(277): CComponent->__call('getPurviewLiveB...', Array)
+#1 E:\wwwroot\pipishow\bll\services\common\IndexPageService.php(277): IndexPageService->getPurviewLiveByUids('514683')
+#2 E:\wwwroot\pipishow\applications\show\controllers\PublicController.php(190): IndexPageService->getDoteyLayer('514683', 'manager')
+#3 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): PublicController->actionMyAttentionDotey()
+#4 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\wwwroot\pipishow\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\wwwroot\pipishow\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): CController->run('myAttentionDote...')
+#8 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController('public/myAttent...')
+#9 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CApplication->run()
+#11 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once('E:\wwwroot\pipi...')
+#12 {main}
+REQUEST_URI=/index.php?r=public/myAttentionDotey
+HTTP_REFERER=http://show.test.cn/index.php?r=top/index
+---
+2014/01/16 13:35:50 [error] [exception.CException] exception 'CException' with message 'IndexPageService and its behaviors do not have a method or closure named "getPurviewLiveByUids".' in E:\wwwroot\pipishow\framework\base\CComponent.php:265
+Stack trace:
+#0 E:\wwwroot\pipishow\bll\services\common\IndexPageService.php(277): CComponent->__call('getPurviewLiveB...', Array)
+#1 E:\wwwroot\pipishow\bll\services\common\IndexPageService.php(277): IndexPageService->getPurviewLiveByUids('514683')
+#2 E:\wwwroot\pipishow\applications\show\controllers\PublicController.php(190): IndexPageService->getDoteyLayer('514683', 'manager')
+#3 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): PublicController->actionMyAttentionDotey()
+#4 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\wwwroot\pipishow\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\wwwroot\pipishow\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): CController->run('myAttentionDote...')
+#8 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController('public/myAttent...')
+#9 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CApplication->run()
+#11 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once('E:\wwwroot\pipi...')
+#12 {main}
+REQUEST_URI=/index.php?r=public/myAttentionDotey
+HTTP_REFERER=http://show.test.cn/index.php?r=top/index
+---
+2014/01/16 13:35:58 [error] [exception.CException] exception 'CException' with message 'IndexPageService and its behaviors do not have a method or closure named "getPurviewLiveByUids".' in E:\wwwroot\pipishow\framework\base\CComponent.php:265
+Stack trace:
+#0 E:\wwwroot\pipishow\bll\services\common\IndexPageService.php(277): CComponent->__call('getPurviewLiveB...', Array)
+#1 E:\wwwroot\pipishow\bll\services\common\IndexPageService.php(277): IndexPageService->getPurviewLiveByUids('514683')
+#2 E:\wwwroot\pipishow\applications\show\controllers\PublicController.php(190): IndexPageService->getDoteyLayer('514683', 'manager')
+#3 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): PublicController->actionMyAttentionDotey()
+#4 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\wwwroot\pipishow\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\wwwroot\pipishow\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): CController->run('myAttentionDote...')
+#8 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController('public/myAttent...')
+#9 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CApplication->run()
+#11 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once('E:\wwwroot\pipi...')
+#12 {main}
+REQUEST_URI=/index.php?r=public/myAttentionDotey
+HTTP_REFERER=http://show.test.cn/index.php?r=index/index
+---
+2014/01/16 13:36:30 [error] [bll.service.UserListService] Parameter not empty
+2014/01/16 13:36:30 [error] [bll.service.UserListService] Parameter not empty
+2014/01/16 15:19:00 [error] [bll.service.UserListService] Parameter not empty
+2014/01/16 15:19:00 [error] [bll.service.UserListService] Parameter not empty
+2014/01/16 15:19:00 [error] [bll.service.UserListService] Parameter not empty
+2014/01/16 15:19:00 [error] [bll.service.UserListService] Parameter not empty
+2014/01/16 15:19:01 [error] [bll.service.UserListService] Parameter not empty
+2014/01/16 15:19:01 [error] [bll.service.UserListService] Parameter not empty
+2014/01/16 15:19:01 [error] [bll.service.UserListService] Parameter not empty
+2014/01/16 15:19:01 [error] [bll.service.UserListService] Parameter not empty
+2014/01/16 15:19:02 [error] [bll.service.UserListService] Parameter not empty
+2014/01/16 15:19:02 [error] [bll.service.UserListService] Parameter not empty
+2014/01/16 15:19:02 [error] [bll.service.UserListService] Parameter not empty
+2014/01/16 15:19:02 [error] [bll.service.UserListService] Parameter not empty
+2014/01/16 18:16:58 [error] [php] Undefined index: nk (E:\wwwroot\pipishow\applications\show\views\public\login_head.php:9)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(870): UserController->renderFile()
+#1 E:\wwwroot\pipishow\applications\show\views\layouts\_main.php(139): UserController->renderPartial()
+#2 E:\wwwroot\pipishow\framework\web\CBaseController.php(126): require()
+#3 E:\wwwroot\pipishow\framework\web\CBaseController.php(95): UserController->renderInternal()
+#4 E:\wwwroot\pipishow\framework\web\CController.php(785): UserController->renderFile()
+#5 E:\wwwroot\pipishow\applications\show\controllers\UserController.php(513): UserController->render()
+#6 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): UserController->actionFindPass()
+#7 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 E:\wwwroot\pipishow\framework\web\CController.php(286): UserController->runAction()
+#9 E:\wwwroot\pipishow\framework\web\CController.php(265): UserController->runActionWithFilters()
+#10 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): UserController->run()
+#11 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#14 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=user/findPass
+2014/01/16 18:18:43 [error] [php] Undefined index: vip (E:\wwwroot\pipishow\applications\show\views\public\login_head.php:26)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(870): UserController->renderFile()
+#1 E:\wwwroot\pipishow\applications\show\views\layouts\_main.php(139): UserController->renderPartial()
+#2 E:\wwwroot\pipishow\framework\web\CBaseController.php(126): require()
+#3 E:\wwwroot\pipishow\framework\web\CBaseController.php(95): UserController->renderInternal()
+#4 E:\wwwroot\pipishow\framework\web\CController.php(785): UserController->renderFile()
+#5 E:\wwwroot\pipishow\applications\show\controllers\UserController.php(513): UserController->render()
+#6 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): UserController->actionFindPass()
+#7 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 E:\wwwroot\pipishow\framework\web\CController.php(286): UserController->runAction()
+#9 E:\wwwroot\pipishow\framework\web\CController.php(265): UserController->runActionWithFilters()
+#10 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): UserController->run()
+#11 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#14 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=user/findPass
+2014/01/16 18:33:42 [error] [php] Undefined index: uid (E:\wwwroot\pipishow\applications\show\views\public\login_head.php:42)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(870): UserController->renderFile()
+#1 E:\wwwroot\pipishow\applications\show\views\layouts\_main.php(139): UserController->renderPartial()
+#2 E:\wwwroot\pipishow\framework\web\CBaseController.php(126): require()
+#3 E:\wwwroot\pipishow\framework\web\CBaseController.php(95): UserController->renderInternal()
+#4 E:\wwwroot\pipishow\framework\web\CController.php(785): UserController->renderFile()
+#5 E:\wwwroot\pipishow\applications\show\controllers\UserController.php(513): UserController->render()
+#6 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): UserController->actionFindPass()
+#7 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 E:\wwwroot\pipishow\framework\web\CController.php(286): UserController->runAction()
+#9 E:\wwwroot\pipishow\framework\web\CController.php(265): UserController->runActionWithFilters()
+#10 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): UserController->run()
+#11 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#14 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=user/findPass
+2014/01/16 18:34:05 [error] [php] Undefined index: ch (E:\wwwroot\pipishow\applications\show\views\public\login_head.php:64)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(870): UserController->renderFile()
+#1 E:\wwwroot\pipishow\applications\show\views\layouts\_main.php(139): UserController->renderPartial()
+#2 E:\wwwroot\pipishow\framework\web\CBaseController.php(126): require()
+#3 E:\wwwroot\pipishow\framework\web\CBaseController.php(95): UserController->renderInternal()
+#4 E:\wwwroot\pipishow\framework\web\CController.php(785): UserController->renderFile()
+#5 E:\wwwroot\pipishow\applications\show\controllers\UserController.php(513): UserController->render()
+#6 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): UserController->actionFindPass()
+#7 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 E:\wwwroot\pipishow\framework\web\CController.php(286): UserController->runAction()
+#9 E:\wwwroot\pipishow\framework\web\CController.php(265): UserController->runActionWithFilters()
+#10 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): UserController->run()
+#11 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#14 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=user/findPass
+2014/01/16 18:34:50 [error] [php] Undefined index: ch (E:\wwwroot\pipishow\applications\show\views\public\login_head.php:64)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(870): UserController->renderFile()
+#1 E:\wwwroot\pipishow\applications\show\views\layouts\_main.php(139): UserController->renderPartial()
+#2 E:\wwwroot\pipishow\framework\web\CBaseController.php(126): require()
+#3 E:\wwwroot\pipishow\framework\web\CBaseController.php(95): UserController->renderInternal()
+#4 E:\wwwroot\pipishow\framework\web\CController.php(785): UserController->renderFile()
+#5 E:\wwwroot\pipishow\applications\show\controllers\UserController.php(513): UserController->render()
+#6 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): UserController->actionFindPass()
+#7 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 E:\wwwroot\pipishow\framework\web\CController.php(286): UserController->runAction()
+#9 E:\wwwroot\pipishow\framework\web\CController.php(265): UserController->runActionWithFilters()
+#10 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): UserController->run()
+#11 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#14 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=user/findPass
+2014/01/16 18:34:51 [error] [php] Undefined index: ch (E:\wwwroot\pipishow\applications\show\views\public\login_head.php:64)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(870): UserController->renderFile()
+#1 E:\wwwroot\pipishow\applications\show\views\layouts\_main.php(139): UserController->renderPartial()
+#2 E:\wwwroot\pipishow\framework\web\CBaseController.php(126): require()
+#3 E:\wwwroot\pipishow\framework\web\CBaseController.php(95): UserController->renderInternal()
+#4 E:\wwwroot\pipishow\framework\web\CController.php(785): UserController->renderFile()
+#5 E:\wwwroot\pipishow\applications\show\controllers\UserController.php(513): UserController->render()
+#6 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): UserController->actionFindPass()
+#7 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 E:\wwwroot\pipishow\framework\web\CController.php(286): UserController->runAction()
+#9 E:\wwwroot\pipishow\framework\web\CController.php(265): UserController->runActionWithFilters()
+#10 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): UserController->run()
+#11 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#14 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=user/findPass
+2014/01/16 18:36:37 [error] [php] Undefined index: de (E:\wwwroot\pipishow\applications\show\views\public\login_head.php:77)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(870): UserController->renderFile()
+#1 E:\wwwroot\pipishow\applications\show\views\layouts\_main.php(139): UserController->renderPartial()
+#2 E:\wwwroot\pipishow\framework\web\CBaseController.php(126): require()
+#3 E:\wwwroot\pipishow\framework\web\CBaseController.php(95): UserController->renderInternal()
+#4 E:\wwwroot\pipishow\framework\web\CController.php(785): UserController->renderFile()
+#5 E:\wwwroot\pipishow\applications\show\controllers\UserController.php(513): UserController->render()
+#6 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): UserController->actionFindPass()
+#7 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 E:\wwwroot\pipishow\framework\web\CController.php(286): UserController->runAction()
+#9 E:\wwwroot\pipishow\framework\web\CController.php(265): UserController->runActionWithFilters()
+#10 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): UserController->run()
+#11 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#14 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=user/findPass
+2014/01/17 09:38:35 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 09:38:35 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 09:51:18 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 09:51:18 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 09:51:28 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 09:51:28 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 09:51:31 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 09:51:31 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 09:52:17 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 09:52:17 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 09:52:17 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 09:52:17 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 09:52:28 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 09:52:28 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 09:52:28 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 09:52:28 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 09:52:35 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 09:52:35 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 09:52:35 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 09:52:35 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 09:52:52 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 09:52:52 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 09:52:52 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 09:52:52 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 09:53:04 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 09:53:04 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 09:53:05 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 09:53:05 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:00:10 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:00:10 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:00:10 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:00:10 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:04:48 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:04:48 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:04:48 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:04:48 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:04:57 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:04:57 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:04:57 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:04:57 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:07:58 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:07:58 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:07:58 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:07:58 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:09:22 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:09:22 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:09:22 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:09:22 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:09:32 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:09:32 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:09:32 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:09:32 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:09:34 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:09:34 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:09:34 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:09:34 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:17:22 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:17:22 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:17:22 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:17:22 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:17:37 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:17:37 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:17:37 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:17:37 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:17:38 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:17:38 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:17:38 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:17:38 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:22:09 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:22:09 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:22:09 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:22:09 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:25:21 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:25:21 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:25:21 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:25:21 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:25:33 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:25:33 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:25:33 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:25:33 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:25:44 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:25:44 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:25:45 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:25:45 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:25:49 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:25:49 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:25:49 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:25:49 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:25:55 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:25:55 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:25:55 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:25:55 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:25:58 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:25:58 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:25:58 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:25:58 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:26:02 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:26:02 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:26:02 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:26:02 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:26:04 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:26:04 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:26:04 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:26:04 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:26:41 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:26:41 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:26:41 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:26:41 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:26:55 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:26:55 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:26:55 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:26:55 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:27:46 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:27:46 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:27:46 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:27:46 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:27:52 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:27:52 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:27:52 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:27:52 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:27:57 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:27:57 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:27:57 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:27:57 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:27:59 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:27:59 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:28:00 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:28:00 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:35:01 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:35:01 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:35:01 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:35:01 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:44:54 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:44:54 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:44:54 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 10:44:54 [error] [bll.service.UserListService] Parameter not empty
+2014/01/17 13:09:53 [error] [exception.CException] exception 'CException' with message '属性 "TestController.view" 未被定义.' in E:\wwwroot\pipishow\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\wwwroot\pipishow\applications\show\controllers\TestController.php(72): CComponent->__get('view')
+#1 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): TestController->actionTest1()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 E:\wwwroot\pipishow\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 E:\wwwroot\pipishow\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): CController->run('test1')
+#6 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController('test/test1')
+#7 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CApplication->run()
+#9 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once('E:\wwwroot\pipi...')
+#10 {main}
+REQUEST_URI=/?r=test/test1
+---
+2014/01/17 14:14:17 [error] [php] Undefined index: orderinfo (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:2786)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#7 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/?r=api/test/uid/16616/total_fee/10/card_no/111111111/card_pwd/dfadfdf
+2014/01/17 15:20:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "test" 动作.' in E:\wwwroot\pipishow\framework\web\CController.php:483
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(270): CController->missingAction('test')
+#1 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): CController->run('test')
+#2 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController('index/test')
+#3 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CApplication->run()
+#5 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once('E:\wwwroot\pipi...')
+#6 {main}
+REQUEST_URI=/?r=index/test
+---
+2014/01/17 15:20:50 [error] [bll.service.BbsbaseService] 参数为空
+2014/01/21 08:59:35 [error] [php] file_get_contents(http://show.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=小) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1891)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/?r=api/test/key/%E5%B0%8F
+2014/01/21 09:00:07 [error] [php] file_get_contents(http://show.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=小) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1891)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/?r=api/test/key/%E5%B0%8F
+2014/01/21 09:41:38 [error] [php] file_get_contents(http://show.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=小) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1891)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E5%B0%8F
+2014/01/21 09:41:54 [error] [php] file_get_contents(http://l.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=小) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1891)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E5%B0%8F
+2014/01/21 09:41:54 [error] [php] file_get_contents(http://l.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=小) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1891)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E5%B0%8F
+2014/01/21 09:41:55 [error] [php] file_get_contents(http://l.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=小) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1891)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E5%B0%8F
+2014/01/21 09:41:55 [error] [php] file_get_contents(http://l.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=小) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1891)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E5%B0%8F
+2014/01/21 09:41:55 [error] [php] file_get_contents(http://l.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=小) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1891)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E5%B0%8F
+2014/01/21 09:49:55 [error] [php] file_get_contents(http://l.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=小) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1894)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E5%B0%8F
+2014/01/21 09:49:56 [error] [php] file_get_contents(http://l.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=小) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1894)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E5%B0%8F
+2014/01/21 09:55:54 [error] [php] file_get_contents(http://l.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=皮皮203) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1894)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E7%9A%AE%E7%9A%AE203
+2014/01/21 09:56:10 [error] [php] file_get_contents(http://show.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=皮皮203) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1894)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E7%9A%AE%E7%9A%AE203
+2014/01/21 09:56:11 [error] [php] file_get_contents(http://show.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=皮皮203) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1894)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E7%9A%AE%E7%9A%AE203
+2014/01/21 09:56:12 [error] [php] file_get_contents(http://show.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=皮皮203) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1894)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E7%9A%AE%E7%9A%AE203
+2014/01/21 09:56:12 [error] [php] file_get_contents(http://show.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=皮皮203) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1894)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E7%9A%AE%E7%9A%AE203
+2014/01/21 09:56:12 [error] [php] file_get_contents(http://show.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=皮皮203) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1894)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E7%9A%AE%E7%9A%AE203
+2014/01/21 09:56:13 [error] [php] file_get_contents(http://show.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=皮皮203) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1894)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E7%9A%AE%E7%9A%AE203
+2014/01/21 09:56:14 [error] [php] file_get_contents(http://show.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=皮皮203) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1894)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E7%9A%AE%E7%9A%AE203
+2014/01/21 09:56:14 [error] [php] file_get_contents(http://show.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=皮皮203) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1894)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E7%9A%AE%E7%9A%AE203
+2014/01/21 09:56:28 [error] [php] file_get_contents(http://show.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=皮皮203) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1894)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E7%9A%AE%E7%9A%AE203
+2014/01/21 09:56:29 [error] [php] file_get_contents(http://show.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=皮皮203) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1894)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E7%9A%AE%E7%9A%AE203
+2014/01/21 09:56:30 [error] [php] file_get_contents(http://show.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=皮皮203) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1894)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E7%9A%AE%E7%9A%AE203
+2014/01/21 09:56:30 [error] [php] file_get_contents(http://show.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=皮皮203) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1894)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E7%9A%AE%E7%9A%AE203
+2014/01/21 09:56:36 [error] [php] file_get_contents(http://show.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=皮皮203) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1894)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E7%9A%AE%E7%9A%AE203
+2014/01/21 09:56:36 [error] [php] file_get_contents(http://show.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=皮皮203) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1894)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E7%9A%AE%E7%9A%AE203
+2014/01/21 09:56:37 [error] [php] file_get_contents(http://show.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=皮皮203) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1894)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E7%9A%AE%E7%9A%AE203
+2014/01/21 09:56:37 [error] [php] file_get_contents(http://show.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=皮皮203) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1894)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E7%9A%AE%E7%9A%AE203
+2014/01/21 09:57:12 [error] [php] file_get_contents(http://show.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=皮皮203) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1894)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E7%9A%AE%E7%9A%AE203
+2014/01/21 09:57:14 [error] [php] file_get_contents(http://show.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=皮皮203) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1894)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E7%9A%AE%E7%9A%AE203
+2014/01/21 09:57:48 [error] [php] file_get_contents(http://show.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=皮皮203) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1894)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E7%9A%AE%E7%9A%AE203
+2014/01/21 09:57:49 [error] [php] file_get_contents(http://show.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=皮皮203) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1894)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E7%9A%AE%E7%9A%AE203
+2014/01/21 09:57:50 [error] [php] file_get_contents(http://show.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=皮皮203) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1894)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E7%9A%AE%E7%9A%AE203
+2014/01/21 09:58:03 [error] [php] file_get_contents(http://l.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=皮皮203) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1894)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E7%9A%AE%E7%9A%AE203
+2014/01/21 09:58:04 [error] [php] file_get_contents(http://l.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=皮皮203) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1894)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E7%9A%AE%E7%9A%AE203
+2014/01/21 09:58:05 [error] [php] file_get_contents(http://l.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=皮皮203) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1894)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E7%9A%AE%E7%9A%AE203
+2014/01/21 10:19:10 [error] [php] file_get_contents(http://show.pipi.cn/select/?sort=int_number%20asc,score%20desc&amp;df=all&amp;wt=json&amp;indent=true&amp;rows=200&amp;q=皮皮203) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:1894)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=api/test/key/%E7%9A%AE%E7%9A%AE203
+2014/01/21 10:24:54 [error] [php] Undefined index: atr (E:\wwwroot\pipishow\bll\services\weibo\CommentService.php:138)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/?r=api/test/tid/123/type/dotey
+2014/01/21 14:13:40 [error] [exception.CException] exception 'CException' with message 'ApiController and its behaviors do not have a method or closure named "parkingArchivesCar".' in E:\wwwroot\pipishow\framework\base\CComponent.php:265
+Stack trace:
+#0 E:\wwwroot\pipishow\applications\show\controllers\ApiController.php(2762): CComponent->__call('parkingArchives...', Array)
+#1 E:\wwwroot\pipishow\applications\show\controllers\ApiController.php(2762): ApiController->parkingArchivesCar()
+#2 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\wwwroot\pipishow\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 E:\wwwroot\pipishow\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): CController->run('test')
+#7 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController('api/test/archiv...')
+#8 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CApplication->run()
+#10 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once('E:\wwwroot\pipi...')
+#11 {main}
+REQUEST_URI=/?r=api/test/archives_id/1002
+---
+2014/01/21 14:15:06 [error] [php] Undefined index: car (E:\wwwroot\pipishow\bll\services\props\ParkingService.php:36)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/?r=api/test/archives_id/1002/uid/16616
+2014/01/21 14:15:55 [error] [php] Undefined index: car (E:\wwwroot\pipishow\bll\services\props\ParkingService.php:36)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/?r=api/test/archives_id/1002/uid/16616
+2014/01/21 14:16:39 [error] [php] Undefined index: car (E:\wwwroot\pipishow\bll\services\props\ParkingService.php:36)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#5 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#7 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#8 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/?r=api/test/archives_id/1002/uid/16616
+2014/01/21 15:37:23 [error] [bll.service.UserListService] Parameter not empty
+2014/01/21 15:37:23 [error] [bll.service.UserListService] Parameter not empty
+2014/01/21 15:39:45 [error] [bll.service.UserListService] Parameter not empty
+2014/01/21 15:39:45 [error] [bll.service.UserListService] Parameter not empty
+2014/01/21 15:43:37 [error] [bll.service.UserListService] Parameter not empty
+2014/01/21 15:43:37 [error] [bll.service.UserListService] Parameter not empty
+2014/01/22 09:14:41 [error] [bll.service.UserListService] Parameter not empty
+2014/01/22 09:14:41 [error] [bll.service.UserListService] Parameter not empty
+2014/01/22 09:15:05 [error] [bll.service.UserListService] Parameter not empty
+2014/01/22 09:15:05 [error] [bll.service.UserListService] Parameter not empty
+2014/01/22 11:16:20 [error] [bll.service.UserListService] Parameter not empty
+2014/01/22 11:16:20 [error] [bll.service.UserListService] Parameter not empty
+2014/01/22 11:16:20 [error] [bll.service.UserListService] Parameter not empty
+2014/01/22 11:17:23 [error] [bll.service.UserListService] Parameter not empty
+2014/01/22 11:17:23 [error] [bll.service.UserListService] Parameter not empty
+2014/01/22 11:17:23 [error] [bll.service.UserListService] Parameter not empty
+2014/01/22 11:17:24 [error] [bll.service.UserListService] Parameter not empty
+2014/01/22 11:17:24 [error] [bll.service.UserListService] Parameter not empty
+2014/01/22 11:17:24 [error] [bll.service.UserListService] Parameter not empty
+2014/01/22 11:18:38 [error] [bll.service.UserListService] Parameter not empty
+2014/01/22 11:18:38 [error] [bll.service.UserListService] Parameter not empty
+2014/01/22 11:18:38 [error] [bll.service.UserListService] Parameter not empty
+2014/01/22 11:19:24 [error] [bll.service.UserListService] Parameter not empty
+2014/01/22 11:19:24 [error] [bll.service.UserListService] Parameter not empty
+2014/01/22 11:19:24 [error] [bll.service.UserListService] Parameter not empty
+2014/01/22 16:11:58 [error] [php] Undefined index: vip_price_forever (E:\wwwroot\pipishow\applications\show\controllers\ShopController.php:239)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(286): ShopController->runAction()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(265): ShopController->runActionWithFilters()
+#2 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ShopController->run()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#6 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=shop/vip
+2014/01/22 16:12:24 [error] [php] Undefined index: vip_price_forever (E:\wwwroot\pipishow\applications\show\controllers\ShopController.php:239)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(286): ShopController->runAction()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(265): ShopController->runActionWithFilters()
+#2 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ShopController->run()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#6 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=shop/vip
+2014/01/22 16:21:18 [error] [php] Undefined index: attr_id (E:\wwwroot\pipishow\applications\show\controllers\ShopController.php:246)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(286): ShopController->runAction()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(265): ShopController->runActionWithFilters()
+#2 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ShopController->run()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#6 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=shop/vip
+2014/01/22 16:23:13 [error] [php] Undefined index: attr_id (E:\wwwroot\pipishow\applications\show\controllers\ShopController.php:246)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(286): ShopController->runAction()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(265): ShopController->runActionWithFilters()
+#2 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ShopController->run()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#6 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=shop/vip
+2014/01/22 16:23:40 [error] [php] Undefined index: vip_price_forever (E:\wwwroot\pipishow\applications\show\controllers\ShopController.php:239)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(286): ShopController->runAction()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(265): ShopController->runActionWithFilters()
+#2 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ShopController->run()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#6 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/index.php?r=shop/vip
+2014/02/11 13:56:27 [error] [php] Undefined variable: uid (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:2785)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#7 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/?r=api/test/dotey_id/9888825
+2014/02/11 13:56:55 [error] [php] Undefined variable: uid (E:\wwwroot\pipishow\applications\show\controllers\ApiController.php:2784)
+Stack trace:
+#0 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\wwwroot\pipishow\framework\web\CController.php(286): ApiController->runAction()
+#2 E:\wwwroot\pipishow\framework\web\CController.php(265): ApiController->runActionWithFilters()
+#3 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): ApiController->run()
+#4 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CWebApplication->run()
+#7 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once()
+REQUEST_URI=/?r=api/test/dotey_id/9888825
+2014/02/12 11:22:21 [error] [exception.CException] exception 'CException' with message '属性 "ApiController.indexPageService" 未被定义.' in E:\wwwroot\pipishow\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\wwwroot\pipishow\applications\show\controllers\ApiController.php(2849): CComponent->__get('indexPageServic...')
+#1 E:\wwwroot\pipishow\applications\show\controllers\ApiController.php(2861): ApiController->getCategory()
+#2 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\wwwroot\pipishow\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 E:\wwwroot\pipishow\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): CController->run('test')
+#7 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController('api/test')
+#8 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CApplication->run()
+#10 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once('E:\wwwroot\pipi...')
+#11 {main}
+REQUEST_URI=/?r=api/test
+---
+2014/02/12 11:46:41 [error] [exception.CException] exception 'CException' with message '属性 "ApiController.indexPageService" 未被定义.' in E:\wwwroot\pipishow\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\wwwroot\pipishow\applications\show\controllers\ApiController.php(2849): CComponent->__get('indexPageServic...')
+#1 E:\wwwroot\pipishow\applications\show\controllers\ApiController.php(2861): ApiController->getCategory()
+#2 E:\wwwroot\pipishow\framework\web\actions\CInlineAction.php(49): ApiController->actionTest()
+#3 E:\wwwroot\pipishow\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\wwwroot\pipishow\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 E:\wwwroot\pipishow\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\wwwroot\pipishow\framework\web\CWebApplication.php(282): CController->run('test')
+#7 E:\wwwroot\pipishow\framework\web\CWebApplication.php(141): CWebApplication->runController('api/test')
+#8 E:\wwwroot\pipishow\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 E:\wwwroot\pipishow\lib\core\bootStrap.php(96): CApplication->run()
+#10 E:\wwwroot\pipishow\applications\show\entry\index.php(15): require_once('E:\wwwroot\pipi...')
+#11 {main}
+REQUEST_URI=/?r=api/test
+---
+2014/02/12 13:55:09 [error] [bll.service.GiftService] 参数为空
+2014/02/12 13:56:08 [error] [bll.service.GiftService] 参数为空

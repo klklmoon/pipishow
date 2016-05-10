@@ -1,0 +1,28 @@
+/*.reward*/
+.reward{position:fixed; bottom: 58px; right: 10px; width: 107px; z-index: 200;}
+.airbox{bottom: 10px;}
+.reward a{display: block; background:#fff url(../../fontimg/task/reward-bg.jpg) no-repeat; border: 1px solid #c8c8c8;}
+.reward a.rewardover{background:#fff url(../../fontimg/task/reward-hoverbg.jpg) no-repeat;}
+.reward a:hover{background:#fff url(../../fontimg/task/reward-hoverbg.jpg) no-repeat;}
+.reward a span{display: block; width: 107px; height:36px; line-height: 36px; color: #ff0099; text-indent: 40px; background: url(../../fontimg/task/reward.png) no-repeat;}
+.reward a.new-reward span{ background-position: 8px 6px;}
+/*.reward-show*/
+.reward-show{width: 298px; position:fixed; display: none; bottom: 50px; right: 10px; border: 1px solid #dee0de; background: #fff; z-index:100;}
+.reward-show dt{height: 33px; padding-left: 10px; border-bottom: 1px solid #dee0de; background: url(../../fontimg/task/reward-showtop-bg.jpg) repeat-x;}
+.reward-show dt span{float: left; line-height: 33px;}
+.reward-show dt em{float: right; width: 34px; height: 33px; line-height: 33px; padding-left: 10px; font-size: 28px; font-weight: bolder; cursor: pointer; }
+.reward-show dd{width:260px; height:48px; position: relative; padding-top: 6px; border-bottom: 1px dashed #999; margin: 0 auto;}
+.reward-show dd.btn{border-bottom: none; padding-top: 0; height: 54px;}
+.reward-show dd.end{border-bottom: none;}
+.reward-show dd.btn .surebtn{width:260px;}
+.reward-l{float: left;width:105px; margin-top:2px;}
+.reward-r{float: right; margin-top:2px;}
+.reward-show a{display:block;color: #ff0099; line-height: 20px; text-indent: 5px;}
+.reward-show a:hover{background:#f74ca9; color: #fff;}
+.reward-l em{display:block;line-height: 20px; text-indent: 5px;}
+.reward-l em.green{color: #00ba00;}
+.reward-l em.greensuc{color:#00ba00; background:url(../../fontimg/task/reward.png) 6px -62px no-repeat; padding-left: 22px;}
+.reward-r a{float: right;width: 68px; height: 20px; background: #f74ca9; color: #fff; text-align: center; line-height: 18px; text-indent:0; margin-left:3px;}
+/*.reward-pic*/
+.reward-pic{position:absolute; padding: 5px; border:1px solid #dadada; border-right: none; display: none; background: #fff; text-align:center;}
+.reward-pic p{width:100%;text-align: center;}

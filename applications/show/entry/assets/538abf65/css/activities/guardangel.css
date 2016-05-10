@@ -1,0 +1,92 @@
+
+body{ background:url(../../fontimg/activities/guardangel/bj_all.jpg) repeat;}
+.w1020{width:1020px; margin:0 auto;}
+.w470{width:470px; margin:0 auto;}
+.kong{ background:url(../../fontimg/activities/guardangel/bj.jpg) no-repeat center top; height:405px; position:relative;}
+
+.rule{ background:url(../../fontimg/activities/guardangel/main_bj_1.jpg) no-repeat center top; height:423px; color:#d1701a; margin-top:20px;}
+.rule_con{ position:absolute; top:70px; left:28px; line-height:28px;}
+
+
+.actcon{ background:url(../../fontimg/activities/guardangel/main_bj_2.jpg) no-repeat center top; height:874px;}
+.player{ padding:20px; position:relative;}
+.change{ display:block; margin:15px 20px 0 0;}
+.watch{ display:block; margin:0px 20px 0 150px;}
+
+.playerlist{ display:block; width:970px; overflow:hidden; margin-left:10px; position:relative; height:530px;}
+.playerlist li{ display:block; float:left; list-style-type:none; width:160px; height:220px; padding:10px; background:url(../../fontimg/activities/guardangel/li_bj.jpg) no-repeat; margin:15px 14px 20px 0; text-align:center; color:#FFF;}
+.playerlist li p{ line-height:28px; width:156px; white-space: nowrap; overflow: hidden;}
+.playerlist li p a{ color:#FFF;}
+.playerlist li .vote{ background:url(../../fontimg/activities/guardangel/btn_bj.gif) no-repeat; color:#6d3f00; width:98px; height:24px; line-height:24px; margin:0 auto; display:block;}
+
+.actcon .intro{ width:920px; height:190px; color:#d1701a; margin:40px 0 0 40px; line-height:30px;}
+
+
+.w470{ width:470px;}
+.main-2{ width:1000px;}
+.main-2 .bang-tit{ height:30px; line-height:30px; font-size:14px; color:#fff; display:block; background:#cf2f70; text-indent:10px;}
+.xsboard{ width:460px; background:#f4f4d5;}
+.xsboard a{ color:#666;}
+.xsboard th,
+.xsboard td{ color:#999; line-height:24px; padding:10px 0; text-align:center;}
+.xsboard th{ font-size:15px;}
+.xsboard tr{ _display:inline-block; border-bottom:5px solid #eff5e8;}
+
+
+.xsboard .col-w35{ width:35px;}
+.xsboard .col-w45{ width:45px;}
+.xsboard .col-w85{ width:85px;}
+.xsboard .col-w125{ width:125px;}
+.xsboard .col-w170{ width:170px;}
+
+.xsboard .col3-zhubo{ padding:3px 10px;}
+.xsboard .col3-zhubo p{ font-size:14px;}
+.xsboard .xscover{ display:block; border:1px solid #FFC4D6;}
+.xsboard .xs-num,
+.xsboard .fans-nm a{ font-family:Microsoft YaHei; color:#FC3367;}
+.xs-num{ width:105px; white-space: nowrap; overflow: hidden;}
+.dispblock{display: block;}
+.xsboard .fans-nm{
+	display:inline-block; width:90px;
+	vertical-align:middle;
+	white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+	
+.bang_bj{ background:url(../../fontimg/activities/guardangel/list_bj.png) no-repeat; height:426px; width:460px;
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../../fontimg/activities/guardangel/list_bj.png");
+_background-image:none; }
+.bang_bj2{ background:url(../../fontimg/activities/guardangel/list_bj2.png) no-repeat; height:848px; width:460px;
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../../fontimg/activities/guardangel/list_bj2.png");
+_background-image:none; }	
+.list-num{ font-size:16px; color:#4d7c09; font-style: italic; font-weight:bold; text-align:center;}
+.col-green{ color:#4d7c09;}
+.col-red{ color:#ff0000;}
+.bor-r{ border-right:1px solid #e4e4a9;}
+
+
+.bcon table{ width:460px; text-align:center; background:#f4f4d5; color:#999999;}
+.bcon table tr{ height:36px; _height:26px;}
+.bcon table td{ padding:5px;}
+.bcon table .col1{ font-family:Georgia; color:#fb5147; font-size:14px;  font-style:italic;}
+.bcon table .col2{ color:#999999;}
+.bcon table .col3{ color:#ff0000;}
+.bcon table .col4{ font-family:Georgia; color:#333333; font-size:14px;  font-style:italic;}
+.bang_bj2 table tr{ height:38px; _height:28px;}
+
+
+.tips{background:url(../../fontimg/activities/guardangel/tips_bj.png) no-repeat; height:140px; width:285px; padding:46px 0 0 65px; position:absolute; top:150px; left:300px; z-index:10;
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/tips_bj.png");
+_background-image:none; }
+.tips .tips_con{ width:200px; line-height:25px;  text-align:center; color:#93662d; font:'Î¢ÈíÑÅºÚ'; font-size:14px;}
+.tips_con a{ display:block; width:89px; height:27px; line-height:27px; text-align:center; color:#fff; background:url(../../fontimg/activities/guardangel/tips_btn.jpg) no-repeat; margin:15px auto 0 auto; cursor:pointer;position:relative;}
+
+
+.date{ position:absolute; top:140px; right:30px; width:195px; height:180px;}
+.Wdate {
+    background: url(../../fontimg/activities/guardangel/sigl.jpg) no-repeat scroll right center #FFFFFF;
+    border: 1px solid #7F9DB9;
+    height: 20px;
+}
+.WdateFmtErr {
+    color: red;
+    font-weight: bold;
+}

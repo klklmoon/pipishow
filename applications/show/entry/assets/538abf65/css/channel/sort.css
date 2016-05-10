@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*.sort-l=*/
+.sort-l{width:182px; margin-top:30px;}
+/*.rankbox==*/
+.rankbox{width:181px; border:1px solid #d9d9d9;}
+.rankbox h4{height:35px; line-height:35px;}
+.rankbox h4 span{font-size:14px; padding-left:4px;}
+.start-tab{color:#666666; font-weight:normal; margin-top:10px; padding-left:24px;}
+.start-tab a,.start-tab em{float:left;height:17px; line-height:16px; text-align:center;}
+.start-tab em{width:5px;}
+.start-tab a{width:62px;}
+.start-tab a:hover,.start-tab a.starttabover{background:#ff0099; color:#fff;}
+.conbox{width:170px; margin:0 auto; margin-top:20px;}
+.rankcon-list li{ margin-bottom:6px;}
+.rankcon-list li a{display:block; padding-left:4px; padding-right:4px; width:106px; height:40px; line-height:26px;}
+em.top2{background-position:-66px -755px; color:#fff;}
+.rankbox .more{ margin-left:90px; _display:inline;}
+/*.conbox-list===*/
+.conbox-list{height:65px; margin-top:12px;}
+.conbox-list dt,.conbox-list dd{float:left;height:65px; overflow:hidden; color:#999999;}
+.conbox-list dt img{width:65px; height:65px;}
+.conbox-list dt{width:65px; margin-right:10px; position:relative;}
+dt .attent{position:absolute; bottom:0; right:0; display:none;}
+.conbox-list dd{width:94px;}
+.conbox-list dd .name{font-size:14px; height:30px; line-height:30px;}
+/*.rankconpic-list===*/
+.rankconpic-list{ margin-top:10px;}
+.rankconpic-list li{height:50px; margin-bottom:5px;}
+.rank-pic{ margin-left:8px; margin-right:8px; _display:inline;}
+.rank-pic img{width:39px; height:40px;}
+.rank-text{width:98px;}
+.rank-text a{display:block; font-size:14px; width:98px; height:24px; line-height:24px;}
+
+/*.satetab==*/
+.satetab{padding-bottom:15px; padding-top:15px; background:#eee; border:1px solid #e0e0e0;}
+.satetab-t{height:94px;}
+.satetab-t dl{width:750px;}
+p.mline{width:550px; border-top:1px solid #d0d1d2; border-bottom:1px solid #fff; margin-left:72px;}
+.satetab dl{ margin-top:15px; margin-left:30px; _display:inline;}
+.satetab dl dt{float:left; line-height:24px;}
+.satetab dl dd{float:left; width:56px; height:24px; line-height:22px; border:1px solid #d9d9d9; background:#fff; text-align:center; margin-left:14px; _display:inline;}
+.satetab dl dd a{display:block;}
+.satetab dl dd.on{border:1px solid #b7b7b7; border-top:1px solid #8f8f8f; border-bottom:none;background:#ccc;}
+
+/*.sort-r*/
+.sort-r{width:808px; margin-top:30px; background:#fff;}
+
+/*.satebox=*/
+.satebox{width:806px; padding-bottom:20px; border:1px solid #e0e0e0; border-bottom:none;}
+.satebox-btm{width:796px; height:34px; background:#093 url(../../fontimg/common/satebox-btm.jpg) no-repeat center top;}
+/*.anchor-con==*/
+.anchor-con{width:780px;}
+.anchor-con li{width:184px; height:168px; margin:6px 11px 14px 0; _margin-right:9px;}
+.chorname,p.time{width:186px;}
+.anchor-head{width:174px; height:113px;}
+
+.anchor-head img{width:174px; height:113px;}
+.playing,.readying{width:166px; _bottom:8px;}
+.nambtm{width:110px;}
+
+
+
+
+
+
+
+
+
+
+
+

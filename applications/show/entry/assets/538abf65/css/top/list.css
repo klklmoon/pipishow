@@ -1,0 +1,253 @@
+.tab{ border-bottom:1px solid #E1E1E1; margin-bottom:-1px;}
+.tab li{
+	float:left;
+	margin-right:4px;
+	position:relative; top:1px;
+	}
+.tab li.ones,
+.tab li a{
+	float:left; color:#505050; padding:0 10px;
+	line-height:32px; border:1px solid #E1E1E1;
+
+	background-color:#F5F5F5;
+	background-image:-moz-linear-gradient(top,#F7F7F7,#F3F3F3);
+	background-image:-webkit-gradient(linear, left top, left bottom, from(#F7F7F7), to(#F3F3F3));
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#F7F7F7', endColorstr='#F3F3F3');
+	}
+.tab li a:hover{ text-decoration:none;}
+.tab li.ones,
+.tab li a.curr{
+	color:#333; font-weight:bold;
+	border-bottom-color:#FFFFFF; 
+	background:#FFF; filter:none;
+	}
+
+.tabcon-bd{	
+	border:1px solid #E1E1E1;
+	background-color:#FFF;
+	}
+
+.tab li.ir{ float:right;}
+.tab li.ir a{
+	padding:0 10px;
+	border:none;
+	filter:none;
+	background:none;
+	}
+
+
+.submit input,
+.submit button{ vertical-align:middle;}
+.submit button{ font-size:14px; font-weight:bold;}
+
+.sendform .submit{padding:1px; margin-top:10px;}
+.sendform .submit .btn-submit{
+	color:#333;
+	width:72px; height:32px;
+	border:none; background:transparent url(../images/i4.gif) no-repeat 0 -40px;
+	margin-left:10px; cursor:pointer;
+	}
+.sendform .submit .btn-submit em{ display:none;}
+
+
+.main{ width:720px;}
+
+.boxhd{ position:relative; height:28px; line-height:28px; margin-bottom:12px; font-family:'Microsoft YaHei','微软雅黑','雅黑';}
+.boxhd h3{ float:left; font-size:22px; color:#505050;}
+.boxhd .midnav{ float:left; padding-top:5px; margin-left:20px;}
+.boxhd .midnav a{ color:#656565; margin-right:10px;}
+
+
+
+
+.txlist{ padding:10px; background-color:#FBFEF5;}
+.txlist li{
+	line-height:20px; margin-bottom:10px;
+	padding-left:10px; background:url(../images/iv4.png) no-repeat -188px -212px;}
+.txlist li:last-child{ margin:0;}
+
+.vlist li{ margin-bottom:20px;}
+.vlist li p,
+.vlist .vlist-intro dd{ margin-top:5px;}
+.vlist .dtimg{float:left; margin-right:8px;}
+.vlist .dtimg img{ display:block;}
+.vlist .vlist-intro{ float:left; width:152px;}
+
+
+
+.rankboard .col1{ width:100px;}
+.rankboard .col1 a{ color:#808080;}
+
+.rankboard .col2{ width:90px;}
+.rankboard .col3{ width:80px;}
+.rankboard table{ width:100%;}
+.rankboard table td{ padding:5px; color:#999;}
+
+.rankboard span.col1{ display:block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.richguys span.col1{ width:80px;}
+
+.rankboard .col-w100{ width:100px;}
+.rankboard .col-w28{ width:28px;}
+.rankboard .col-w40{ width:40px;}
+
+.rankboard .list-num{	
+	display:block;
+	width:14px; height:17px;
+	padding-left:3px;
+	color:#FFF; text-align:center; font-size:11px;
+	background:url(../images/i4.gif) no-repeat -119px -171px;	
+	}
+
+.rankboard .no1{ background-position: -119px -90px;}
+.rankboard .no2{ background-position: -119px -117px;}
+.rankboard .no3{ background-position: -119px -144px;}
+
+
+
+.xsboard{ width:470px;}
+.xsboard a{ color:#666;}
+.xsboard th,
+.xsboard td{ color:#999; line-height:24px; padding:10px 0 0; text-align:left;}
+.xsboard th{ font-size:15px;}
+.xsboard tr{ border-bottom:1px solid #EEE;}
+
+.xsboard .col-w28{ width:28px;}
+.xsboard .col-w35{ width:35px;}
+.xsboard .col-w42{ width:42px;}
+.xsboard .col-w60{ width:60px;}
+.xsboard .col-w140{ width:140px;}
+.xsboard .col-w160{ width:160px;}
+.xsboard .col-w190{ width:190px;}
+
+
+.xsboard .up,
+.xsboard .down,
+.xsboard .nochg{ width:12px; height:12px; background:url(../ximg/xsi.gif) no-repeat;}
+.xsboard .up{ background-position: -310px -40px;}
+.xsboard .down{ background-position: -332px -40px;}
+.xsboard .nochg{ background-position: -354px -40px;}
+
+.xsboard .xscover{ display:block; border:1px solid #FFC4D6; width:48px; height:48px; overflow:hidden;}
+.xsboard a.name{display:inline-block; height:24px; width:82px;}
+
+.xsboard .col3-zhubo{ padding:0 10px;}
+.xsboard .col3-zhubo p{ font-size:14px;}
+
+.xsboard .xs-num,
+.xsboard .fans-nm a{ font-family:Microsoft YaHei; color:#FC3367;}
+.xsboard .fans-nm{
+	display:inline-block; width:90px;
+	vertical-align:middle;
+	white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+
+.xsboard .list-num{
+	position:relative;
+	width:22px; height:40px; padding-top:20px;
+	color:#FFF;
+	background-color:#B1B1B1;
+	font-size:20px; font-weight:bold; font-family:Arial; text-align:center;
+	}
+.xsboard .no1{ background-color:#E45A74;}
+.xsboard .no2{ background-color:#5FA0CA;}
+.xsboard .no3{ background-color:#679800;}
+
+
+.gftboard{ margin-bottom:-1px;}
+.gftboard li{
+	float:left; width:50%; height:42px;
+	margin-left:-1px;
+	border-style:solid;
+	border-color:#E2E2E2;
+	border-width:0 0 1px 1px;
+	}
+.gftboard .gft-zhubo{ display:inline-block; line-height:42px; _margin-top:12px;}
+.gftboard .gft-zhubo a{ color:#FF0099;}
+.gftboard .gft-num{
+	float:left; width:200px;
+	padding:0 10px;}
+.gftboard .gft-num img{ vertical-align:middle;}
+
+
+
+.signform .txtW260{ width:260px;}
+.signform .inp-text{ height:16px; line-height:16px; padding:4px; vertical-align:middle;}
+
+.signform{ float:left; padding:30px 56px 50px 70px; width:560px; min-height:360px; _height:360px;}
+.signform h1{ height:35px; overflow:hidden; line-height:99em; margin-bottom:30px; background:url(../images/i-sign.png) no-repeat;}
+.signform h1.reg{ background-position: center -101px;}
+.signform h1.log{ background-position: center top;}
+
+.signform .label-hd{ float:left; width:88px; font-size:14px; text-align:right; margin-right:10px; margin-top:7px; color:#666;}
+.signform .submit{ padding-left:98px;}
+.signform .log-info{ padding-left:98px; color:#C00; margin-bottom:15px;}
+.signform .status{ padding-left:98px;}
+.signform .inp-text{ float:left; height:20px; line-height:20px;}
+
+.signform .field-code .code-img{ float:left; margin-left:5px;}
+.signform .field-code .inp-text{ float:left; width:80px;}
+.signform .field-code a.chg{ float:left; margin-left:5px; margin-top:7px; color:#666;}
+
+.signform ul li{ height:30px; margin-bottom:15px;}
+.signform ul li input{ vertical-align:middle;}
+.signform .status label{ color:#999; margin-right:20px;}
+.signform .tipinfo,
+.signform .errinfo,
+.signform .done{ float:left; margin-left:10px; margin-top:7px;}
+.signform .tipinfo{ color:#BBB;}
+.signform .errinfo{ color:#C00;}
+.signform .done{ width:16px; height:16px; vertical-align:middle;  background:url(../images/ck-ok.gif) no-repeat center center;}
+
+
+.signform .btn-reg,
+.signform .btn-log,
+.btn-log-grn{ float:left; border:none; cursor:pointer; overflow:hidden; background:url(../images/i-sign.png) no-repeat;}
+
+.signform .btn-reg{ width:111px; height:32px; text-indent:-99em; background-position:center -245px;}
+.signform .btn-log{ width:81px; height:32px; text-indent:-99em; background-position:center -287px;}
+
+
+.w480{ width:480px;}
+.w470{ width:470px;}
+.main-2{ width:970px;}
+
+
+.wlimit{ width:970px;}
+.ranklist{ width:120%;}
+.rankboard{ width:226px; margin-right:19px; border:1px solid #DFDFDF; background:#F9F9F9;}
+.rankboard h4{
+	padding:0 10px;
+	height:36px; line-height:36px;
+	border-bottom:1px solid #DFDFDF;
+	background-color:#F7F7F7;
+	background-image:-moz-linear-gradient(top,#FCFCFC,#F3F3F3);
+	background-image:-webkit-gradient(linear, left top, left bottom, from(#FCFCFC), to(#F3F3F3));
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FCFCFC', endColorstr='#F3F3F3');
+	font-size:15px; font-weight:normal; font-family:'Microsoft YaHei','微软雅黑','雅黑';
+	}
+
+.rankboard .col1{ width:90px; white-space:nowrap; overflow:hidden; text-overflow:ellispsis;}
+.rankboard .col2{ width:90px;}
+.rankboard table{ width:100%;}
+.rankboard table span.col1{display:inline-block;}
+.rankboard table td{ padding:5px; color:#999;}
+
+.disp{ display:none;}
+
+/*v5 css*/
+.program-list dt, em.new-icon, .platform span.aleft, .platform span.aright, .news-game a.egg, .news-game a.sofa, .news-game a.bigrich, .programlist-top dt{ background-image:url(../images/v5_icon.png); background-repeat:no-repeat;}
+
+/* .program */
+.nav{ margin-left:0;}
+ul.nav li.program-box{ width:100px; position:relative; z-index:100;}
+.w1000 ul.nav li.program-box a.programhover{ background:#fff; color:#FF0099; margin-right:2px; margin-top:10px; line-height:40px; padding:0 19px;}
+.nav li.curr{ background:none;}
+
+
+/* .egg, .sofa, .bigrich */
+.news-game a.egg, .news-game a.sofa, .news-game a.bigrich{ float:left; height:24px; line-height:24px; color:#333; text-indent:26px;}
+.news-game a.egg:hover, .news-game a.sofa:hover, .news-game a.bigrich:hover{color:#ff0099;}
+.news-game a.egg{ background-position:0 -104px; margin-left:14px; _display:inline;}
+
+
+/*global.css重置*/
+.boxshadow{ background:#fff;border: 1px solid #DFDFDF;}

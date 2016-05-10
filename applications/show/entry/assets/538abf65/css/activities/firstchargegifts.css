@@ -1,0 +1,14 @@
+
+body{ background:url(../../fontimg/activities/firstchargegifts/bj_all.jpg) repeat;}
+.kong{ background:url(../../fontimg/activities/firstchargegifts/bj.jpg) no-repeat center top; height:437px;}
+.kong a{ display:block; position:absolute; top:250px; right:220px;}
+
+.main{ background:url(../../fontimg/activities/firstchargegifts/main_bj.jpg) no-repeat center top; height:863px;}
+.main a{ display:block; position:absolute;}
+.pos1{ top:200px; right:250px; z-index:10;}
+.pos2{ top:580px; right:250px; z-index:20;}
+
+
+.vote{ position:absolute; background-color:#fff; border:1px solid #cecece; width:230px; height:65px; font-size:14px; left:395px; top:120px;}
+.vote em{ position:absolute; top:0; right:0; display:block; cursor:pointer;}
+.vote .cont{ width:200px; margin:20px 0 0 20px; line-height:30px; text-align:center;}

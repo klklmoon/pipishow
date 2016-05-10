@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+.signfram .signclose,.suc-get .signclose{ background:url(../images/v5_icon.png) no-repeat;}
+/* .buy-box */
+.buy-box{ width:250px; height:206px; background:#ef3d81; position:absolute; z-index:200; display:none;}
+.buy-box h2{ height:32px; line-height:32px; padding-left:12px; font-size:14px; font-family:"Microsoft YaHei","\5FAE\8F6F\96C5\9ED1"; color:#fff; text-align:left;}
+.buy-box h2 span{ font-family:"SimSun","\5B8B\4F53"; font-size:13px; font-weight:normal; margin-left:4px;}
+.buy-box h2 em{ display:inline-block;width:26px; height:28px; line-height:28px; text-align:center; cursor:pointer;}
+
+/*  .buy-con */
+.buy-con{ width:224px; height:152px; background:#fff; margin:0 auto; padding:18px 10px 0 10px;}
+.buy-con form{ margin-left:24px;}
+.buynum{height:30px; line-height:30px;}
+.buynum label{width:60px; height:30px; line-height:30px; float:left;}
+.buynum input{width:80px; *margin:4px;}
+.buyprice{height:50px;line-height:50px;width:200px; text-align:left; padding:1px; margin:1px;}
+.buyprice strong{color:#f56b02;}
+.buy-con form label{ display:block; height:32px; line-height:32px;}
+.buy-con form .id-text{ display:block; width:170px; height:23px; margin-bottom:22px;}
+.buy-con form input.texthover{ text-indent:0; color:#000;}
+.buy-box input.btn{ display:inline-block; width:80px; height:26px; background:none; border:none; outline:none; cursor:pointer; color:#fff;}
+.buy-box input.sure{background:#ef3d81; margin-right:4px;}
+.buy-box input.cancel{ background:#86b213;}
+
+/* .buy-info */
+ul.buy-info{ width:170px; margin:0 22px; position:relative;}
+ul.buy-info li{ height:22px;}
+
+ul.buy-info li span{ display:inline-block;width:84px; text-align:right;}
+ul.buy-info li strong{ color:#f56b02;}
+ul.buy-info li p{ text-align:center;}
+
+/* .buylast */
+.buylast{ width:248px; height:130px; background:#fff; border:2px solid #ef3d81;}
+.last-con{ text-align:center;}
+.last-con p{ display:table-cell;  height:80px; line-height:24px; padding:0 36px; vertical-align:middle; width:200px; overflow:hidden; text-align:center;}
+.last-con p.suc{color:#f56b02; font-weight:bolder;}
+.last-con p{_padding-top:20px; _height:60px;}
+.last-con p.fail{padding:0; width:238px; margin:0 auto;}
+.last-con p a{ color:#f56b02; display:block;}
+.last-con p em{ color:#076fa2;}
+.last-con .recharge{ font-weight:bolder; color:#f56b02;}
+
+
+/*  .sign */
+/* .signfram */
+.signfram{ position:absolute; display:none; border:1px solid #cecece; width:332px; height:126px; background:#fff; z-index:100;}
+.signfram ul{ width:310px; height:96px; margin-left:18px; overflow:hidden;float:left; _display:inline;}
+.signfram ul li{ height:20px;color:#666666;}
+.signfram p.signtitle a{ color:#FFF; background:#ff0099; padding:2px; margin-left:4px;}
+.signtitle img{ width:24px; height:24px; margin:0; vertical-align:middle;}
+.signfram ul li strong{font-size:14px; color:#000; +line-height:26px;}
+.signfram ul li span{ color:#cccccc;}
+.signfram ul li a{ margin-left:10px;}
+.signfram .signclose, .suc-get .signclose{ display:block; width:18px; height:18px;text-indent:-99999px; float:right; background-position:0 -576px; cursor:pointer;}
+
+/* .suc-get */
+.suc-get{ width:320px; height:72px;border:1px solid #cecece;background:#fff; position:absolute;font-size:14px; z-index:22222; display:none;}
+.suc-get p{ text-indent:20px; margin-top:12px; width:320px;}
+.suc-get p img{width:24px; height:24px; margin:0; vertical-align:middle;}
+.suc-get span{ display:block; text-indent:20px; margin-top:4px;}
+.suc-get a.getBtn{ float:left; width:90px; height:26px; background:#ff0099; color:#fff; font-size:14px; font-family:"Microsoft YaHei","\5FAE\8F6F\96C5\9ED1"; text-align:center; line-height:26px; margin-left:38px; margin-top:10px; _display:inline;}
+.comget{ height:120px;}
+
+.vipbtm{ width:320px; height:46px; background:#f9efee; border-top:1px solid #CCC; text-indent:10px; line-height:46px; _line-height:46px; color:#686465; font-weight:bolder;}
+.vipbtm img{ vertical-align:middle; margin:10px 0; margin-right:4px;}
+.sucinfo{ height:33px;}
+.get2{ height:92px; font-size:14px;}
+
+/*后期添加*/
+.atten p{ padding:0 28px;}
+.change-aor{ float:right; width:48px; height:16px; padding:1px 2px; border:1px solid #f56b02; position:absolute; top:0px; left:142px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

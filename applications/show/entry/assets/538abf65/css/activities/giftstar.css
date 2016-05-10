@@ -1,0 +1,45 @@
+
+body{ background:url(../../fontimg/activities/giftstar/bj.jpg) no-repeat center top; background-color:#133565;}
+
+.kong{ height:349px; width:1000px; margin:0 auto; position:relative;}
+.w975{ width:975px; margin:0 auto;}
+.w950{ width:950px; margin:0 auto;}
+
+.gift{ background-color:#FFF; height:713px; background:url(../../fontimg/activities/giftstar/topbj.jpg) no-repeat; padding:40px 0 0 25px;}
+.gift h1,
+.star h1,
+.bang h1{ display:block; font-weight:bold; color:#102e4a; font-size:20px; font-family:"����"; margin-bottom:10px;}
+.gift h2{ display:block; font-weight:bold; color:#666666; font-size:14px; font-family:"����"; margin-bottom:10px;}
+
+.gift-top ul{ display:block; margin-top:25px; margin-left:10px;}
+.gift-top li{ display:block; width:150px; height:60px; float:left; list-style:none;}
+.gift-top li img{ display:block; float:left;}
+.gift-top li span{ font-size:16px; font-weight:bold; color:#414141; height:60px; line-height:60px; padding-left:10px;}
+
+.gift-middle{ margin-top:70px; _margin-top:35px; *margin-top:35px; line-height:20px;}
+.gift-middle .m-lft{ width:605px; font-size:13px; color:#333333;}
+.gift-middle .m-lft span{ line-height:30px;}
+.gift-middle .m-right{ width:290px; margin-left:55px; margin-top:15px; color:#666666; line-height:30px;}
+.gift-middle .m-right span{ color:#ff0000;}
+
+
+.star{ background-color:#FFF; padding:25px;}
+
+.star-left{ display:block; width:940px; margin-top:20px;}
+.star-left li{ display:block; list-style:none; height:60px; padding:10px 0; border-bottom:1px dotted #cccccc; width:415px; float:left;}
+.star-left li img{ display:block; float:left;}
+.star-left li span{ display:block; float:left; font-size:16px; font-weight:bold; color:#fe0000; width:230px; text-align:center; margin-top:20px;}
+.star-left li code{ display:block; float:left; margin-top:20px; width:125px; overflow:hidden;}
+
+
+.bang{ background-color:#FFF; height:870px; padding:25px 25px 0 25px;}
+
+.bang .paihb{ width:305px; height:275px; margin-top:20px; margin-right:15px;}
+.bang .ph-top{ background:url(../../fontimg/activities/giftstar/top-bj.jpg) repeat-x; height:29px; width:285px; border:1px solid #e0e0e0; border-bottom:none; color:#c3181a; font-size:16px; font-weight:bold; padding:10px 0 0 20px;}
+.bang .paihb .bcon{ width:305px; height:235px; border:1px solid #e0e0e0;line-height:0}
+
+
+.bcon table{ width:305px; text-align:center;}
+.bcon table td{ padding:7px; height:25px;}
+
+.bcon table .col1{ font-family:Georgia; color:#cd6b79; font-size:18px;}

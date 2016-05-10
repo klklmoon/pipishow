@@ -1,0 +1,5 @@
+.boxshadow{ background:#fff;border: 1px solid #DFDFDF;}
+.announcement{ padding:30px 80px;}
+.announcement .title{ text-align:center; color:#666666; height:85px; border-bottom:1px solid #c9ccd0; margin-bottom:20px;}
+.announcement .title h2{ font-size:16px;}
+.announcement .con{ font-size:14px; color:#999999; line-height:25px; text-indent:4px;}

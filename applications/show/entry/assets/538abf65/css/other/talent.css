@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+.talent-header{height:300px; background:url(../../fontimg/other/talenthd-bg.jpg) no-repeat center top;}
+
+.talent-bd{width:998px; margin: 0 auto; border:1px solid #e0e0e0; border-top:none; padding-top:40px; padding-bottom:50px;}
+
+.talent-bd dl{width:820px;overflow: hidden; margin:0 auto; margin-bottom:50px; padding-bottom:30px;}
+.talent-bd dl.unline{border-bottom:1px dotted #d2d2d2;}
+.talent-bd dl dt{float:left;width:123px; height:120px; text-align: center; line-height:120px; background: url(../../fontimg/other/talenticon.jpg) no-repeat center center; font-size:24px; color:#dd1576; font-family:"Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";}
+.talent-bd dl dd{float:left;width:690px;height:28px; line-height:28px; font-size:14px;}
+
+.talent-contact{width:250px; padding-left:10px; height:56px; border:1px solid #E5C174; background:#FFF8BB; margin-left:213px;}
+.talent-contact span{float:left; font-size:14px; margin-top:15px; overflow: hidden;}
+.talent-contact span a{float:left; margin-right:6px;}
+.talent-contact span a img{vertical-align:middle;}
+
+
+

@@ -1,0 +1,27 @@
+
+body{ background:#081653;}
+.kong{ background:url(../../fontimg/activities/luckstar/bj.jpg) no-repeat center top; height:540px;}
+.kong a{ display:block; position:absolute; top:340px; right:320px;}
+.w225{ width:225px;}
+.w437{ width:437px;}
+
+.main{ background:#4b5a9b; height:640px;}
+.intro{ width:900px; padding:10px 50px;}
+.intro img{ display:block;}
+.intro span{ display:block; color:#ffff99; font-size:14px; font-family:'Î¢ÈíÑÅºÚ'; margin-top:20px; line-height:25px;}
+
+.luckstar{ overflow:hidden; width:920px; padding:10px 40px;}
+.luckstar .tit{ background:url(../../fontimg/activities/luckstar/titbj.jpg) repeat-x; height:52px; font-size:24px; font-family:'Î¢ÈíÑÅºÚ'; color:#FFF; text-align:center;}
+.conbox{ background:url(../../fontimg/activities/luckstar/conbj.gif) no-repeat; width:225px; height:121px; padding:10px 0 0 0;}
+.conbox p{ display:block; width:195px; margin:0 auto; line-height:30px; color:#ff0033;}
+.conbox p span{ display:inline-block; width:150px; overflow:hidden; white-space:nowrap; vertical-align:middle;}
+
+.conbox1{ background:url(../../fontimg/activities/luckstar/conbj1.gif) no-repeat; width:422px; height:125px; padding:6px 0 0 15px;}
+.conbox1 table{ width:390px; text-align:center; color:#ff0033;}
+.conbox1 table tr{ height:28px; _height:18px;}
+.conbox1 table td{ padding:5px;}
+.bang_bj2 table tr{ height:38px; _height:28px;}
+
+.vote{ position:absolute; background:url(../../fontimg/activities/luckstar/vtbj.jpg) no-repeat; width:165px; height:131px; left:410px; top:0px;display:none;}
+.vote .cont{ width:120px; margin:20px 0 0 20px; line-height:30px; text-align:center; color:#ff0033;}
+.vote .cont strong{ font-size:14px;}

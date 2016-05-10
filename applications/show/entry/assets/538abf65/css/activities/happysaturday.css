@@ -1,0 +1,16 @@
+
+body{ background:url(../../fontimg/activities/happysaturday/bj.jpg) no-repeat center top; background-color:#ffbd0e;}
+
+.kong{ height:444px; width:1000px; margin:0 auto; position:relative;}
+
+.w975{ width:975px; margin:0 auto;}
+.w1020{ width:1020px; margin:0 auto;}
+
+.bags{ height:508px; background:url(../../fontimg/activities/happysaturday/middle-bj.jpg) no-repeat; position:relative;}
+.lq_1{ position:absolute; top:330px; right:160px;}
+.lq_2{ position:absolute; top:240px; right:160px;}
+
+.bang{ height:395px; background:url(../../fontimg/activities/happysaturday/bottom-bj-1.jpg) no-repeat; position:relative;}
+.bang .intro{ position:absolute; top:170px; left:270px; width:300px; color:#c93d40; font-size:11px; font-weight:bold; font-family:'FZFYSJW'; line-height:22px;}
+
+

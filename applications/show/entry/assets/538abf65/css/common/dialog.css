@@ -1,0 +1,260 @@
+@charset "utf-8";
+/* CSS Document */
+
+.popbox{width:300px; border:1px solid #e0e0e0; padding-bottom:6px; background:#fff; z-index:220; position:absolute; display:none;}
+.poph{height:40px; position:relative; border-bottom:1px solid #e0e0e0;}
+.poph span{display:block; height:40px; line-height:40px; padding-left:38px; color:#696969;}
+.popcon{width:220px; margin:0 auto; padding-top:10px;}
+.popcon li{padding-bottom:10px;}
+.popcon .uping{text-align:center;}
+.popcon label{display:block; color:#999; height:30px; line-height:30px;}
+.popcon input{border:none; background:none; outline-style:none; border:1px solid #d4d4d4;}
+input.intext{width:214px; height:34px; line-height:32px\9; padding-left:4px; font-size:12px; color:#666;}
+input.surebtn{width:218px; height:34px; line-height:34px; text-align:center; color:#fff; background:url(../../fontimg/common/loginbtn-bg.png) repeat-x; margin-top:14px; border:1px solid #fe59ab;}
+.noline{border-bottom:none;}
+
+/*.cover*/
+.cover li a{color:#0066ff;}
+.editorpic{width:218px; height:218px; border:1px solid #d4d4d4; overflow:hidden;}
+.onpic{width:205px; height: 121px;border:1px solid #d4d4d4; overflow:hidden;}
+.editorimg{height:expression(this.width > 210 ? this.height = this.height * 210 / this.width : "auto");
+width:expression(this.width > 218 ? "218px" : "auto");max-width:218px;}
+
+/*.speak-set*/
+.speak-set li label{height:20px; line-height:20px; margin-left:32px; margin-top:10px; _display:inline;}
+.speak-set li label input{ vertical-align:middle; margin-right:4px;}
+
+/*.talk-notice*/
+.talk-notice li textarea{width:220px; height:70px; border:none; background:none; outline-style:none; border:1px solid #d4d4d4; resize:none; margin-bottom:10px; color:#666666;}
+
+/*.roomclose*/
+.roomclose li label{color:#666;}
+input.shiftbtn{width:98px; height:34px; line-height:34px; text-align:center; color:#fff; background:url(../../fontimg/common/loginbtn-bg.png) repeat-x; margin-top:5px; margin-right:12px; border:1px solid #fe59ab;_margin-right:10px;}
+
+/*.newurl*/
+.newurl input{width:80px; height:34px; line-height:32px\9; padding-left:4px; font-size:12px; margin-left:6px; _display:inline;}
+
+/*.videourl*/
+.videourl input{width:218px; height:34px; color:#666; padding-left:4px;}
+
+/*.bgset*/
+.bgset{height:30px; line-height:30px;}
+.bgset label{height:20px; line-height:20px; margin-left:20px; _display:inline; color:#666;}
+.bgset label input{vertical-align:middle; margin-right:4px;}
+
+/*.bgpic-set*/
+.bgpic-set li{float:left; width:102px; height:100px; margin-right:8px; _display:inline;}
+.bgsetpic a{display:block;width:98px; height:72px; background:#fff; border:1px solid #ccc;padding-top:2px; padding-left:2px;}
+.bgsetpic a:hover{background:#ff0198; border-color:#ff0198;}
+.bgsetpic img{width:95px; height:70px;}
+.bgpic-set li p{height:20px; line-height:20px; text-align:center;}
+.bgpic-set li.bgset{width:218px; height:24px; margin:0;}
+.bgpic-set li.bgseted a{background:#ff0198; border-color:#ff0198; position:relative;}
+em.cured{display:block; width:24px; height:24px; background-position:0 -1630px; position:absolute; top:2px; left:2px;}
+
+/*.cancel-con*/
+.cancel-con li{width:220px;}
+.cancel-con li p{text-align:center; line-height:24px;}
+input.cancelbtn{display:block; width:146px; height:34px; line-height:34px;text-align:center; color:#fff; background:url(../../fontimg/common/loginbtn-bg.png) repeat-x; margin:0 auto; border:1px solid #fe59ab;}
+
+/*.oneline*/
+p.oneline{padding:0 8px 10px 8px; line-height:20px; text-align:center;}
+
+
+/*.mymusic=*/
+.musicbox{width:440px;}
+.musicbox .poph{width:440px;}
+.musiccon{width:430px; margin:0 auto; margin-top:10px;}
+.mymusic li{width:430px; height:30px; line-height:30px;}
+.mymusic li.first{font-size:14px; font-family:"Microsoft YaHei","\5FAE\8F6F\96C5\9ED1"; color:#555;}
+.mymusic li span{display:block; float:left; text-align:center;}
+.mymusic .time{width:76px;}
+.mymusic .musicname{width:214px;}
+.mymusic .songname{width:90px;}
+.mymusic .control{width:50px;}
+.mymusic .songfans{width:140px;}
+/*.control-music==*/
+.control-music{width:420px; margin:0 auto; margin-top:10px;}
+.songbtn{width:68px; height:24px; line-height:24px; text-align:center; border:1px solid #dc9fc0; background:url(../../fontimg/common/songbtn-bg.jpg) repeat-x;}
+.songpage li{float:left; width:22px; height:24px; line-height:24px; border:1px solid #efefef;margin-right:6px; text-align:center;}
+.songpage li.first{width:40px;}
+.songpage li a{display:block; text-align:center; }
+.songpage li a.overed{background:#ff0099; color:#fff;}
+.song-text{width:408px; height:44px; padding-left:8px; padding-right:8px; _padding-left:5px; _padding-right:5px; margin-top:5px; line-height:44px; overflow:hidden;}
+.addsong input.intext{width:128px; margin-left:4px; vertical-align:middle;}
+.addsonger input.intext{width:68px;margin-left:4px; vertical-align:middle;}
+.addsonger{ margin-left:8px; margin-right:8px; _display:inline;}
+a.addbtn{display:block; width:47px; height:28px; line-height:28px; text-align:center; color:#fff; background:#ff0099; margin:0 auto; margin-top:6px;}
+a.lotaddbtn{color:#ff0099;height:28px; line-height:28px; margin-top:4px;}
+/*.music-explain==*/
+.music-explain{width:400px; height:70px; border:1px solid #eeeeee; margin:0 auto; margin-top:10px; padding-top:6px; padding-left:6px;}
+.music-explain p{line-height:20px;}
+/*.addsong-list=*/
+.lotaddcon{width:250px;}
+.addsong-list li{width:250px; height:34px; line-height:34px; text-align:center;}
+.addsong-list span{float:left;}
+.addsong-list span.name{width:150px;}
+.addsong-list span.song{width:84px;}
+span.name .intext{width:115px; margin-left:4px;}
+span.song .intext{width:80px;}
+
+/*.paysong*/
+.paysong{margin-top:10px; margin-bottom:20px;}
+
+/*.freeget*/
+a.freeget{display:block; height:34px; line-height:40px;}
+
+/*.stick*/
+.stick{width:137px;}
+.stick .poph{width:137px; border-bottom:none;}
+.stick .poph span{padding-left:10px;}
+.stick .popcon{width:137px; padding:0;}
+.stick-hd li{float:left; border-right:1px solid #E0E0E0; border-bottom:1px solid #E0E0E0; width:68px; text-align:center; height:25px; line-height:25px; background:url(../../fontimg/common/navbg.jpg) repeat-x; cursor:pointer; padding:0;}
+.stick-hd li.end{border-right:none;}
+.stick-hd li.overed{background:url(../../fontimg/common/navbgover.jpg) repeat-x;}
+.stick-bd ul{margin-left:10px; margin-top:20px;}
+.stick-bd li{float:left; margin-right:10px;}
+.stick-bd li a{display:block;}
+p.otline{ text-align:center; line-height:20px;}
+
+/*.giftcount*/
+.giftcount{border-bottom:none;}
+.giftnum{height:120px;}
+.giftnum p{height:34px; line-height:34px;}
+.giftnumtext span{line-height:34px;}
+.giftnumtext .changenum input{ height:23px;}
+
+/* .suc-get 
+.suc-get{position:absolute; width:320px; height:72px;border:1px solid #cecece;background:#fff;font-size:14px;z-index:120;}
+.suc-get p{ text-indent:20px; width:320px; height:30px; line-height:30px; margin-bottom:20px;}
+.suc-get p img{width:24px; height:24px; margin:0; vertical-align:middle;}
+.suc-get span{ display:block; text-indent:20px; margin-top:4px;}
+.vipbtm{ width:320px; height:66px; background:#f9efee; border-top:1px solid #CCC; text-indent:10px; line-height:66px; color:#686465; font-weight:bolder;}
+.vipbtm img{ vertical-align:middle; margin:10px 0; margin-right:4px;}
+.suc-get p.sucinfo{width:auto; height:auto; text-align:left; text-indent:0; line-height:normal; padding:0 8px;}
+.get2{height:auto; font-size:14px;}*/
+
+/*.signbox*/
+.signbox{padding-bottom: 0;}
+.signbox .surebtn{margin-bottom: 20px;}
+.sign-con{width:220px; line-height: 42px; text-align: center;}
+.sign-con img{width:42px; height: 42px; margin-left: 5px; margin-right: 5px; vertical-align: middle;}
+.sign-btm{height: 35px; margin-top: 10px; border-top:1px solid #e0e0e0; background: url(../../fontimg/common/signbtm-bg.jpg) repeat-x; }
+.signbtm-l{width:172px;}
+.signbtm-l img,.signbtm-r img{float: left; margin-top: 10px; margin-left: 10px; _display: inline;}
+.signbtm-l a,.signbtm-r a{float: left; height: 34px; line-height: 34px; margin-left: 10px; _display: inline; color: #f64aa5;}
+.signbtm-r{background: url(../../fontimg/common/signbtm-line.jpg) left top  no-repeat; margin-left: 15px;}
+.tofriend-text textarea{overflow-y:auto; resize:none; width:220px; height:70px; max-width:220px; max-height:70px;}
+
+/*.helpbox*/
+.helpbox{width:490px;}
+.helpbox .popcon{width: auto; padding-left:40px; overflow: hidden;}
+.helpcon{float:left; width:184px; margin-right:40px; margin-top: 18px;}
+.helpcon dt{font-weight:bolder; font-size: 12px; font-family: "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1"; height: 40px; line-height: 40px;}
+.helpcon dd{line-height: 24px;}
+dd.qqlink{height:24px; overflow:hidden;}
+dd.qqlink a{display: inline-block; margin-right: 14px;}
+.helpbox .surebtn{float: left; margin:20px 0 20px 90px; _display: inline;}
+
+/*.uselive*/
+.uselive{padding:0; padding-bottom:6px;}
+.uselive p{line-height:30px;}
+.cast-select{ margin-top:3px;}
+.cast-explain{ text-indent:40px; color:#999;}
+/*#GradBox*/
+.gradline{line-height: 40px; text-align: center;}
+
+.imgareaselect-border1 {
+	background: url(../../fontimg/common/border-v.gif) repeat-y left top;
+}
+
+.imgareaselect-border2 {
+    background: url(../../fontimg/common/border-h.gif) repeat-x left top;
+}
+
+.imgareaselect-border3 {
+    background: url(../../fontimg/common/border-v.gif) repeat-y right top;
+}
+
+.imgareaselect-border4 {
+    background: url(../../fontimg/common/border-h.gif) repeat-x left bottom;
+}
+
+
+.imgareaselect-border1, .imgareaselect-border2,
+.imgareaselect-border3, .imgareaselect-border4 {
+    filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+
+.imgareaselect-handle {
+    background-color: #fff;
+    border: solid 1px #000;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+.imgareaselect-outer {
+    background-color: #000;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+.starbox{ width:730px;}
+.starcon{ width:620px; line-height:25px; padding:10px 0;}
+
+/*#BroadCast*/
+.broad-con{padding:12px; padding-bottom:0;}
+.broad-list dt{float: left;}
+.broad-list dt a{display: block; text-decoration: underline; text-align: center;}
+.broad-list dd{float: left;}
+.broad-list dd.mid-list{margin-left: 10px; margin-right: 20px;}
+dd.mid-list p{line-height: 25px;}
+.lookBtn{display: block; margin-top: 25px;}
+#BroadCast{position: fixed; right: 10px; bottom: 10px;}
+
+
+
+/*跑道*/
+.lenPopcon{width:280px;}
+.runwaybox{width:580px;}
+.runwaybox .starcon{width:550px;}
+.runwaybtn{text-align: center;}
+.sendObj{height:40px; line-height:40px;}
+.sendObj label{margin-top: 4px; margin-right:5px;}
+.sendObj select{margin-top:10px;}
+.runway-gift{height:65px; overflow: auto; border:1px solid #ccc; padding:10px; padding-right:3px;}
+.runway-gift li{float: left; margin-right:12px; padding-bottom:5px; margin-bottom:10px; border:1px solid transparent; cursor: pointer;}
+.runway-gift li.on{border:1px solid #FE59AB;}
+.runway-gift li img{width:42px; height:42px;}
+.runway-num{height:50px; line-height:50px; border-bottom:1px dashed #ccc;}
+.runway-num input{width:50px; height:24px; line-height:24px; margin-top:12px;}
+.runway-num label{margin-top:10px; margin-right: 5px;}
+.runway-tips{height:40px; line-height:40px; text-align: center;}
+.runway-text input.intext{width:270px;}
+.runwayok{width:220px; margin:0 auto; margin-top: 10px;}
+
+
+
+/*.yourinfo*/
+.yourinfo{position:fixed;z-index:230;right: 10px; bottom: 10px;width:241px; height:122px; background:url(../../fontimg/common/info-bg.jpg) no-repeat;display:none;}
+.yourinfo-h{height:28px; line-height:28px; color:#fff; padding-left:10px; overflow: hidden;}
+.yourinfo-h span{float:left;}
+.yourinfo-h em{float: right; width:28px; height:28px; cursor:pointer;}
+.yourinfo dl{overflow: hidden; margin-top:10px; margin-left:10px;}
+.yourinfo dl dt{float:left;border:1px solid #c9ccd0; width:69px; height:69px; padding-top:2px; padding-left:2px;}
+.yourinfo dl dt img{width:65px; height:65px;}
+.yourinfo dl dd{float:left;color:#999; margin-left:6px;}
+.yourinfo dl dd p{height:26px; line-height:26px;}
+.yourinfo dl dd p img{vertical-align: middle;}
+.yourinfo dl dd em{display:block; height:20px; line-height:20px; width:150px;}
+
+/*.luckgiftbox*/
+.luckgiftbox{width:370px;}
+.luckgiftbox .popcon{width:350px;}
+.luckgift-list li{float: left;width:102px; height:100px; margin-top:10px; margin-left:11px;}
+.luckgift-list li a{display:block;}
+.luckgift-list li a img{width: 100px; height:70px; border:1px solid #c9ccd0;}
+.luckgift-list li.on a img{border-color:#f64ba7;}
+.luckgift-list li a span{display:block; width:102px; height:24px; line-height:24px; text-align:center;}
+.gray{ color:#999999;}

@@ -1,0 +1,105 @@
+
+body{ background:url(../../fontimg/activities/happybirthday/bj_all.jpg) repeat;}
+.kong{ background:url(../../fontimg/activities/happybirthday/bj.jpg) no-repeat center top; height:354px;}
+.ovhide{ overflow:hidden;}
+.ml48{margin-left:48px;}
+.disblock{ display:block;}
+
+.bjwhite{ background:#fffaf8; overflow:hidden;}
+.bjwhite .tit{ width:975px; height:35px; margin:0 auto; background:#f95fa7; color:#fff; font-size:16px; line-height:35px; font-family:'Î¢ÈíÑÅºÚ'; text-indent:15px;}
+.bjwhite .tit img{ display:inline-block; vertical-align:middle;}
+
+
+.round-top{ background:url(../../fontimg/activities/happybirthday/round-top.jpg) no-repeat; width:1000px; height:8px; _height:5px;}
+.round-bottom{ background:url(../../fontimg/activities/happybirthday/round-bottom.jpg) no-repeat; width:1000px; height:8px;}
+
+
+/*.anchor-con*/
+.anchor-con{width:230px; margin-left:30px;  _margin-left:15px;}
+.anchor-con li{float:left; width:216px; margin:6px 10px 14px 0; _display:inline;}
+.chorname,p.time{height:22px; line-height:22px; overflow:hidden; white-space:nowrap; display:block; width:214px;}
+.anchor-head{width:205px; height:121px;padding:5px; margin-bottom:6px; border:1px solid #e6e6e6; position:relative;}
+.chorover{background:#ff0099;border-color:#fff;}
+.anchor-head img{width:205px; height:121px;}
+.playing,.readying{position:absolute; bottom:5px; right:5px; _right:4px; _bottom:5px; height:24px; line-height:22px; text-indent:24px; color:#fff;}
+.playing{width:70px; background-position:0 -566px; }
+.readying{padding-right:8px;background-position:0 -600px;}
+.nambtm{width:120px; height:22px; overflow:hidden; white-space:nowrap; display:block;}
+.totbless{height:30px; line-height:30px; overflow:hidden; white-space:nowrap; display:block; width:220px; font-size:14px; font-family:'Î¢ÈíÑÅºÚ'; color:#333333;}
+.totbless a, .rule a{ color:#ff1e73;}
+
+
+.inform{ margin:20px 0 0 20px; font-size:14px;}
+.acceptgift{ margin:10px 0 0 10px; background:url(../../fontimg/activities/happybirthday/accept_bj.jpg) no-repeat; width:710px; height:167px;}
+.acceptgift ul{ display:block; width:670px; margin:50px 0 0 0px;}
+.acceptgift ul li{ float:left; display:block; width:105px; height:70px; text-align:center; line-height:35px; margin-left:28px; _margin-left:23px;}
+.acceptgift ul li img{ border:1px solid #999;}
+
+/*.taoli*/
+.taoli{ width:780px; height:180px; margin:20px 0 0 20px;}
+.taoli ul{ display:block; width:780px; height:155px; overflow:hidden; border-right:1px dashed #eed2c9;}
+.taoli ul li{ float:left; display:block; width:135px; height:155px; text-align:center; line-height:35px; margin-left:15px; _margin-left:15px;}
+.buy_btn{  top:110px; right:40px;}
+
+
+.line{ border-bottom:1px dashed #eed2c9; height:260px;}
+
+/*.bang*/
+.rule{ width:700px; display:block; margin-left:20px; line-height:20px; margin-top:10px; color:#454545;}
+.birth,
+.award{ width:940px; margin:20px auto; overflow:hidden;}
+.birthgirl{ width:455px;}
+.birthgirl .tit{ width:455px; height:40px; background:#f95fa7; text-align:center; font-weight:bold; font-size:18px; box-shadow:3px 3px 6px #666;}
+.birthgirl .cont{ width:453px; height:320px; background:#ffeff6; border:1px solid #ede8e6;}
+.birthboy{ width:455px;}
+.birthboy .tit{ width:455px; height:40px; background:#1ab4cf; text-align:center; font-weight:bold; font-size:18px; box-shadow:3px 3px 6px #666;}
+.birthboy .cont{ width:453px; height:320px; background:#ebfcff; border:1px solid #ede8e6;}
+
+/*.conbox*/
+.conbox-list{height:70px; margin:12px 0 0 15px;}
+.conbox-list dt,.conbox-list dd{float:left;height:65px; overflow:hidden; color:#454545;}
+.conbox-list dt img{width:65px; height:65px;}
+.conbox-list dt{width:65px; margin-right:10px; position:relative;}
+dt .attent{position:absolute; bottom:0; right:0; display:none;}
+.conbox-list dd{width:185px;}
+.toper span{white-space:nowrap; width:112px; overflow:hidden;}
+.conbox-list dd a{color:#ff0099; font-size:14px; line-height:24px; display:block; white-space:nowrap; width:150px; overflow:hidden;}
+
+.conbox-list-small{height:70px; margin:30px 0 0 15px; _margin:30px 0 0 12px;}
+.conbox-list-small dt,.conbox-list-small dd{float:left; overflow:hidden; color:#454545;}
+.conbox-list-small dt img{width:47px; height:50px;}
+.conbox-list-small dt{width:48px;  position:relative;}
+dt .attent{position:absolute; bottom:0; right:0; display:none;}
+.conbox-list-small dd{width:140px;}
+.toper span{white-space:nowrap; width:112px; overflow:hidden;}
+.conbox-list-small dd a{color:#ff0099; font-size:12px; display:block; white-space:nowrap; width:140px; overflow:hidden;}
+
+.guard{ width:230px; margin-left:15px; _margin-left:10px;}
+.guard a{ display:inline-block; margin-right:20px; }
+.numone{ color:#f11a6d; font-size:14px;}
+.more{ width:100px; margin-top:10px;}
+
+/* .award */
+.award-con{ width:455px; border:1px solid #e5e1df;}
+.award-con .tit{ background:#efefef; height:40px; width:455px; line-height:40px; color:#666666; text-indent:20px; font-weight:bold;}
+.award-con .conbox{ height:285px; padding:30px 0 0 50px;}
+.awardbox{ width:340px; height:120px;}
+.awardbox img{ display:block;}
+
+
+/* bcon */
+.bcon table{ width:455px; text-align:center; color:#999999;}
+.bcon table tr{ height:36px; _height:26px;}
+.bcon table td{ padding:5px;}
+
+
+.vote{ position:absolute; background-color:#fff; border:1px solid #cecece; width:230px; font-size:14px; left:395px; top:120px;}
+.vote em,
+.buy em{ position:absolute; top:0; right:0; display:block; cursor:pointer;}
+.vote .cont{ width:200px; margin:20px 0 0 20px; line-height:30px; text-align:center;}
+.vote .conf,
+.buy .conf{ width:61px; height:25px; margin:10px auto;}
+
+.buy{ position:absolute; background-color:#fff; border:1px solid #cecece; width:230px; font-size:14px; left:395px; top:80px;}
+.buy .cont{ width:200px; margin:20px 0 0 20px; line-height:30px;}
+.buy .cont input{ width:80px;}

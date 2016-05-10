@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+.livingbox{width:460px; height:510px;position:relative;z-index:70;}
+.live-player{width:460px; height:344px; }
+.qipao{position:absolute; top:-177px; left:-126px;width:124px; padding-top:214px; background:url(../../fontimg/common/qiqiu.png) no-repeat center top;}
+.qipao-list{width:122px; border-right:1px solid #c9ccd0; border-left:1px solid #c9ccd0; background:#fff; padding-top:5px; padding-bottom:5px;}
+.qipao-list a{position:relative;display: block; width:109px; height:97px; margin:0 auto; padding-top:5px; cursor: pointer;}
+.qipao-list a span{display: block;}
+.qipao-list a span.name{height:24px; line-height:24px; overflow: hidden;}
+.qipao-list a span.name em{float:left;width:54px; height:24px;}
+.qipao-list a span.pics{border:1px solid #cccccc; width:107px; height:65px;}
+.qipao-list a:hover span.pics{border-color:#ff0099; background:#ff0099;}
+.qipao-list a span img{display: block; width:103px; height:61px; margin:0 auto; margin-top: 2px;}
+.qipao-list a i{position:absolute; bottom:33px; right:3px; font-style: normal; width:103px; height:18px; line-height:18px; color:#fff; text-align: center;}
+.qipao-list a i{background:rgba(0, 0, 0, 0.5);
+filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#7f000000', EndColorStr='#7f000000');}
+:root .qipao-list a i{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#7f000000', EndColorStr='#7f000000');}
+.closeqipao{display:block;height:26px; line-height:26px; text-align: center; color:#fff; margin-left: 1px; background:url(../../fontimg/common/qipao-btn.jpg) no-repeat;}
+.model{width:21px; height:40px; background-position:-214px -1664px; position:absolute; top:1px; left:-21px;}
+.model a{float:right; width:19px; height:17px; margin-top:2px;}
+.model a.l-model{background:url(../../fontimg/common/lover.png) no-repeat;}
+.model a.rover{ background:url(../../fontimg/common/lover.png) no-repeat;}
+.medal-box{width: 124px; position: absolute; top: 10px; left: 10px;}
+.medal-box li{float: left; width: 30px; padding: 2px;}
+.medal-box li img{width: 30px; height: 30px;}
+.medal-box li.medal-1{padding-top: 10px; width: auto;}
+.medal-box li.medal-1 img{display:block;width: 37px; height: 49px;}
+.flash-l{width:450px; height:350px; position:absolute; top:20; left:1; z-index:80; display:none;}
+.flash-m{width:925px; height:344px; position:absolute; top:0; left:0; z-index:80; display:none;}
+.flash-r{width:460px; height:344px; position:absolute; top:0; left:470px; z-index:80; display:none;}
+.flash-car{width:380px; height:310px; position:absolute; top:240px; left:600px; z-index:80; display:none;}
+.flash-fly{width:380px; height:310px; position:absolute; top:94px; left:270px; z-index:80; display:none;}
+.gifts{height:156px; margin-top:10px;}
+.gift-box{width:460px; height:120px;}
+/*.gift-menu*/
+.gift-menu{height:25px;}
+.gift-menu ul{width:460px; _margin-bottom:-1px;}
+.gift-menu li{background:url(../../fontimg/common/gifmenubg.png) repeat-x; float:left;height:25px; line-height:25px;}
+.gift-menu li.last{float:right; border-left:1px solid #c9ccd0; border-right:1px solid #c9ccd0;}
+.gift-menu li.lastwo{border-right:1px solid #c9ccd0;}
+.gift-menu li.first{border-left:1px solid #c9ccd0; }
+.gift-menu li a{display:inline-block; text-align:center; padding-left:12px; padding-right:12px;}
+.gift-menu li a.giftover{background:url(../../fontimg/common/gifmenuover.jpg) repeat-x; height:25px; border-left:1px solid #c9ccd0; border-right:1px solid #c9ccd0; border-bottom:1px solid #fff;}
+.gift-menu li.first a.giftover{border-left:none;}
+.gift-menu li.lastwo a.giftover{border-right:none;}
+.gift-menu li.last a.giftover{ border:none; border-bottom: 1px solid #fff;}
+/*.gift-con*/
+.gift-con{background:#fff; height:95px; border:1px solid #c9ccd0; z-index:10;}
+span.prev,span.next{float:left; width:24px; height:94px; cursor:pointer; z-index:20; position:relative;}
+span.prev{background-position:0 -1136px;}
+span.next{background-position:-34px -1136px;}
+.gift-list{float:left; width:410px; height:70px; overflow:hidden; margin-top:15px; z-index:5;}
+.giftList{width:4500px; height:70px; position:relative;}
+.gift-list ul{width:426px;}
+.gift-list ul.pack-list{width:auto;}
+.gift-list li{float:left; width:54px; height:70px; margin-right:17px;}
+.pack-list li{position:relative;}
+.pack-list li i{position:absolute; font-style:normal; background:#060; color:#fff; padding:1px 2px; bottom:24px; right:0; font-size:10px;}
+p.gift-none{margin-top: 20px;text-align:center;width: 380px;}
+.gift-list li a{display:block; text-align:center;}
+.gift-list li img{width:42px; height:42px;}
+.gift-list li img.overbd{border:2px solid #FF069C;}
+.gift-list li span{display:block; text-align:center;}
+/*.gift-control*/
+.gift-control{height:36px; padding-left:12px; background:url(../../fontimg/common/pinkbg.jpg) repeat-x; position:relative;}
+.giftnamefram,.numname{background:#fff; position:absolute;border:1px solid #ccc; display:none;}
+.giftnamefram{width:150px;bottom:31px;right:251px;}
+.giftnamefram li,.numname li{height:24px; line-height:24px;}
+.giftnamefram li a,.numname li a{display:block; padding-left:6px; color:#FF0099;}
+.numname{width:90px; bottom:31px; right:115px;}
+.giftext{color:#fff; margin-top:8px;}
+.changenum{width:64px; height:25px; background-position:0 -1273px; margin:5px 0 0 5px; _display:inline; position:relative;}
+.changenum input{background:none; border:none; outline:none; width:46px; height:25px; line-height:25px; position:absolute; top:0; left:0;}
+.changenum span{width:18px; height:12px; cursor:pointer;position:absolute;}
+.changenum span.add{right:0; top:0;}
+.changenum span.reduce{right:0; bottom:0;}
+a.subbtn{float:left;width:43px; height:23px; line-height:23px; margin-top:6px; text-indent:-9999px; _display:inline;}
+a.givebtn{background-position:0 -1240px; margin-right:15px; margin-left:15px;}
+a.rechangebtn{background-position:-53px -1240px;}
+
+/*guar*/
+.guar{position:absolute; top:310px; left:10px; background:url(../../fontimg/common/shouhu.png) no-repeat; width:37px; height:27px; padding-left:26px; line-height:27px;
+_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../../fontimg/common/shouhu.png");
+_background-image:none;}
+
+
+
+

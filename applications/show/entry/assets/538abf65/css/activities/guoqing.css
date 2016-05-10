@@ -1,0 +1,22 @@
+body{ background:url(../../fontimg/activities/nationalday/bjrepeat.jpg) repeat;}
+.kong{ background:url(../../fontimg/activities/nationalday/top.jpg) no-repeat center top; height:471px;}
+
+.rule{ height:105px; background:#FFF;}
+.rule img{ display:inline-block; float:left; margin:13px 30px 0 30px;}
+.rule span{ display:inline-block; float:left; font-size:14px; font-family:'Î¢ÈíÑÅºÚ'; line-height:28px; margin-top:18px;}
+
+.ovhide{ overflow:hidden;}
+/* .anchor-new */
+em.order{ background:url(../../fontimg/activities/nationalday/sprite-easter.png) no-repeat;}
+.anchor-new{width:490px; height:432px; overflow:hidden; margin-bottom:20px; _display:inline; background:#fff;}
+.anchor-new h6{width:490px; height:35px; line-height:35px; text-indent:16px; font-family:"SimSun","\5B8B\4F53"; background:#c1edf9; font-size:16px;}
+.anchor-new-con{width:488px; height:386px;border:1px solid #c1edf9; border-top:none; padding-top:10px;}
+.anchor-new-h{width:400px; margin-left:67px; color:#0b6160; font-size:14px;}
+.anchor-new-h li{float:left; text-align:center; width:130px;height:22px; line-height:22px;}
+.anchor-new-list{width:400px; height:350px; margin-left:30px;}
+.anchor-new-list li{width:430px; margin-top:15px; _display:inline;}
+.anchor-new-list span{float:left; width:130px; text-align:center; overflow:hidden;}
+em.order{float:left; width:19px; height:19px; background-position:0 -161px; text-align:center; line-height:19px; color:#fff; font-weight:bolder; margin-right:20px; padding-top:0;}
+li.no1 em.order{background-position:0 -190px;}
+li.no2 em.order{background-position:0 -219px;}
+li.no3 em.order{background-position:0 -248px;}

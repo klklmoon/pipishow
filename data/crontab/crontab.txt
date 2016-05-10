@@ -1,0 +1,174 @@
+#系统需要，四台机器都需要跑的脚本
+#新系统的图片同步脚本
+* * * * * /data/webservice/crontab/letianImgRsync/rsync.sh
+#按小时切割nginx log
+59 * * * * sudo /webservice/server/nginx/sbin/cut_nginx_log.sh
+#新系统预发布环境生成静态首页
+* * * * * /data/webservice/crontab/create_index_html_letiantest.sh
+#新系统生成静态首页
+* * * * * /data/webservice/crontab/create_index_html_letian.sh
+#新系统生成PPTV需要的静态首页
+* * * * * /data/webservice/crontab/create_index_html_pptv.sh
+#每台机器都需要生成主站用到的js
+*/6 * * * * /webservice/server/php/bin/php /webservice/webdoc/letian/applications/command/cron.php createPlayer getDoteyDayTop >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#检测每台机器的php、nginx、memcache服务进程，进程终止后自动重启
+*/2 * * * * /webservice/crontab/auto_start.sh
+
+
+#乐天主站相关
+#频道节目分类脚本
+*/5 * * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php DoteyCategoryIndex Index >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#今日推荐脚本
+01 06 * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php DoteyCategoryIndex TodayRecommand >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#上周符合成为唱将主播脚本
+15 03 * * 1 /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php DoteyCategoryIndex LastWeekStarSinger >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#主播时段统计 主要用户主播排序
+20 06 * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php doteyPeriodCount Index >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#清楚最近观看记录中没有直播的数据
+40 06 * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php Archive LatestSeeView >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#道具赠送之送贴条
+00 07 * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php PropsSend SendLabel >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#推荐新秀主播，每小时跑一次
+00 * * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php DoteyIndexRight RookieDotey >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#最新加入的主播  每天跑一次
+00 00 * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php DoteyIndexRight NewJoinDotey >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#明星主播 每月1日凌晨6:00
+00 06 01 * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php DoteyIndexRight StarDotey >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#情谊榜，每十分钟跑一次
+*/10 * * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php doteyTop SuperFriendly >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#用户排名 每天跑一次 4:30开始跑
+30 04 * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php  UserTop AllSuperDedication >>/webservice/webdoc/letian/data/runtimes/crontab.log
+#后台消息推送，每隔5分钟跑一次
+*/5 * * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php userMessage pushMessage >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#骰子游戏 失效骰子对局解冻皮蛋
+*/10 * * * * /webservice/server/php/bin/php /webservice/webdoc/letian/applications/command/cron.php Dice freezeEggs >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#用户 每天跑一次  清空过期靓号
+30 04 * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php  User recyleNumber >>/webservice/webdoc/letian/data/runtimes/crontab.log
+#代理 每月1日凌晨跑一次  商城代理列表排序
+30 05 01 * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php  agents LastMonthSalesTop >>/webservice/webdoc/letian/data/runtimes/crontab.log
+#vip过期处理脚本 每天凌晨00：01执行
+01 00 * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php  PropsSend StopOvertimeVip >>/webservice/webdoc/letian/data/runtimes/crontab.log
+#每天监测视频服务器地址的分配情况，6点，12点，17点
+00 * * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php Archive ViewGbp >>/webservice/webdoc/letian/data/runtimes/crontab.log
+
+
+#排行榜
+#直播间本周排行榜
+*/30 * * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php AllDoteyCharmCrontab weekRank >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#直播间今日排行榜
+*/30 * * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php AllDoteyCharmCrontab todayRank >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#排行榜超级魅力榜
+00 */2 * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php doteyTop SuperCharm >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#排行榜主播人气榜
+#10 */1 * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php doteyTop DoteySuperGift >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#排行榜用户点唱达人榜
+20 */2 * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php doteyTop UserSuperSong >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#排行榜主播超级点唱榜
+30 */2 * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php doteyTop DoteySuperSong >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#排行榜主播超级粉丝榜
+40 */2 * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php doteyTop DoteySuperFans >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#排行榜主播新人粉丝榜
+50 */2 * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php doteyTop DoteyNewFans >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#直播间超级榜，移动端用
+*/30 * * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php Archive SuperTop >> /webservice/webdoc/letian/data/runtimes/crontab.log
+
+
+#网站后台
+#网站后台每隔10分钟去获取一次现在正在直播的档期的在线人数
+*/10 * * * * /webservice/server/php/bin/php /webservice/webdoc/letian/applications/command/cron.php adminSessStatCrontab sessStat >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#直播间在线人数统计
+0,30 * * * * /webservice/server/php/bin/php /webservice/webdoc/letian/applications/command/cron.php adminOperateCrontab showstatOnline >> /webservice/webdoc/letian/data/runtimes/crontab.log
+
+
+#家族
+#每5分钟自动筹备 
+*/5 * * * * /webservice/server/php/bin/php /webservice/webdoc/letian/applications/command/cron.php Family AutoPrepare >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#每5分钟定时检查家族成员的普通主播身份是否变更，家族主播身份不允许变更，普通主播不发族徽，家族主播发放族徽
+*/5 * * * * /webservice/server/php/bin/php /webservice/webdoc/letian/applications/command/cron.php Family CheckDotey >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#定时计算家族消费
+*/5 * * * * /webservice/server/php/bin/php /webservice/webdoc/letian/applications/command/cron.php Family FamilyConsume >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#定时生成家族的三种榜单，每种4个榜单，并生成家族榜单荣誉
+*/5 * * * * /webservice/server/php/bin/php /webservice/webdoc/letian/applications/command/cron.php Family MakeTop >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#定时检查家族是否可以升级
+*/5 * * * * /webservice/server/php/bin/php /webservice/webdoc/letian/applications/command/cron.php Family FamilyUpgrade >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#每5分钟计算一次家族榜单的名次
+*/5 * * * * /webservice/server/php/bin/php /webservice/webdoc/letian/applications/command/cron.php Family TopNumber >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#家族退入退出记录，每隔15分钟跑一次
+*/15 * * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php User FamilyRecords >> /webservice/webdoc/letian/data/runtimes/crontab.log
+
+
+#统计报表相关
+#用户付费转化概况
+30 03 * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php userStat PaymentInfo >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#用户功能使用情况
+35 03 * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php userStat FunctionInfo >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#活跃度概况
+40 03 * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php userStat ActiveInfo >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#等级活跃度
+45 03 * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php userStat RankActiveInfo >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#签到统计
+50 03 * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php userStat CheckInInfo >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#收入支出统计
+00 06 * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php Income SendEveryday >> /webservice/webdoc/letian/data/runtimes/crontab.log
+
+
+#支付平台
+#给老杨发统计报表
+30 0 * * * curl -N --url http://10.0.2.89/admin.php/Report/send_email >> /webservice/webdoc/useraccount/cron/crontab.log
+#渠道统计渠道用户关系表
+30 3 * * * /webservice/server/php/bin/php -f /webservice/webdoc/useraccount/cron/popularization_stat/create_channel_total_uids.php >> /webservice/webdoc/useraccount/cron/crontab.log
+#渠道统计数据
+30 4 * * * /webservice/server/php/bin/php -f /webservice/webdoc/useraccount/cron/popularization_stat/show_popularization_stat.php >> /webservice/webdoc/useraccount/cron/crontab.log
+#给金子文发的统计报表
+55 0 * * * curl -N --url http://10.0.2.89/admin.php/Report/jzwreport >> /webservice/webdoc/useraccount/cron/crontab.log
+#给金子文、李勇、张晗等发的礼物统计报表
+30 1 * * * /webservice/server/php/bin/php -f /webservice/webdoc/useraccount/cron/statistics/gift_day_statistics.php >> /webservice/webdoc/useraccount/cron/crontab.log
+#给舒旭飞发的礼物统计报表
+15 2 * * * /webservice/server/php/bin/php -f /webservice/webdoc/useraccount/cron/statistics/gift_day_data_list.php >> /webservice/webdoc/useraccount/cron/crontab.log
+
+#iphone远程通知
+#*/5 * * * * curl -N --url http://show.pipi.cn/index.php?r=api/pushLivingNotice
+
+#活动相关
+#礼物之星每周活动规则初始化，上线后第二周开始执行
+01 00 * * 1 /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php giftStar InitGiftStarSet >>/webservice/webdoc/letian/data/runtimes/crontab.log
+#礼物之星存储上周排行榜，上线后第二周开始执行
+01 00 * * 1 /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php giftStar SaveLastWeekRank >>/webservice/webdoc/letian/data/runtimes/crontab.log
+#礼物之星奖励上周礼物之星主播，上线后第二周开始执行
+10 08 * * 1 /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php giftStar RewardLastWeekDotey >>/webservice/webdoc/letian/data/runtimes/crontab.log
+#礼物之星生成用于活动页的排行，每5分钟执行一次
+*/5 * * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php giftStar CreateWeekRankWeb >>/webservice/webdoc/letian/data/runtimes/crontab.log
+#礼物之星生成用于直播间显示的排行，每5分钟执行一次
+*/5 * * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php giftStar CreateWeekRankLingbox >>/webservice/webdoc/letian/data/runtimes/crontab.log
+#生日快乐活动收录主播生日信息，每天执行一次
+35 3 * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php happyBirthday InitBirthdayDotey >>/webservice/webdoc/letian/data/runtimes/crontab.log
+#生日快乐活动页面数据缓存，每5分钟执行一次
+*/5 * * * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php happyBirthday CreateHappyBirthdayPageData >>/webservice/webdoc/letian/data/runtimes/crontab.log
+#生日快乐上月排行榜入库，每月1日执行一次
+30 0 1 * * /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php happyBirthday SaveLastMonthData >>/webservice/webdoc/letian/data/runtimes/crontab.log
+#周2赠礼活动，每周2晚上零点执行一次
+#0 0 * * 2 /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php happyTuesday TuesDayRank >>/webservice/webdoc/letian/data/runtimes/crontab.log
+#周2赠礼活动，发放勋章，每周2每隔15分钟跑一次脚本
+#*/15 * * * 2 /webservice/server/php/bin/php -f /webservice/webdoc/letian/applications/command/cron.php happyTuesday SendMedal >>/webservice/webdoc/letian/data/runtimes/crontab.log
+#每日幸运星
+#*/5 * * * * /webservice/server/php/bin/php /webservice/webdoc/letian/applications/command/cron.php luckStar saveLuckStar >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#图丽直播列表
+*/5 * * * * /webservice/server/php/bin/php /webservice/webdoc/letian/applications/command/cron.php createTuliXml UpdateXml >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#女神争夺战
+00 00 * * * /webservice/server/php/bin/php /webservice/webdoc/letian/applications/command/cron.php Battle Battle >> /webservice/webdoc/letian/data/runtimes/crontab.log
+
+
+#注册推广联盟
+#统计前一天的渠道统计信息
+00 01 * * * /webservice/server/php/bin/php /webservice/webdoc/letian/applications/command/cron.php partnerCrontab statPopularizationEveryDay >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#统计当天每半小时新注册用户渠道统计信息
+*/30 * * * * /webservice/server/php/bin/php /webservice/webdoc/letian/applications/command/cron.php partnerCrontab statPopulariationEveryHour >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#统计当天每小时新注册用户推广统计信息
+00 * * * * /webservice/server/php/bin/php /webservice/webdoc/letian/applications/command/cron.php partnerCrontab getNewChannelEveryHour >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#统计前一天的注册推广统计信息
+00 05 * * * /webservice/server/php/bin/php /webservice/webdoc/letian/applications/command/cron.php partnerCrontab regPromoteStatEveryDay >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#渠道每日登陆统计
+00 03 * * * /webservice/server/php/bin/php /webservice/webdoc/letian/applications/command/cron.php partnerCrontab loginStatEveryDay >> /webservice/webdoc/letian/data/runtimes/crontab.log
+#渠道每日在线时长统计
+00 04 * * * /webservice/server/php/bin/php /webservice/webdoc/letian/applications/command/cron.php partnerCrontab onlineStatEveryDay >> /webservice/webdoc/letian/data/runtimes/crontab.log
+

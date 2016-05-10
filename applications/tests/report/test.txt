@@ -1,0 +1,10 @@
+GiftService
+ [x] Save gift category
+ [x] Del gift category by cat ids
+ [x] Get gift category
+ [x] Save gift
+ [x] Del gift by gift id
+ [x] Save gift effect
+ [x] Del gift effect
+ [ ] Get cat gift list
+

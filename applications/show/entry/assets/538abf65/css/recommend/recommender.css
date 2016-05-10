@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+.recomn-box{width:1000px; height:1650px; position: relative; margin:0 auto;background: url(../../fontimg/recommend/xiaoyi/recomn-bg.jpg) center top no-repeat;}
+
+/*.rec-btn*/
+.rec-btn{display:block; position: absolute; width: 107px; height: 38px; line-height: 38px; color: #fff; text-indent: -9999px;}
+.attent-btn{background: url(../../fontimg/recommend/xiaoyi/guanzhubtn.png) no-repeat; top:294px; left:70px;}
+.in-btn{background: url(../../fontimg/recommend/xiaoyi/inbtn.png) no-repeat; top:294px; left:195px;}
+
+/*.recomn-con*/
+.recomn-con{position: absolute;}
+.recomn-con p{font-family: "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1"; font-size: 14px; line-height: 24px; color: #313131;}
+
+.oneyear{top:470px; left: 80px;}
+p.oneyear-f{color: #5650c3; font-size: 16px; line-height: 28px;}
+p.oneyear-f em{color: #8c88d1;}
+
+.fans{top:744px; left: 80px;}
+p.fans-f{color: #5493da; font-size: 16px; line-height: 28px;}
+p.oneyear-f em{color: #97b7dd;}
+
+.recomn-btm{padding:5px 4px 8px 8px; margin-top: 8px; background-color:rgba(109, 108, 107, 0.9); filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#e56d6c6b', EndColorStr='#e56d6c6b');+background:#6d6c6b;}
+:root .recomn-btm{filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#e56d6c6b', EndColorStr='#e56d6c6b');}
+.recomn-btm p{color: #fff; font-size: 12px; line-height: 20px;}
+
+.moanchor{top:1058px; left: 80px;}
+p.moanchor-f{color: #9c78d7; font-size: 16px; line-height: 28px;}
+p.moanchor-f em{color: #b7a4d7;}

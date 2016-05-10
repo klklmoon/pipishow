@@ -1,0 +1,115 @@
+.faqhd{
+	height:41px; line-height:41px;
+	padding-left:20px; margin:15px 0 20px -5px;
+	color:#FFF; font-size:18px; font-family:Microsoft YaHei;
+	background:url(../../fontimg/common/i4.gif) no-repeat 0 -444px;}
+.faqlist{
+	margin-left:20px; _margin-left:10px;
+	margin-bottom:20px;
+	padding:15px; width:180px;
+	background-color:#F9F9F9;
+	}
+.faqlist dl dt{
+	color:#C96766; font-size:15px; font-weight:normal; font-family:Microsoft YaHei;
+	padding-bottom:10px;
+	margin-bottom:10px;
+	border-bottom:1px solid #BDBDBD;}
+.faqlist dl dd{ margin:15px 0;}
+.faqlist dl a{ color:#333;}	
+
+
+.faqcontent{
+	margin-left:260px;
+	margin-right:20px;
+	margin-bottom:20px;
+	min-height:1188px;
+	_height:1188px;
+	}
+
+.faqcontent .faqtitle{
+	position:relative;
+	height:20px;
+	padding-bottom:8px;
+	border-bottom:1px solid #BDBDBD;}
+.faqcontent .faqtitle h3{ font-size:15px;}
+.faqcontent .conswitch{
+	position:absolute;
+	right:5px; top:0;
+	width:20px; height:20px; cursor:pointer;
+	background:url(../../fontimg/common/i4.gif) no-repeat 5px -385px;}
+.faqcontent .conswitch-on{
+	background-position: -15px -385px;}
+
+.faqcontent h4{
+	color:#C96766;
+	font-size:13px;
+	padding:5px 0 5px 12px;
+	margin-top:20px;
+	background-color:#F5F5F5;}
+.faqcontent .asw{
+	padding-left:12px;}
+.faqcontent .asw p{
+	line-height:1.6em;
+	margin:12px 0;}
+	
+	
+	
+.boxshadow{ background:#fbfef4; border:1px solid #DFDFDF;}	
+
+.introduce-nav{
+	width:200px;
+	margin-right:20px; _margin-right:10px;}
+.introduce-nav ul{
+	background-color:#F9F9F9;
+	border-top:1px solid #EFEFEF;
+	border-right:1px solid #EFEFEF;
+	border-left:1px solid #EFEFEF;}
+.introduce-nav ul li{
+	display:inline;	
+	font-size:15px;
+	font-family:'Microsoft YaHei','Î¢ÈíÑÅºÚ','ÑÅºÚ';}
+.introduce-nav ul a{
+	display:block;
+	padding:10px 10px 10px 20px;
+	color:#555;
+	border-bottom:1px solid #EFEFEF;}
+.introduce-nav ul a.current,
+.introduce-nav ul a:hover{
+	text-decoration:none;
+	background-color:#E8E8E8;}
+
+.introduce{padding:0 0 20px 20px; margin-right:260px;}
+.introduce p{ margin:10px 0; line-height:1.8em;}
+.introduce h4,
+.introduce .jobs h2{ font-size:14px; font-family:'Microsoft YaHei','Î¢ÈíÑÅºÚ','ÑÅºÚ';}
+
+.introduce .jobs{ padding:20px 0; border:solid #BDBDBD; border-width:1px 0;}
+.introduce .jobs h2{ margin-bottom:5px;}
+.introduce .jobs td{
+	padding:5px 0;
+	font-family:'Microsoft YaHei','Î¢ÈíÑÅºÚ','ÑÅºÚ';}
+.introduce .jobs a{ color:#CE6665;}
+.introduce .job-intro{ margin-top:30px;}	
+
+
+
+.feedback{
+	margin-left:25px; _margin-left:10px;
+	margin-bottom:20px;
+	padding:15px; width:925px;
+	}
+.feedback p{ margin:20px 0; line-height:1.8em;}	
+.feedback textarea{ width:920px; height:160px; color:#808080;}
+.feedback input{ width:225px; height:35px; line-height:35px; color:#808080;}
+.feedback .cutpic{ color:#f03d81; display:inline-block; margin-right:20px; width:70px;}
+.feedback p span{ display:inline-block; margin-left:30px; width:240px; color:#fe8e02; }
+
+
+
+.feedback input.submit-pro {
+    background: url(../../fontimg/common/config.jpg) no-repeat scroll 0 0 transparent;
+    border: medium none;
+    cursor: pointer; color:#fff;
+    outline: medium none;
+    width: 99px; height:34px; line-height:34px;
+}

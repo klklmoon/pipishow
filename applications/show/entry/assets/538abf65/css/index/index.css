@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*.topbox*/
+.topbox,.topbox-con{background:url(../../fontimg/common/topboxbg.png) no-repeat;}
+.topbox{padding-top:10px; background-position:0 0;}
+.topbox-con{height:374px; background-position:-1000px bottom;}
+/*.topbox-m*/
+.topbox-m{width:531px;}
+.mflash{height:288px; width:514px; margin:0 auto;}
+.mflash-bd{width:436px; height:284px; background:url(../../fontimg/common/mflashbg.png) no-repeat center top;}
+.mflash-box{width:416px; height:245px; margin:0 auto; margin-top:8px; overflow:hidden;}
+.mflash-box ul li{ position:relative; zoom:1;}
+.mflash-box ul li img{width:416px; height:245px;}
+.mflash-box .playing,.mflash-box .readying{right:0; text-indent:4px;width:72px; }
+.mflash-hd{width:68px; height:288px;}
+.mflash-hd ul li{width:61px; height:61px; border:1px solid #ccc; background:#fff; padding-top:6px; padding-left:6px; margin-bottom:6px;cursor:pointer;}
+.mflash-hd ul li img{width:55px; height:55px;}
+.mflash-hd ul li.on{background:#FF0099; border:1px solid #FF0099;}
+.mflash-hd span.end{display:block; width:67px; height:36px; cursor:pointer;}
+.mflash-hd span.end a{display:block;}
+.mflash-hd ul li img{width:55px; height:55px;}
+.mflash-hd span.end.end img{width:67px; height:36px;}
+.mbox-con{width:514px; height:76px; *height:72px; overflow:hidden; margin:5px auto 0;}
+.mbox-con li{width:514px; height:24px; overflow:hidden; line-height:24px;}
+.mbox-con li span img{ vertical-align:middle;}
+.givename{padding-left:8px;padding-right:8px;}
+/*.topbox-r*/
+.topbox-r{width:284px;}
+.rflash{width:268px; height:236px; padding-top:8px; background:url(../../fontimg/common/smallflashbg.jpg) no-repeat center top; margin:0 auto;}
+.rflash-bd{width:246px; height:189px; margin:0 auto; overflow:hidden;}
+.rflash-hd{width:110px;height:14px; margin:0 auto; margin-top:28px;}
+.rflash-hd ul li{float:left; width:11px; height:13px; background:url(../../fontimg/common/smalldot.png) no-repeat; text-indent:-9999px; margin-left:6px; cursor:pointer;}
+.rflash-hd ul li img{width:246px; height:189px;}
+.rflash-hd ul li.on{background:url(../../fontimg/common/smalldoter.png) no-repeat;}
+.rflash-hd span{width:9px; height:14px; cursor:pointer;}
+.rflash-hd span.prev{background:url(../../fontimg/common/small-l.png) no-repeat;}
+.rflash-hd span.next{background:url(../../fontimg/common/small-r.png) no-repeat;}
+
+/*.notice*/
+.notice{width:254px; height:110px; margin:0 auto; margin-top:10px;}
+.notice h2{width:254px;height:28px; background-position:0 -458px; text-indent:24px; color:#636363;}
+.notice h2 span{font-size:14px; font-family:"Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";}
+.notice-list{margin-top:6px;}
+.notice-list li{width:254px; height:24px; line-height:24px; overflow:hidden; text-indent:18px;}
+.notice-list li a{display:block;background-position:4px -414px;}
+.notice-list li a:hover{display:block;color:#ff0099;background-position:4px -432px;}
+
+/*.content-l*/
+.content-l{width:696px;}
+.anchor{width:694px; border:1px solid #e0e0e0; border-bottom:none; background:#fff;}
+.anchor h3,.rightcon h4{height:40px; line-height:40px;}
+.anchor h3 span,.rightcon h4 span{font-size:14px; font-family:"Microsoft YaHei","\5FAE\8F6F\96C5\9ED1"; margin-left:10px; margin-right:20px; _display:inline;}
+.rightcon h4 span{margin-right:3px;}
+.tip-text{float: left; z-index: 50;}
+.tip-text em{display: block; cursor:pointer; width:12px; height: 12px; line-height: 12px; background:#ff0099; color: #fff; text-align: center; margin-top: 14px;}
+.rightcon span.tipcon{position: absolute; display:none; top: 30px; left: -10px; background:url(../../fontimg/common/tip-bg.png) center top no-repeat; width:130px; padding:10px 2px 5px 8px; color: #fff; line-height: 22px; font-weight: normal; font-size: 12px; margin: 0;}
+
+.anchor h3 p{font-weight:normal; overflow:hidden;}
+.anchor h3 .more{margin-right:15px;}
+.anchor-btm{width:696px; height:34px; background-position:0 -496px;}
+/*.seting-h*/
+.seting-h{background:#f3f3f3; background:url(../../fontimg/common/setop-bg.jpg) repeat-x;}
+.seting-menu{height:40px;}
+.seting-menu a{float:left; width:60px; height:39px; padding-left:36px; border-right:1px solid #e0d8da;}
+.seting-menu a.onlive{background:none; padding: 0; width: auto;}
+.seting-menu a.onlive{background:none; padding: 0; width: auto;}
+.seting-menu a.attented{background-position:8px -804px;}
+.seting-menu a.managed{background-position:8px -844px;}
+.seting-menu a.looked{background-position:8px -884px;}
+.seting-menu a:hover,.seting-menu a.setover{background-color:#fff;}
+
+/*.midad*/
+.midad{width:696px; height:90px; overflow:hidden; margin-bottom:20px;}
+
+/*.content-r*/
+.content-r{width:294px;}
+.rightcon{width:292px; padding-bottom:6px;border:1px solid #e0e0e0; border-bottom:none; background:#fff;}
+.activead1,.activead2{display:block;width:272px; height:91px; margin:0 auto;}
+.activead2{margin-top:20px;}
+.activead1 img,.activead2 img{display:block; width:272px; height:91px;}
+/*.conbox*/
+.conbox{width:260px; margin:0 auto; padding-bottom:4px; overflow:hidden;}
+.conbox-list{height:65px; margin-top:12px;}
+.conbox-list dt,.conbox-list dd{float:left;height:65px; overflow:hidden; color:#999999;}
+.conbox-list dt img{width:65px; height:65px;}
+.conbox-list dt{width:65px; margin-right:10px; position:relative;}
+dt .attent{position:absolute; bottom:0; right:0; display:none;}
+.conbox-list dd{width:185px;}
+.toper span{white-space:nowrap; width:112px; overflow:hidden;}
+.conbox-list dd a{color:#ff0099; font-size:14px; line-height:24px; display:block; white-space:nowrap; width:112px; overflow:hidden;}
+.conbox-btm{width:274px; margin-top:10px;}
+.conbox-btm li{width:65px; height:90px; overflow:hidden; float:left; margin-right:26px; _display:inline; position:relative; }
+.conbox-btm li a{display:block; color:#ff0099;}
+.conbox-btm li a.attent{position:absolute; bottom:25px; right:0; display:none;}
+.conbox-btm li img{display:block;width:65px;height:65px;}
+.conbox-btm li span{ display:block; overflow:hidden; white-space:nowrap;}
+span.btmtext{ text-align:center; height:25px; line-height:25px;}
+.rightcon-btm{width:294px; height:34px; background-position:0 -710px;}
+.starttip{display:block; width:50px; height:66px; background-position:0 -634px; position:absolute; top:1px; right:10px;}
+.newstip{background-position:-80px -634px;}
+.intip{background-position:-162px -634px;}
+/*.start-tab*/
+.start-tab{color:#666666; font-weight:normal; margin-top:12px;}
+.start-tab a,.start-tab em{float:left;height:17px; line-height:16px; text-align:center;}
+.start-tab em{width:5px;}
+.start-tab a{width:37px;}
+.start-tab a:hover,.start-tab a.starttabover{background:#ff0099; color:#fff;}
+/*.rank*/
+.rank{margin-top:16px;}
+.rank li{width:260px; height:46px; margin-top:4px;}
+.rank-pic{ margin-left:10px; margin-right:10px;}
+.rank-text{width:132px; overflow:hidden; _width:138px;}
+.rank-text a,.rank-text span{display:block; height:20px; line-height:20px; white-space:nowrap; width:112px; overflow:hidden;}
+.rank-text span{color:#999;}
+.richname{width:138px; line-height:40px; font-size:14px; white-space:nowrap; width:112px; overflow:hidden;}
+
+/*.gotop-box*/
+.gotop-box{display:none;position:absolute; right:10px; border:1px solid #d7d7d7;}
+.gotop-box a{display:block; width:30px; height:64px; line-height: 15px; text-align:center; padding-top:26px; background:url(../../fontimg/index/gotop.png) no-repeat 1px 0;}
+.gotop-box a:hover{ background-position:1px -101px;}
+
+/*.birthday*/
+.birthtip{background-position: -245px -634px;}
+.birthList{position:relative;height:100px;}
+.birthList a.blessBtn{position:absolute; bottom:4px; left:2px; display: inline-block; background:url(../../fontimg/index/blessbtn-bg.png) no-repeat; width:60px; height: 24px; line-height: 24px; text-align: center; color: #fff;}
+.birthList dd p{width:185px; height: 20px; line-height: 20px;}
+.birthList dd p img{float:left; margin-top: 6px; margin-right: 6px;}
+.startTime{float: left;}
+.todayBirth{float: right;}
+.startTime em{color: #666;}
+.birth-btm li{height: 110px;}
+.birth-btm li span.btmdate{color: #999;}
+.birth-btm li a.attent{bottom: 45px;}
+
+
